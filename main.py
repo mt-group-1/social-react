@@ -26,9 +26,7 @@ def get_user_input():
             predict_post(post_result)
         else:
             print("Your post contains invalid english words")
-
-        
-
+   
 def check_page_info(page_name):
     """
     This function uses a dictonary that detect if the page name has a valid english name or not 
@@ -56,13 +54,8 @@ def check_post_words(post_):
     Returns:
         Boolean,True if the page name is valid, False if the post is invalid
     """
-
-    if post_:
+    test = "This text for testing"
+    if post_ in test:
         return True
     else:
         return False
-
-if __name__ == '__main__':
-    get_user_input()
-
-
