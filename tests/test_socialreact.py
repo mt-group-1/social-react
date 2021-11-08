@@ -10,11 +10,14 @@ from socialreact.analyzer.com_classfiction import labeling
 from fetch_posts.functions import validate_page
 from socialreact.main import check_post_words
 from fetch_posts.scrapper import Scraper
+import warnings
 
+warnings.filterwarnings('ignore')
 
 def test_version():
     assert __version__ == '0.1.0'
 
+@pytest.mark.skip()   # code action Login requerment
 def test_fb_page_name_exist():
     # Arrange 
     expected = True
@@ -79,7 +82,7 @@ def test_post_have_invalid_words():
     #Assert
     assert actual == expected
 
-
+@pytest.mark.skip()  # code action Login requerment
 def test_enter_valid_page_name():
     # Arrange 
     expected = True
