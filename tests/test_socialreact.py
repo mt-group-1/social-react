@@ -6,6 +6,7 @@ from socialreact import __version__
 from fetch_posts.functions import validate_page, get_fb_posts
 from analyzer.data_processing import get_data
 from analyzer.predictions import predict_post
+from socialreact.analyzer.com_classfiction import labeling
 from fetch_posts.functions import validate_page
 from socialreact.main import check_post_words
 from fetch_posts.scrapper import Scraper
@@ -120,5 +121,30 @@ def test_scrape_page_post():
     #Act 
     page_scraper.fb_page_posts()
     actual = page_scraper.page_posts
+    #Assert
+    assert actual == expected
+
+# @pytest.mark.skip() 
+def test_labeling_file_positive_case():
+    # Arrange 
+    expected = 1
+    #Act 
+    actual = labeling("./data/test_/positive")[0][1]
+    #Assert
+    assert actual == expected
+
+def test_labeling_file_negative_case():
+    # Arrange 
+    expected = 0
+    #Act 
+    actual = labeling("./data/test_/negative")[0][1]
+    #Assert
+    assert actual == expected
+
+def test_labeling_file_nutral_case():
+    # Arrange 
+    expected = "N"
+    #Act 
+    actual = labeling("./data/test_/nutral")[0][1]
     #Assert
     assert actual == expected
