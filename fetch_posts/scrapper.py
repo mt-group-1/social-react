@@ -1,5 +1,4 @@
-from functions import get_fb_posts, validate_page
-
+from fetch_posts.functions import get_fb_posts, validate_page
 
 class Scraper:
 
@@ -71,10 +70,7 @@ class Scraper:
 
     def fb_page_posts(self):
         self.page_posts = self.posts(
-            self.page_name,
-            pages=2,
-            options={"comments": True, "progress": True},
-            cookies="./cookies/cookies.json",
+            self.page_name
         )
         
         self.extract_comments()
@@ -117,3 +113,6 @@ class Scraper:
             header=False,
         )
         self.progress.next()
+
+# x = Scraper(name="Google")
+# print("here",x.info)

@@ -1,5 +1,6 @@
 from analyzer.predictions import predict_post
 from analyzer.data_processing import get_data
+from fetch_posts.functions import validate_page
 def get_user_input():
     print("Welcome To SocialReact.")
     user_input = input("To analyze facebook page page enter (p), to predict post impact on the given page enter (i), to quit enter (q) > ")
@@ -8,7 +9,7 @@ def get_user_input():
         exit()
     elif user_input == 'p':
         fb_page_name = input("Enter Facebook page Name > ")
-        result = check_page_info(fb_page_name)
+        result = validate_page(fb_page_name)
         print(result)
         
         if result : 
@@ -27,22 +28,22 @@ def get_user_input():
         else:
             print("Your post contains invalid english words")
    
-def check_page_info(page_name):
-    """
-    This function uses a dictonary that detect if the page name has a valid english name or not 
+# def check_page_info(page_name):
+#     """
+#     This function uses a dictonary that detect if the page name has a valid english name or not 
 
-    Args:
-        page_name: String
+#     Args:
+#         page_name: String
 
-    Returns:
-        Boolean
-    """
-    pages = ['Renad','shahed','majed']
+#     Returns:
+#         Boolean
+#     """
+#     pages = ['Renad','shahed','majed']
     
-    if page_name in pages:
-        return True
-    else:
-        return False
+#     if page_name in pages:
+#         return True
+#     else:
+#         return False
 
 def check_post_words(post_):
     """
@@ -59,3 +60,4 @@ def check_post_words(post_):
         return True
     else:
         return False
+# get_user_input()
