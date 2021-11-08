@@ -2,9 +2,11 @@
     This module for testing social react program fuctions
 """
 import pytest
-from main import check_page_info,check_post_words
-from predictions import predict_post
-from data_processing import get_data
+from analyzer.data_processing import get_data
+from analyzer.predictions import predict_post
+from socialreact.main import check_page_info, check_post_words
+
+
 def test_version():
     actual_version ='0.1.0'
     assert actual_version == '0.1.0'

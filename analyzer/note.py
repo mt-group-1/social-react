@@ -15,4 +15,3 @@
 # * retrieveing score and accuracy
 # * validate model accuracy positive, negative score
 # * create a funtion to predict given post positive - negative impact
-
