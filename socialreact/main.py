@@ -1,5 +1,5 @@
-from predictions import predict_post
-from data_processing import get_data
+from analyzer.predictions import predict_post
+from analyzer.data_processing import get_data
 def get_user_input():
     print("Welcome To SocialReact.")
     user_input = input("To analyze facebook page page enter (p), to predict post impact on the given page enter (i), to quit enter (q) > ")
@@ -10,7 +10,7 @@ def get_user_input():
         fb_page_name = input("Enter Facebook page Name > ")
         result = check_page_info(fb_page_name)
         print(result)
-
+        
         if result : 
             get_data(fb_page_name)
         else:
@@ -50,7 +50,7 @@ def check_post_words(post_):
 
     Args:
         post_: String
-
+    
     Returns:
         Boolean,True if the page name is valid, False if the post is invalid
     """
