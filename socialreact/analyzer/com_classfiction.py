@@ -9,7 +9,6 @@ def labeling(text_file):
 
     Args:
         text_file:text file
-
     Returns:
         new_text_file: text file with labeled data
     """
@@ -43,6 +42,5 @@ def labeling(text_file):
     # Create new file containing two coloumns
     new_df = df[['comments', 'labels']]
     new_file=new_df.to_csv('labeled_comments.txt')
-    return new_file
 
-labeling("Google_comments")
+    return  new_df.values.tolist()
