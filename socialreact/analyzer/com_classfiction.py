@@ -6,6 +6,7 @@ def labeling(text_file):
     """
     Description:
     This function recives a text file and convert it into csv file to enable to label the comments inside that file, also this function use the nltk library whuch called vader to be enable to give percentages for positive,negative and neutral impact 
+
     Args:
         text_file:text file
     Returns:
@@ -41,4 +42,5 @@ def labeling(text_file):
     # Create new file containing two coloumns
     new_df = df[['comments', 'labels']]
     new_file=new_df.to_csv('labeled_comments.txt')
+
     return  new_df.values.tolist()
