@@ -16,3 +16,10 @@
 # * validate model accuracy positive, negative score
 # * create a funtion to predict given post positive - negative impact
 
+def label_comments(comments):
+    pass
+
+# open the data file from ./data/file_name.csv
+# 
+# label_comments(file)
+
