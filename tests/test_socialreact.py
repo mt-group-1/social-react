@@ -179,4 +179,26 @@ def test_welcome_msg(mock_stdout):
     # Assert
     assert actual == expected
 
-   
+@patch('sys.stdout', new_callable=io.StringIO)
+def test_start_msg(mock_stdout):
+    # Arrange
+    expected = "Start page analysis (s) , Post impact prediction (i) , Help (h) , Quit(q)\n"
+    # Act
+    start()
+    actual = mock_stdout.getvalue()
+    # Assert
+    assert actual == expected
+
+@patch('sys.stdout', new_callable=io.StringIO)
+def test_quit_msg(mock_stdout):
+    # Arrange
+    expected = "thank you for using our application... see you later 👋\n"
+    # Act
+    quit_()
+    actual = mock_stdout.getvalue()
+    # Assert
+    assert actual == expected
+
+def test_exit_from_the_app():
+    with pytest.raises(SystemExit):
+        quit_program()
