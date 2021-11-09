@@ -48,7 +48,7 @@ def classify_comments(text_file, page_name):
                 }
     sid.lexicon.update(new_words)
     # Create new coloums for positive and negative percentages
-    df['impactPers'] = df['sentance'].apply(lambda sentance: sid.polarity_scores(sentance))
+    df['impactPers'] = df['comments'].apply(lambda comments: sid.polarity_scores(comments))
     df['posPers']  = df['impactPers'].apply(lambda score_dict: score_dict['pos'])
     df['negPers']  = df['impactPers'].apply(lambda score_dict: score_dict['neg'])
     df['neuPers']  = df['impactPers'].apply(lambda score_dict: score_dict['neu'])
