@@ -22,30 +22,55 @@ def classify_comments(text_file, page_name):
 
     df = pd.read_csv("%s" % text_file, names=["comments"], sep="\t")
 
-    # Cleaning data from emails,number and special characters
-    df["comments"] = df["comments"].str.replace("[^a-zA-Z]", " ")
-    df["comments"] = df["comments"].str.replace("@[A-Za-z0-9]+", " ")
-    df["comments"] = df["comments"].str.lower()
+    # Cleaning data from emails,number and special characters to be more accurate
+    
+    df['comments'] = df['comments'].str.replace("^\d+\s|\s\d+\s|\s\d+$", ' ')
+    df['comments'] = df['comments'].str.replace('"', '')
+    df['comments'] = df['comments'].str.replace('*', '')
+    df['comments'] = df['comments'].str.replace('/[^@\s]*@[^@\s]*\.[^@\s]*/', '')
+    df['comments'] = df['comments'].str.replace('"/[a-zA-Z]*[:\/\/]*[A-Za-z0-9\-_]+\.+[A-Za-z0-9\.\/%&=\?\-_]+/i"', '')
+    df['comments'] = df['comments'].str.replace('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))', '')
+    df['comments'] = df['comments'].str.replace('https://', '')
 
     sid = SentimentIntensityAnalyzer()
-
+    new_words = {
+    'over': -0.5,
+    'garbage': -2.0,
+    'dumpster': -3.1,
+    ':(':-1,
+    'refuses':-1,
+    'down':-1,
+    'crashed':-2,
+    'Amen':1,
+    'Available':1,
+    '#Save':1,
+    'always':0.5
+                }
+    sid.lexicon.update(new_words)
     # Create new coloums for positive and negative percentages
-    df["impactPers"] = df["comments"].apply(
-        lambda sentance: sid.polarity_scores(sentance)
-    )
-    df["posPers"] = df["impactPers"].apply(lambda score_dict: score_dict["pos"])
-    df["negPers"] = df["impactPers"].apply(lambda score_dict: score_dict["neg"])
-    df["neuPers"] = df["impactPers"].apply(lambda score_dict: score_dict["neu"])
+    df['impactPers'] = df['comments'].apply(lambda comments: sid.polarity_scores(comments))
+    df['posPers']  = df['impactPers'].apply(lambda score_dict: score_dict['pos'])
+    df['negPers']  = df['impactPers'].apply(lambda score_dict: score_dict['neg'])
+    df['neuPers']  = df['impactPers'].apply(lambda score_dict: score_dict['neu'])
+    df['comPers']  = df['impactPers'].apply(lambda score_dict: score_dict['compound'])
 
     # Labeling the data depending on the above persentages
     def label_race(row):
-        if row["neuPers"] > 0.65:
-            return "N"
-        if row["posPers"] > 0.5:
+        """
+        This is a helper function that gives a positive or negative impact for each comment based on the persentages
+
+        Args:
+            row :String
+
+        Returns:
+            String (N) or Integer 
+        """
+        if row['comPers']  >= 0.02 :
             return 1
-        if row["posPers"] < 0.5:
+        elif row['comPers']  <= -0.02:
             return 0
-        return "Other"
+        else:
+            return 'N'
 
     # Create new coloumn for the final labels
     df["labels"] = df.apply(lambda row: label_race(row), axis=1)
