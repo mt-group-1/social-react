@@ -1,6 +1,4 @@
 
-from termcolor import colored
-
 def welcome_msg():
     s_r = """
    _____            _       __   ____                  __ 
