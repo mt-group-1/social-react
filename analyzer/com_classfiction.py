@@ -24,13 +24,13 @@ def classify_comments(text_file, page_name):
 
     # Cleaning data from emails,number and special characters to be more accurate
     
-    df['sentance'] = df['sentance'].str.replace("^\d+\s|\s\d+\s|\s\d+$", ' ')
-    df['sentance'] = df['sentance'].str.replace('"', '')
-    df['sentance'] = df['sentance'].str.replace('*', '')
-    df['sentance'] = df['sentance'].str.replace('/[^@\s]*@[^@\s]*\.[^@\s]*/', '')
-    df['sentance'] = df['sentance'].str.replace('"/[a-zA-Z]*[:\/\/]*[A-Za-z0-9\-_]+\.+[A-Za-z0-9\.\/%&=\?\-_]+/i"', '')
-    df['sentance'] = df['sentance'].str.replace('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))', '')
-    df['sentance'] = df['sentance'].str.replace('https://', '')
+    df['comments'] = df['comments'].str.replace("^\d+\s|\s\d+\s|\s\d+$", ' ')
+    df['comments'] = df['comments'].str.replace('"', '')
+    df['comments'] = df['comments'].str.replace('*', '')
+    df['comments'] = df['comments'].str.replace('/[^@\s]*@[^@\s]*\.[^@\s]*/', '')
+    df['comments'] = df['comments'].str.replace('"/[a-zA-Z]*[:\/\/]*[A-Za-z0-9\-_]+\.+[A-Za-z0-9\.\/%&=\?\-_]+/i"', '')
+    df['comments'] = df['comments'].str.replace('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))', '')
+    df['comments'] = df['comments'].str.replace('https://', '')
 
     sid = SentimentIntensityAnalyzer()
     new_words = {
