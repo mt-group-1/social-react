@@ -11,60 +11,63 @@ from fetch_posts.functions import get_fb_posts, validate_page
 from fetch_posts.scrapper import Scraper
 from socialreact import __version__
 
-warnings.filterwarnings('ignore')
+warnings.filterwarnings("ignore")
+
 
 def test_version():
-    assert __version__ == '0.1.0'
+    assert __version__ == "0.1.0"
 
-@pytest.mark.skip()   # code action Login requerment
+
+@pytest.mark.skip()  # code action Login requerment
 def test_fb_page_name_exist():
-    # Arrange 
+    # Arrange
     expected = True
-    #Act 
+    # Act
     actual = validate_page("Google")
-    #Assert
+    # Assert
     assert actual == expected
+
 
 def test_fb_page_name_not_exist():
-    # Arrange 
+    # Arrange
     expected = False
-    #Act 
+    # Act
     actual = validate_page("Odeh")
-    #Assert
+    # Assert
     assert actual == expected
+
 
 def test_getting_data_after_scraping_happy_path():
-    #Arrange 
-    expected = {
-        "post_id":'12345',
-        "post_txt": 'katha katha katha',
-        "likes": 200
-        }
-    #Act
+    # Arrange
+    expected = {"post_id": "12345", "post_txt": "katha katha katha", "likes": 200}
+    # Act
     actual = get_data("page_name")
-    #Assert
+    # Assert
     assert actual == expected
+
 
 def test_positive_prediction():
-    #Arrange 
-    expected = 'Recommended'
+    # Arrange
+    expected = "Recommended"
     post = "This text for testing"
-    #Act
+    # Act
     actual = predict_post(post)
-    #Assert
+    # Assert
     assert actual == expected
+
 
 def test_negative_prediction():
-    #Arrange 
-    expected ='Recommended'
+    # Arrange
+    expected = "Recommended"
     post = "This text for testing"
-    #Act
+    # Act
     actual = predict_post(post)
-    #Assert
+    # Assert
     assert actual == expected
 
+
 # def test_post_have_valid_words():
-#      #Arrange 
+#      #Arrange
 #     expected =True
 #     post = "This text for testing"
 #     #Act
@@ -73,7 +76,7 @@ def test_negative_prediction():
 #     assert actual == expected
 
 # def test_post_have_invalid_words():
-#      #Arrange 
+#      #Arrange
 #     expected =False
 #     post = "asdfg asdfgh sdfgh dfgh"
 #     #Act
@@ -81,72 +84,84 @@ def test_negative_prediction():
 #     #Assert
 #     assert actual == expected
 
+
 @pytest.mark.skip()  # code action Login requerment
 def test_enter_valid_page_name():
-    # Arrange 
+    # Arrange
     expected = True
-    #Act 
+    # Act
     actual = validate_page("Google")
-    #Assert
+    # Assert
     assert actual == expected
+
 
 def test_enter_invalid_page_name():
-    # Arrange 
+    # Arrange
     expected = False
-    #Act 
+    # Act
     actual = validate_page("sdfg")
-    #Assert
-    assert actual == expected
-    
-def test_page_content():
-    # Arrange 
-    expected = "<class 'generator'>"
-    #Act 
-    actual = str(type(get_fb_posts("Google")))
-    #Assert
+    # Assert
     assert actual == expected
 
+
+def test_page_content():
+    # Arrange
+    expected = "<class 'generator'>"
+    # Act
+    actual = str(type(get_fb_posts("Google")))
+    # Assert
+    assert actual == expected
+
+
 def test_scrape_page_post():
-    # Arrange 
+    # Arrange
     expected = True
-    #Act 
+    # Act
     page_scraper = Scraper("Google")
     actual = page_scraper.page_info()
-    #Assert
+    # Assert
     assert actual == expected
 
-@pytest.mark.skip()  #file i/o operation 
+
+@pytest.mark.skip()  # file i/o operation
 def test_scrape_page_post():
-    # Arrange 
+    # Arrange
     page_scraper = Scraper("Google")
-    expected ="./data/Google_posts.csv"
-    #Act 
+    expected = "./data/Google_posts.csv"
+    # Act
     page_scraper.fb_page_posts()
     actual = page_scraper.page_posts
-    #Assert
+    # Assert
     assert actual == expected
 
-# @pytest.mark.skip() 
+
+# @pytest.mark.skip()
 def test_labeling_file_positive_case():
-    # Arrange 
+    # Arrange
     expected = 1
-    #Act 
-    actual = classify_comments("./data/test_/positive").values.tolist()[0][1]
-    #Assert
+    # Act
+    actual = classify_comments("./data/test_/positive.txt", "test").values.tolist()[0][
+        1
+    ]
+    # Assert
     assert actual == expected
+
 
 def test_labeling_file_negative_case():
-    # Arrange 
+    # Arrange
     expected = 0
-    #Act 
-    actual = classify_comments("./data/test_/negative").values.tolist()[0][1]
-    #Assert
+    # Act
+    actual = classify_comments("./data/test_/negative.txt", "test").values.tolist()[0][
+        1
+    ]
+    # Assert
     assert actual == expected
 
+
 def test_labeling_file_nutral_case():
-    # Arrange 
+    # Arrange
     expected = "N"
-    #Act 
-    actual = classify_comments("./data/test_/nutral").values.tolist()[0][1]
-    #Assert
+    # Act
+    actual = classify_comments("./data/test_/nutral.txt", "test").values.tolist()[0][1]
+    # Assert
     assert actual == expected
