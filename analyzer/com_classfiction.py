@@ -68,9 +68,9 @@ def classify_comments(text_file, page_name):
         if row['comPers']  >= 0.02 :
             return 1
         elif row['comPers']  <= -0.02:
-            return -1
-        else:
             return 0
+        else:
+            return 'N'
 
     # Create new coloumn for the final labels
     df["labels"] = df.apply(lambda row: label_race(row), axis=1)
