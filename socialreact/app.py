@@ -138,15 +138,3 @@ class App:
         """
         pass
 
-    def check_page_info(self):
-
-        """
-        This function uses a dictonary that detect if the page name has a valid english name or not
-
-        Args:
-            page_name: String
-
-        Returns:
-            Boolean
-        """
-        pass

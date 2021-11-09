@@ -10,7 +10,10 @@ from analyzer.predictions import predict_post
 from fetch_posts.functions import get_fb_posts, validate_page
 from fetch_posts.scrapper import Scraper
 from socialreact import __version__
-
+from for_testing import *
+from unittest import mock
+from unittest.mock import patch
+import io
 warnings.filterwarnings("ignore")
 
 
@@ -165,3 +168,37 @@ def test_labeling_file_nutral_case():
     actual = classify_comments("./data/test_/nutral.txt", "test").values.tolist()[0][1]
     # Assert
     assert actual == expected
+
+@patch('sys.stdout', new_callable=io.StringIO)
+def test_welcome_msg(mock_stdout):
+    # Arrange
+    expected = msg
+    # Act
+    welcome_msg()
+    actual = mock_stdout.getvalue()
+    # Assert
+    assert actual == expected
+
+@patch('sys.stdout', new_callable=io.StringIO)
+def test_start_msg(mock_stdout):
+    # Arrange
+    expected = "Start page analysis (s) , Post impact prediction (i) , Help (h) , Quit(q)\n"
+    # Act
+    start()
+    actual = mock_stdout.getvalue()
+    # Assert
+    assert actual == expected
+
+@patch('sys.stdout', new_callable=io.StringIO)
+def test_quit_msg(mock_stdout):
+    # Arrange
+    expected = "thank you for using our application... see you later 👋\n"
+    # Act
+    quit_()
+    actual = mock_stdout.getvalue()
+    # Assert
+    assert actual == expected
+
+def test_exit_from_the_app():
+    with pytest.raises(SystemExit):
+        quit_program()
