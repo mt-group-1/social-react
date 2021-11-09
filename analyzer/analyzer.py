@@ -23,30 +23,33 @@ from sklearn.preprocessing import LabelEncoder
 import warnings
 warnings.filterwarnings('ignore')
 
-"""
-This function is called load_data which reads a file containing  comments and it has a label for each comment .
-
-then  Processing and organizing data through a set of operations, then  extract the features from the comments
-
-Then divide the data into training and test data, and then get accuracy using machine learning model.
-    
-    Args:
-        load_data: file path
-
-
-    Process Done Inside the load_data Function:
-    1. read the txt file
-    2. process data and clean it 
-    3. extract feature in the data and save it
-    4. split the data in the train and test 
-    5. use a SCV model for tran data and get accurcy
-    
-    Returns :   
-    Accuracy of classification the commit
-
-    """
-    
 def load_data(path):
+        
+    """
+    This function is called load_data which reads a file containing  comments and it has a label for each comment .
+
+    then  Processing and organizing data through a set of operations, then  extract the features from the comments
+
+    Then divide the data into training and test data, and then get accuracy using machine learning model.
+        
+        Args:
+            load_data: file path
+
+
+        Process Done Inside the load_data Function:
+        1. read the txt file
+        2. process data and clean it 
+        3. extract feature in the data and save it
+        4. split the data in the train and test 
+        5. use a SCV model for tran data and get accurcy
+        
+        Returns :   
+        Accuracy of classification the commit
+
+        """
+    
+
+
 
     df = pd.read_csv(path)
 
@@ -169,6 +172,7 @@ def load_data(path):
  
     seed = 1
     np.random.seed = seed
+
     np.random.shuffle(messages)
 
 
@@ -182,9 +186,8 @@ def load_data(path):
     training, testing = model_selection.train_test_split(featuresets, test_size = 0.25, random_state=seed)
     
     print("training len ",len(training))
+
     print("testing len ", len(testing))
-
-
 
     model = SklearnClassifier(SVC(kernel = 'linear'))
 
@@ -203,10 +206,8 @@ process =load_data('data/comments_classified.txt')
 
 
 
+df = pd.read_csv('data/comments_classified.txt')
 
-
-
-
-
+df = df[df.labels != 'N']
 
 
