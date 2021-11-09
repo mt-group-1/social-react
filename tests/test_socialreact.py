@@ -1,16 +1,15 @@
 """
     This module for testing social react program fuctions
 """
+import warnings
+
 import pytest
-from socialreact import __version__
-from fetch_posts.functions import validate_page, get_fb_posts
+from analyzer.com_classfiction import classify_comments
 from analyzer.data_processing import get_data
 from analyzer.predictions import predict_post
-from socialreact.analyzer.com_classfiction import labeling
-from fetch_posts.functions import validate_page
-from socialreact.main import check_post_words
+from fetch_posts.functions import get_fb_posts, validate_page
 from fetch_posts.scrapper import Scraper
-import warnings
+from socialreact import __version__
 
 warnings.filterwarnings('ignore')
 
@@ -64,23 +63,23 @@ def test_negative_prediction():
     #Assert
     assert actual == expected
 
-def test_post_have_valid_words():
-     #Arrange 
-    expected =True
-    post = "This text for testing"
-    #Act
-    actual = check_post_words(post)
-    #Assert
-    assert actual == expected
+# def test_post_have_valid_words():
+#      #Arrange 
+#     expected =True
+#     post = "This text for testing"
+#     #Act
+#     actual = check_post_words(post)
+#     #Assert
+#     assert actual == expected
 
-def test_post_have_invalid_words():
-     #Arrange 
-    expected =False
-    post = "asdfg asdfgh sdfgh dfgh"
-    #Act
-    actual = check_post_words(post)
-    #Assert
-    assert actual == expected
+# def test_post_have_invalid_words():
+#      #Arrange 
+#     expected =False
+#     post = "asdfg asdfgh sdfgh dfgh"
+#     #Act
+#     actual = check_post_words(post)
+#     #Assert
+#     assert actual == expected
 
 @pytest.mark.skip()  # code action Login requerment
 def test_enter_valid_page_name():
@@ -132,7 +131,7 @@ def test_labeling_file_positive_case():
     # Arrange 
     expected = 1
     #Act 
-    actual = labeling("./data/test_/positive")[0][1]
+    actual = classify_comments("./data/test_/positive").values.tolist()[0][1]
     #Assert
     assert actual == expected
 
@@ -140,7 +139,7 @@ def test_labeling_file_negative_case():
     # Arrange 
     expected = 0
     #Act 
-    actual = labeling("./data/test_/negative")[0][1]
+    actual = classify_comments("./data/test_/negative").values.tolist()[0][1]
     #Assert
     assert actual == expected
 
@@ -148,6 +147,6 @@ def test_labeling_file_nutral_case():
     # Arrange 
     expected = "N"
     #Act 
-    actual = labeling("./data/test_/nutral")[0][1]
+    actual = classify_comments("./data/test_/nutral").values.tolist()[0][1]
     #Assert
     assert actual == expected

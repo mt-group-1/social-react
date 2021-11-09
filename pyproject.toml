@@ -20,6 +20,8 @@ coverage = "^6.1.1"
 pytest-cov = "^3.0.0"
 nltk = "^3.6.5"
 openpyxl = "^3.0.9"
+pyfiglet = "^0.8.post1"
+termcolor = "^1.1.0"
 
 
 [tool.poetry.dev-dependencies]
