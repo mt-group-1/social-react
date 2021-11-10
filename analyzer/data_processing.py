@@ -1,15 +1,15 @@
 import os
-import re
+import pickle
 import warnings
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 import numpy as np
 import pandas as pd
 from keras.layers import LSTM, Dense, Embedding, SpatialDropout1D
 from keras.models import Sequential
 from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing.text import Tokenizer
-from nltk import tree
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
@@ -50,8 +50,8 @@ class ModelCreator:
 
             return results
             
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
 
     def random_partitions(self):
         try:
@@ -64,8 +64,8 @@ class ModelCreator:
             ) = train_test_split(self.comments, y, test_size=0.33, random_state=42)
 
             return True
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
 
     def vectorize(self):
         try:
@@ -83,8 +83,8 @@ class ModelCreator:
             self.vscore = classifier.score(self.X_test, self.y_test)
 
             return True
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
 
     # using keras
     def keras(self):
@@ -102,12 +102,17 @@ class ModelCreator:
             X_train, X_test, Y_train, Y_test = train_test_split(
                 self.X, self.Y, test_size=0.40, random_state=1000
             )
-            
+                        
+            # saving
             self.keras_rp = [X_train, X_test, Y_train, Y_test]
 
+            with open('../data/%s/tokenizer.pickle', 'wb') as handle:
+                pickle.dump(self.tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
+            
+
             return True
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
 
     def keras_model(self):
         try:
@@ -127,8 +132,8 @@ class ModelCreator:
             self.model = model
 
             return True
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
 
     def train_model(self):
         try:
@@ -145,16 +150,23 @@ class ModelCreator:
 
             return model_score, model_accuracy
 
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
 
     def save_the_model(self):
         try:
             self.model.save("../data/%s/" % self.page_name)
-            return True
+            
+            
+
+            # saving
+            with open('../data/%s/tokenizer.pickle', 'wb') as handle:
+                pickle.dump(self.tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
         
-        except Exception as e:
-            raise Exception(str(e))
+        
+        except Exception:
+            pass
 
     def validate_acc(self):
         try:
@@ -193,17 +205,12 @@ class ModelCreator:
             self.save_the_model()
             return self.keras_prediction_results
 
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
     def predict_post(self,post,model):
         sequence = self.tokenizer.texts_to_sequences([post])
         sequence = pad_sequences(sequence, maxlen=len(post), value=0)
         sentiment = model.predict(sequence, batch_size=32, verbose=2)
         return sentiment
 
-# model = ModelCreator("cnn")
-# model.page_comments()
-# model.keras()
-# model.keras_model()
-# model.train_model()
-# model.save_the_model()
+

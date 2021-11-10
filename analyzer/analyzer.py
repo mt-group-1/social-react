@@ -75,7 +75,7 @@ def load_data(path):
     print(text_messages[:1])
 
     processed = text_messages.str.replace(r'^.+@[^\.].*\.[a-z]{2,}$', 'emailaddress')
-
+    
             
    
     processed = processed.str.replace(r'\d+(\.\d+)?', 'numbr')
