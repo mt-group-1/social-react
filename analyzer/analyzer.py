@@ -1,40 +1,43 @@
-
 """"
 import library that will be used in the our code 
-
 """
-from nltk.classify.scikitlearn import SklearnClassifier
-from sklearn.svm import SVC
+import os
+import sys
+import warnings
+
 import nltk
+import numpy as np
+import pandas
+import pandas as pd
+import sklearn
+from nltk.classify.scikitlearn import SklearnClassifier
 from nltk.corpus import stopwords
 from nltk.sentiment import SentimentAnalyzer
 from nltk.sentiment.util import *
-import sys
-import nltk
-import sklearn
-import pandas
-import numpy as np
-import os
-from scipy.io import wavfile
-from scipy import signal
 from nltk.tokenize import word_tokenize
-import pandas as pd
+from scipy import signal
+from scipy.io import wavfile
 from sklearn.preprocessing import LabelEncoder
-import warnings
+
+from sklearn.svm import SVC
+
 warnings.filterwarnings('ignore')
 
 def load_data(path):
         
     """
     This function is called load_data which reads a file containing  comments and it has a label for each comment .
+    then  Processing and organizing data through a set of operations, then  extract the features from the comments
+
+    This function is called load_data which reads a file containing  comments and it has a label for each comment .
 
     then  Processing and organizing data through a set of operations, then  extract the features from the comments
+
 
     Then divide the data into training and test data, and then get accuracy using machine learning model.
         
         Args:
             load_data: file path
-
 
         Process Done Inside the load_data Function:
         1. read the txt file
@@ -76,7 +79,13 @@ def load_data(path):
     print(Y[:10])
    
 
+
     text_messages = df['comments']
+
+
+
+    text_messages = df['comments']
+
 
     print(text_messages[:1])
 
@@ -117,6 +126,7 @@ def load_data(path):
 
 
     nltk.download('punkt')  
+
 
     all_words = []
 
@@ -208,6 +218,6 @@ process =load_data('data/comments_classified.txt')
 
 df = pd.read_csv('data/comments_classified.txt')
 
-df = df[df.labels != 'N']
 
+df = df[df.labels != 'N']
 

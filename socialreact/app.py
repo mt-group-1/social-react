@@ -1,5 +1,11 @@
+import os
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import pandas as pd
 from analyzer.com_classfiction import classify_comments
+from analyzer.data_processing import ModelCreator
+from analyzer.predictions import predict_post
+from tensorflow import keras
 from termcolor import colored
 
 
@@ -17,12 +23,11 @@ class App:
         print(
             colored(
                 (
-                    "Start page analysis (s) , Post impact prediction (i) , Help (h) , Quit(q) "
+                    "Start page analysis (s) , Post impact prediction (i) , Help (h) , Quit(q)"
                 ),
                 "white",
             )
         )
-        self.user_menu_choice()
 
     def user_menu_choice(self):
         def quit():
@@ -33,120 +38,104 @@ class App:
                 )
             )
             exit()
-
-        self.choice = input(" > ").lower()
-
+        def most_commenter():
+            """
+            Sub method that get the most commenter user on a given page.
+            """
+            top = self.scraper.commenters(self.page_name)
+            print(
+                colored(
+                    (top),
+                    "cyan",
+                )
+            )
+        def valid_page():
+            self.page_name = input("Enter FaceBook Page Name :  > ")
+            return self.scraper.page_info(self.page_name)
+        
+        self.choice = input(" > ")
         if self.choice == "q":
             quit()
-
         if self.choice == "s":
-
-            def most_commenter():
-                """
-                sub method that get the most commenter user on a given page.
-                """
-                # TODO []: request posts and get comments .
-                # TODO []: return the top 3 most commenters
-                pass
-
-            def valid_page():
-                self.page_name = input("Enter FaceBook Page Name :  > ")
-                return self.scraper.page_info(self.page_name)
-
-            def confirm_page():
-                print(
-                    colored(
-                        ("Found this page  ✔️ "),
-                        "cyan",
-                    ),
-                    self.page_name,
-                )
+            if valid_page():
+                print(colored(("Found this page  ✔️ "),"cyan", ),self.page_name,)
+                print('')
                 page_info = ""
                 page = self.scraper.page_details
                 for key in page:
                     page_info += "{} : {} ".format(str(key), page[key])
                 print(page_info, "\n")
-                choice = input(
-                    "Press (Enter) to continue , (s) to re-enter page name > "
-                ).lower()
-
-                if choice == "s":
-                    valid_page()
-                else:
-                    return True
-
-            if not valid_page():
-                print(
-                    colored(
-                        ("invalid page name..  ❌ "),
-                        "cyan",
-                    ),
-                    self.page_name,
-                )
-
-                self.choice = input(
-                    "Press (Enter) to continue , (q) to Quit  > "
-                ).lower()
-
-                if self.choice == "q":
-                    quit()
-
-                else:
-                    valid_page()
-
-            if confirm_page():
+                choice = input( "Press (Enter) to continue , (r)e-enter page name > " ).lower()
+                
+                if choice == "r":
+                    self.start()
+                    self.user_menu_choice()
+                
                 # ! validate fetched posts length
                 length = self.scraper.fb_page_posts(self.page_name)
-
                 if length < 200:
                     print("The page entered do not have enogh content")
                     print("Which will lead to inaccurate prediction results..")
                     print("-" * 80)
-                    print("But we can give you the most common commenter")
+                    print("But we can show you the most common commenter")
                     choice = input("to do that , press ( ENTER ) (q) to quit > ")
 
+                    
                     if choice == "q":
                         quit()
-
+                    
                     most_commenter()
+                else:
 
-                if length > 200:
-                    print("Starting comments classification ...")
-                    comments = classify_comments(
-                        "./data/%s_comments.txt" % self.page_name.lower(),
-                        self.page_name.lower(),
-                    )
-                    print(comments.head(20))
-                    # TODO []: send the DataFrame to processing .
-                    # TODO []: finalize the comments analysis feature.
+                    if os.path.isfile("./data/%s/saved_model.pb" % self.page_name):
+                            model = ModelCreator(self.page_name)
+                            impact = model.page_comments()
+                            print(impact)
+                            model = keras.models.load_model("./data/%s/" % self.page_name,compile=True)
+                            model_score, model_accuracy = model.evaluate('0.81', '0.71', verbose=2)
+                            print(model_score, model_accuracy)
+                            self.model = model
+                    else:
+                        model = ModelCreator(self.page_name)
+                        impact = model.page_comments()
+                        print(impact)
+                        model.keras()
+                        model.keras_model()
+                        model_score, model_accuracy = model.train_model()
+                        print(model_score, model_accuracy)
+                        model.save_the_model()
+                        self.model = model
+                    
+                    print("(e)nter a post to predict impact , (m)ost commenter , (q)uit ")
 
+                    user_input = input(" >")
+                    if user_input.lower() == "e":
+                        post_text = input(" : ")
+
+                    # TODO[]: validate post_text data
+                    predict_post(post_text, self.page_name, self.model)
+                    
+                    if user_input.lower() == "m":
+                        most_commenter()
+
+                    if user_input.lower() == "q":
+                        quit()
+            else:
+                print(colored(("invalid page name..  ❌ "),"cyan",),self.page_name,)
+                self.choice = input("Press (Enter) to continue , (q) to Quit  > " ).lower()
+
+                if self.choice == "q":
+                    quit()
+                else:
+                    self.start()
+                    self.user_menu_choice()
         if self.choice == "i":
-            pass
-
+            print("(e)nter a post to predict impact , (m)ost commenter , (q)uit ")
+            post_text = input(" : ")
+            if self.exists:
+                model = self.this_model
+            
+            predict_post(post_text, self.page_name, model)
         if self.choice == "h":
+            # TODO[]: pronpt the user for help
             pass
-
-    def check_post_words(self, post):
-        """
-        This function is resposiable for checking the post given if its an english valid or invalid
-
-        Args:
-            post_: String
-
-        Returns:
-            Boolean,True if the page name is valid, False if the post is invalid
-        """
-        pass
-
-    def check_page_info(self):
-
-        """
-        This function uses a dictonary that detect if the page name has a valid english name or not
-
-        Args:
-            page_name: String
-
-        Returns:
-            Boolean
-        """
-        pass
