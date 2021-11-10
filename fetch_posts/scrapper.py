@@ -1,5 +1,5 @@
-from abc import abstractmethod
 import os.path
+from abc import abstractmethod
 
 import pandas as pd
 
@@ -7,7 +7,7 @@ from fetch_posts.functions import get_fb_posts, validate_page
 
 
 class Scraper:
-    
+
     # region docstrings
     """
     This class will be responsible for fetching and preparing data for analysis.
@@ -69,22 +69,40 @@ class Scraper:
         self.page_name = None
         self.page_posts = None
         self.page_details = None
-    
+
     def page_info(self, page_name):
+        """
+        method to check the validity of a given facebook page name.
+
+        Args:
+            page_name ([string]): Facebook page name entered by the user
+
+        Returns:
+            boolean: represents the existance of given page name
+        """
         exists, page = self.info(page_name)
         self.page_details = page
         return exists
 
     def fb_page_posts(self, page_name: str):
-        file_path = "./data/%s/comments.txt" % page_name.lower()
-
+        """
+        method to fetch facebook posts from the facebook scrapper
+        
+        Args:
+            page_name (str): valid facebook page name
+        
+        Returns:
+            returns: data length
+        """
+        file_path = "./data/%s/comments.csv" % page_name.lower()
+        
         def get_length(file_path):
-            with open(file_path, "r", encoding="UTF8") as file:
+            with open(file_path, "r", encoding='UTF8') as file:
                 content = [line.rstrip() for line in file]
-
+                
                 return len(content)
 
-        if os.path.isfile(file_path):
+        if os.path.isfile("./data/%s/comments.txt" % page_name.lower()):
             return get_length(file_path)
         else:
             self.page_posts = self.posts(page_name)
@@ -92,31 +110,21 @@ class Scraper:
             return get_length(file_path)
 
     def extract_comments(self):
-        list_of_posts = list()
-        list_of_comments = list()
-        for post in self.page_posts:
-            list_of_posts.append(
-                {
-                    "post_id": post["post_id"],
-                    "time_stamp": post["timestamp"],
-                    "text": post["text"],
-                    "likes": post["likes"],
-                    "comments": post["comments"],
-                    "commenter_name": post["commenter_name"],
-                    "comments_full": post["comments_full"],
-                }
-            )
+        """ """
+        try:
+            comments = list()
+            posts = list()
+            for post in self.posts:
+                for comment in post["comments_full"]:
+                    comments.append(comment)
+                    for reply in comment["replies"]:
+                        comments.append(reply)
 
-            full_comments = list_of_posts[-1]["comments_full"]
+            self.save_posts(comments, posts)
 
-            for comment in full_comments:
-                list_of_comments.append(comment["comment_text"])
-
-                for reply in full_comments["replies"]:
-                    list_of_comments.append(reply)
-
-        self.save_posts(list_of_comments, list_of_posts)
-
+        except Exception:
+            pass
+    
     def save_posts(self, comments, posts):
         import pandas as pd
 
@@ -126,20 +134,21 @@ class Scraper:
 
         df_posts.to_csv(
             "./data/%s/posts.csv" % self.page_name.lower(),
+            sep=",",
+            index=True,
             header=True,
-            index=False,
         )
         df_comments.to_csv(
             "./data/%s/comments.txt" % self.page_name.lower(),
-            sep=" ",
+            sep=",",
             index=True,
-            header=False,
+            header=True,
         )
 
     @abstractmethod
     def create_dir(page_name):
         import os
-        
+
         dir_path = "./data/%s" % page_name.lower()
         if not os.path.isdir(dir_path):
             os.mkdir(dir_path)

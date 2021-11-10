@@ -23,7 +23,7 @@ def test_version():
     assert __version__ == "0.1.0"
 
 
-@pytest.mark.skip()  # code action Login requerment
+@pytest.mark.skip("gh_code_action_reject_login")
 def test_fb_page_name_exist():
     # Arrange
     expected = True
@@ -34,7 +34,7 @@ def test_fb_page_name_exist():
     assert actual == expected
 
 
-@pytest.mark.skip()  # code action Login requerment
+@pytest.mark.skip("gh_code_action_reject_login")
 def test_fb_page_name_not_exist():
     # Arrange
     expected = False
@@ -48,6 +48,9 @@ def test_fb_page_name_not_exist():
 @pytest.mark.skip("pending")
 def test_getting_data_after_scraping_happy_path():
     # Arrange
+    
+    # create instance method from scrapper class
+    # use method : obj.get_posts('page_name') -> returns True
     expected = {"post_id": "12345", "post_txt": "katha katha katha", "likes": 200}
     # Act
     # actual = _
