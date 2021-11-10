@@ -1,5 +1,3 @@
-
-
 # class will handle data processing including 
 # *labeling 
 # *feature extraction

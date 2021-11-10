@@ -62,6 +62,7 @@ def classify_comments(text_file, page_name):
     df["neuPers"] = df["impactPers"].apply(lambda score_dict: score_dict["neu"])
     df["comPers"] = df["impactPers"].apply(lambda score_dict: score_dict["compound"])
 
+
     # Labeling the data depending on the above persentages
     def label_race(row):
         """

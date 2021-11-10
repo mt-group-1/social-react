@@ -18,19 +18,25 @@ from nltk.tokenize import word_tokenize
 from scipy import signal
 from scipy.io import wavfile
 from sklearn.preprocessing import LabelEncoder
-from sklearn.svm import SVC
-
+import warnings
 warnings.filterwarnings('ignore')
 
 def load_data(path):
         
     """
     This function is called load_data which reads a file containing  comments and it has a label for each comment .
+
     then  Processing and organizing data through a set of operations, then  extract the features from the comments
+
+
     Then divide the data into training and test data, and then get accuracy using machine learning model.
         
         Args:
             load_data: file path
+
+
+
+
         Process Done Inside the load_data Function:
         1. read the txt file
         2. process data and clean it 
@@ -40,6 +46,9 @@ def load_data(path):
         
         Returns :   
         Accuracy of classification the commit
+
+
+
         """
     
 
@@ -71,6 +80,7 @@ def load_data(path):
    
 
     text_messages = df['comments']
+
 
     print(text_messages[:1])
 
@@ -105,12 +115,14 @@ def load_data(path):
        
     ps = nltk.PorterStemmer()
 
+
     processed = processed.apply(lambda x: ' '.join(
 
     ps.stem(term) for term in x.split()))
 
 
     nltk.download('punkt')  
+
 
     all_words = []
 
@@ -202,4 +214,7 @@ process =load_data('data/comments_classified.txt')
 
 df = pd.read_csv('data/comments_classified.txt')
 
+
 df = df[df.labels != 'N']
+
+
