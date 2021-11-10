@@ -32,7 +32,7 @@ In Facebook, there is no such service that provide facebook page owner with a se
 ### 1. git clone git@github.com:mt-group-1/social-react.git
 ### 2. cd social-react
 ### 3. poetry shell
-## ------------------------------------------------------------------------------------------------------------------------
+## ---------------------------------------------------------------------------------------------------------------
 ## How to Start your app scenario 
 ### 1. User must select option from [ Start page analysis (s) , Post impact prediction (i) , Help (h) , Quit(q)]
 ### 2. when the user clicks on the s for start then will appear for him [ Enter FaceBook Page Name : >] then the user will enter the Facebook name.
