@@ -16,9 +16,9 @@ def predict_post(post_):
     max_features=2000
     english = enchant.Dict("en_US")
     tokenizer = Tokenizer(num_words=max_features, split=' ')
-    sequence__ = tokenizer.texts_to_sequences([post_])
+    sequence__b = tokenizer.texts_to_sequences([post_])
 
-    sequence = pad_sequences(sequence__, maxlen=len(post_), value=0)
+    sequence = pad_sequences(sequence__b, maxlen=len(post_), value=0)
 
     #Needed for model
     embed_dim = 200

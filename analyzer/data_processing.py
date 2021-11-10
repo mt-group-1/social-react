@@ -28,11 +28,11 @@ def get_data(file_name,page_name=classify_comments()):
     #Creating Csv file
     my_df=pd.read_csv(f'{file_name}.txt')
     my_df
-    sentences = my_df['sentance'].values
+    sentences = my_df['comment'].values
 
     #Length of selected sentances
     len(sentences)
-    y = my_df['race_label']
+    y = my_df['sentiment']
 
     #Spliting into test and train subsets
     sentences_train, sentences_test, y_train, y_test = train_test_split(sentences, y, test_size=0.33, random_state = 42)
@@ -60,8 +60,8 @@ def get_data(file_name,page_name=classify_comments()):
 
     #Training Data
 
-    fb_df['sentance'] = fb_df['sentance'].apply(lambda x: x.lower())
-    fb_df['sentance'] = fb_df['sentance'].apply((lambda x: re.sub('[^a-zA-z0-9\s]','',x)))
+    fb_df['comment'] = fb_df['comment'].apply(lambda x: x.lower())
+    fb_df['comment'] = fb_df['comment'].apply((lambda x: re.sub('[^a-zA-z0-9\s]','',x)))
     max_features = 2000
     tokenizer = Tokenizer(num_words=max_features, split=' ')
 
@@ -96,7 +96,7 @@ def get_data(file_name,page_name=classify_comments()):
 
     # Model accuracy score in predicting (positive,negative)
     comments = list()
-    for comment in fb_df["sentance"]:
+    for comment in fb_df["comment"]:
         comments.append(comment)
     validation_size = len(comments)
     X_validate = X_test[-validation_size:]
