@@ -3,25 +3,26 @@
 """
 import io
 import warnings
-from unittest import mock
-from unittest.mock import patch
-
 import pytest
 import socialreact
+from unittest import mock
+from unittest.mock import patch
 from analyzer.com_classfiction import classify_comments
 from analyzer.predictions import predict_post
 from fetch_posts.functions import get_fb_posts, validate_page
 from fetch_posts.scrapper import Scraper
 from socialreact import *
 from socialreact import __version__
-
+from io import StringIO
+from analyzer.data_processing import ModelCreator
+import fetch_posts.scrapper as scraper
+from socialreact.app import App
 warnings.filterwarnings("ignore")
 from main import welcome
 
 
 def test_version():
     assert __version__ == "0.1.0"
-
 
 @pytest.mark.skip("gh_code_action_reject_login")
 def test_fb_page_name_exist():
@@ -33,7 +34,6 @@ def test_fb_page_name_exist():
     # Assert
     assert actual == expected
 
-
 @pytest.mark.skip("gh_code_action_reject_login")
 def test_fb_page_name_not_exist():
     # Arrange
@@ -43,20 +43,6 @@ def test_fb_page_name_not_exist():
     actual = exists
     # Assert
     assert actual == expected
-
-
-@pytest.mark.skip("pending")
-def test_getting_data_after_scraping_happy_path():
-    # Arrange
-    
-    # create instance method from scrapper class
-    # use method : obj.get_posts('page_name') -> returns True
-    expected = {"post_id": "12345", "post_txt": "katha katha katha", "likes": 200}
-    # Act
-    # actual = _
-    # Assert
-    # assert actual == expected
-
 
 @pytest.mark.skip("pending")
 def test_positive_prediction():
@@ -68,7 +54,6 @@ def test_positive_prediction():
     # Assert
     assert actual == expected
 
-
 @pytest.mark.skip("pending")
 def test_negative_prediction():
     # Arrange
@@ -79,33 +64,6 @@ def test_negative_prediction():
     # Assert
     assert actual == expected
 
-
-# def test_post_have_valid_words():
-#      #Arrange
-#     expected =True
-#     post = "This text for testing"
-#     #Act
-#     actual = check_post_words(post)
-#     #Assert
-#     assert actual == expected
-# def test_post_have_invalid_words():
-#      #Arrange
-#     expected =False
-#     post = "asdfg asdfgh sdfgh dfgh"
-#     #Act
-#     actual = check_post_words(post)
-#     #Assert
-#     assert actual == expected
-@pytest.mark.skip()  # code action Login requerment
-def test_enter_valid_page_name():
-    # Arrange
-    expected = True
-    # Act
-    actual = validate_page("Google")
-    # Assert
-    assert actual == expected
-
-
 def test_page_content():
     # Arrange
     expected = "<class 'generator'>"
@@ -114,31 +72,24 @@ def test_page_content():
     # Assert
     assert actual == expected
 
-
 def test_scrape_page_post():
     # Arrange
     expected = True
     # Act
-    page_scraper = Scraper("Google")
-    actual = page_scraper.page_info()
+    page_scraper = Scraper()
+    actual = page_scraper.page_info("Google")
     # Assert
     assert actual == expected
-
 
 @pytest.mark.skip()  # file i/o operation
-def test_scrape_page_post():
+def test_scrape_page_post_length():
     # Arrange
-    page_scraper = Scraper("Google")
-    expected = "./data/google/posts.csv"
+    page_scraper = Scraper()
+    expected = ""
     # Act
-    page_scraper.fb_page_posts()
-    actual = page_scraper.page_posts
+    actual = page_scraper.fb_page_posts("Google")
     # Assert
     assert actual == expected
-
-
-# @pytest.mark.skip()
-
 
 def test_labeling_file_positive_case():
     # Arrange
@@ -151,7 +102,6 @@ def test_labeling_file_positive_case():
     # Assert
     assert actual == expected
 
-
 def test_labeling_file_negative_case():
     # Arrange
     expected = 0
@@ -162,7 +112,6 @@ def test_labeling_file_negative_case():
     # Assert
     assert actual == expected
 
-
 def test_labeling_file_nutral_case():
     # Arrange
     expected = "N"
@@ -171,14 +120,7 @@ def test_labeling_file_nutral_case():
     # Assert
     assert actual == expected
 
-
-from io import StringIO
-
-import fetch_posts.scrapper as scraper
-from socialreact.app import App
-
 app_ = App(Scraper)
-
 
 @patch("sys.stdout", fake_out=io.StringIO())
 def test_welcome_msg(mock_stdout):
@@ -194,7 +136,6 @@ def test_welcome_msg(mock_stdout):
             # Assert
             assert stdout[idx].replace("\n", "") == expected.replace("\n", "")
 
-
 @patch("sys.stdout", new_callable=io.StringIO)
 def test_start_msg(mock_stdout):
     # Arrange
@@ -206,7 +147,6 @@ def test_start_msg(mock_stdout):
     # Assert
     assert actual == expected
 
-
 def test_quit_msg(monkeypatch):
     # Arrange
     expected = "thank you for using our application... see you later 👋"
@@ -216,3 +156,33 @@ def test_quit_msg(monkeypatch):
         assert app_.user_menu_choice() == expected
     except SystemExit:
         pass
+
+def test_most_common_commenter():
+    #Arrange 
+    expected = "Name: Nancy Henry - Comments: 14"
+    # Act 
+    s = Scraper()
+    actual = s.commenters("Google")
+    #Assert
+    assert actual == expected
+
+@pytest.mark.skip()
+def test_create_directury():
+    #Arrange 
+    expected = True
+    # Act 
+    s = Scraper()
+    actual = s.commenters("Google")
+    #Assert
+    assert actual == expected
+
+model = ModelCreator("cnn")
+
+def test_page_have_comment():
+    #Arrange 
+    expected = True
+    # Act 
+    s = Scraper()
+    actual = s.commenters("Google")
+    #Assert
+    assert actual == expected

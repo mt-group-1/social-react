@@ -15,7 +15,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
 warnings.filterwarnings('ignore')
-from analyzer.com_classfiction import classify_comments
+from com_classfiction import classify_comments
 
 
 class ModelCreator:
@@ -201,9 +201,9 @@ class ModelCreator:
         sentiment = model.predict(sequence, batch_size=32, verbose=2)
         return sentiment
 
-# model = ModelCreator("cnn")
-# model.page_comments()
-# model.keras()
-# model.keras_model()
-# model.train_model()
-# model.save_the_model()
+model = ModelCreator("cnn")
+print(model.page_comments())
+model.keras()
+model.keras_model()
+model.train_model()
+model.save_the_model()

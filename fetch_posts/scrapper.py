@@ -146,7 +146,7 @@ class Scraper:
         )
 
     @abstractmethod
-    def create_dir(page_name):
+    def create_dir(self,page_name):
         import os
 
         dir_path = "./data/%s" % page_name.lower()
@@ -157,10 +157,14 @@ class Scraper:
             return False
 
     @abstractmethod
-    def commenters(page_name: str):
+    def commenters(self,page_name: str):
         df_comments = pd.read_csv("./data/%s/comments.csv" % page_name.lower())
         comments_desc = df_comments["commenter_name"].describe()
         top_commenter = "Name: {} - Comments: {}".format(
             comments_desc.top, comments_desc.freq
         )
         return top_commenter
+
+s = Scraper()
+print(s.commenters("Google"))
+print (s.create_dir("Google"))
