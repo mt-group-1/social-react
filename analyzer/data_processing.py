@@ -30,6 +30,7 @@ class ModelCreator:
         self.positive_ratio = None
         self.negative_ratio = None
         self.df_comments_list = []
+        self.keras_prediction_results ={}
     # Slearn
     def page_comments(self):
         print("classifying page comments ...")
@@ -65,7 +66,7 @@ class ModelCreator:
 
             return True
         except Exception as e:
-            raise Exception(str(e))
+            pass
 
     def vectorize(self):
         try:
@@ -84,7 +85,7 @@ class ModelCreator:
 
             return True
         except Exception as e:
-            raise Exception(str(e))
+            pass
 
     # using keras
     def keras(self):
@@ -143,7 +144,7 @@ class ModelCreator:
             model_accuracy = "accuracy -->  %.2f" % acc
             print(model_score, model_accuracy)
 
-            return model_score, model_accuracy
+            return (model_score, model_accuracy)
 
         except Exception as e:
              pass
@@ -195,7 +196,7 @@ class ModelCreator:
 
         except Exception as e:
              pass
-            
+
     def predict_post(self,post,model):
         sequence = self.tokenizer.texts_to_sequences([post])
         sequence = pad_sequences(sequence, maxlen=len(post), value=0)

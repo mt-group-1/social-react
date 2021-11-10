@@ -4,8 +4,7 @@ import enchant
 import numpy as np
 
 
-
-def predict_post(post, page_name,model):
+def predict_post(post, page_name, model=None):
     """
     This Function predict the given post if it recommended or not based on the training and testing of the previous posts
     Args:
@@ -13,8 +12,6 @@ def predict_post(post, page_name,model):
     Return:
         Recommended or Not recommended
     """
-
-    
 
     english = enchant.Dict("en_US")
 
@@ -37,4 +34,4 @@ def predict_post(post, page_name,model):
                 except:
                     print(true_words, "\n", "Has non english words")
 
-
+predict_post("this is lovely day" , "Google")

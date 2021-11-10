@@ -10,15 +10,10 @@ from socialreact.app import App
 
 
 def welcome():
-    import os
-    os.system("cls" if os.name == "nt" else "clear")
-    
-    logo = Figlet(font="slant")
-    print(colored(logo.renderText("Social React"), "cyan"))
-    print(colored(("Welcome"), "white"))
-    print(colored(("Where you can analyize any facebook page posts"), "white"))
-    print(colored(("=" * 70), "cyan"))
 
+    print("Welcome")
+    print("Where you can analyize any facebook page posts")
+    print("======================================================================")
 
 if __name__ == "__main__":
     welcome()
