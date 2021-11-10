@@ -177,12 +177,25 @@ def test_create_directury():
     assert actual == expected
 
 model = ModelCreator("cnn")
+model.page_comments()
 
 def test_page_have_comment():
-    #Arrange 
-    expected = True
+
+   assert model.keras() == True
+
+def test_page_comment_impact():
+    #Arrange
+    expected = "This page has POSITIVE impact on its followers"
     # Act 
-    s = Scraper()
-    actual = s.commenters("Google")
+    actual =  model.page_comments()
+    #Assert
+    assert actual == expected
+
+def test_train_model_score_and_accuracy():
+    #Arrange
+    expected = ("score    --> 0.52 accuracy -->  0.73")
+    # Act 
+    score,acu = model.train_model()
+    actual = (score ,acu)
     #Assert
     assert actual == expected
