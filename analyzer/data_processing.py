@@ -15,7 +15,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
 warnings.filterwarnings('ignore')
-from com_classfiction import classify_comments
+from analyzer.com_classfiction import classify_comments
 
 
 class ModelCreator:
@@ -29,7 +29,7 @@ class ModelCreator:
         self.score = None
         self.positive_ratio = None
         self.negative_ratio = None
-
+        self.df_comments_list = []
     # Slearn
     def page_comments(self):
         print("classifying page comments ...")
@@ -107,7 +107,7 @@ class ModelCreator:
 
             return True
         except Exception as e:
-            raise Exception(str(e))
+            pass
 
     def keras_model(self):
         try:
@@ -128,7 +128,7 @@ class ModelCreator:
 
             return True
         except Exception as e:
-            raise Exception(str(e))
+             pass
 
     def train_model(self):
         try:
@@ -146,7 +146,7 @@ class ModelCreator:
             return model_score, model_accuracy
 
         except Exception as e:
-            raise Exception(str(e))
+             pass
 
     def save_the_model(self):
         try:
@@ -154,7 +154,7 @@ class ModelCreator:
             return True
         
         except Exception as e:
-            raise Exception(str(e))
+            pass
 
     def validate_acc(self):
         try:
@@ -194,7 +194,8 @@ class ModelCreator:
             return self.keras_prediction_results
 
         except Exception as e:
-            raise Exception(str(e))
+             pass
+            
     def predict_post(self,post,model):
         sequence = self.tokenizer.texts_to_sequences([post])
         sequence = pad_sequences(sequence, maxlen=len(post), value=0)
@@ -202,8 +203,8 @@ class ModelCreator:
         return sentiment
 
 model = ModelCreator("cnn")
-print(model.page_comments())
 model.keras()
 model.keras_model()
+print(model.validate_acc())
 model.train_model()
 model.save_the_model()

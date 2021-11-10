@@ -18,7 +18,7 @@ def predict_post(post, page_name,model):
 
     english = enchant.Dict("en_US")
 
-    clean_post = re.sub(r"[^a-zA-Z0-9 \n\.]", "", post)
+    clean_post = post
     for word in post:
 
         list_of_words = clean_post.split()
@@ -29,11 +29,12 @@ def predict_post(post, page_name,model):
             sentement = None
             if len(true_words) == len(list_of_words):
                 try:
-                    sentement = model.predict_post(page_name)
+                    sentement = model.predict("".join(true_words))
+                    if np.argmax(sentement):
+                        return "Positive"
+                    else:
+                        return "negative"
                 except:
-                    print(post, "\n", "has non english words")
+                    print(true_words, "\n", "Has non english words")
 
-        if np.argmax(sentement):
-            return "Positive"
-        else:
-            return "negative"
+

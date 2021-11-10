@@ -2,7 +2,6 @@ import os
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import pandas as pd
-from analyzer.com_classfiction import classify_comments
 from analyzer.data_processing import ModelCreator
 from analyzer.predictions import predict_post
 from tensorflow import keras
@@ -86,40 +85,51 @@ class App:
                     
                     most_commenter()
                 else:
+                    model = ModelCreator(self.page_name)
+                    impact = model.page_comments()
+                    print(impact)
+                    model.keras()
+                    X_train, X_test, Y_train, Y_test = model.keras_rp
 
                     if os.path.isfile("./data/%s/saved_model.pb" % self.page_name):
-                            model = ModelCreator(self.page_name)
-                            impact = model.page_comments()
-                            print(impact)
                             model = keras.models.load_model("./data/%s/" % self.page_name,compile=True)
-                            model_score, model_accuracy = model.evaluate('0.81', '0.71', verbose=2)
+                            model_score, model_accuracy = model.evaluate(X_train, Y_train, verbose=2)
                             print(model_score, model_accuracy)
                             self.model = model
                     else:
-                        model = ModelCreator(self.page_name)
-                        impact = model.page_comments()
-                        print(impact)
-                        model.keras()
                         model.keras_model()
                         model_score, model_accuracy = model.train_model()
                         print(model_score, model_accuracy)
                         model.save_the_model()
                         self.model = model
                     
-                    print("(e)nter a post to predict impact , (m)ost commenter , (q)uit ")
-
-                    user_input = input(" >")
-                    if user_input.lower() == "e":
-                        post_text = input(" : ")
-
-                    # TODO[]: validate post_text data
-                    predict_post(post_text, self.page_name, self.model)
                     
-                    if user_input.lower() == "m":
-                        most_commenter()
+                    def after_analysis():
+                        print("(e)nter a post to predict impact , (m)ost commenter , (q)uit ")
 
-                    if user_input.lower() == "q":
-                        quit()
+                        user_input = input(" > ")
+                        if user_input.lower() == "e":
+                            post_text = input(" : ")
+                            # TODO[]: validate post_text data
+                            if len(post_text) > 10 :
+                                
+                                result = "".join([i for i in post_text if not i.isdigit()])
+                                prediction = predict_post(result, self.page_name, self.model)
+                                print(prediction)
+                            else:
+                                after_analysis()    
+                           
+                            after_analysis()
+
+                        if user_input.lower() == "m":
+                            most_commenter()
+                            after_analysis()
+                            
+
+                        if user_input.lower() == "q":
+                            quit()
+           
+                    after_analysis()
             else:
                 print(colored(("invalid page name..  ❌ "),"cyan",),self.page_name,)
                 self.choice = input("Press (Enter) to continue , (q) to Quit  > " ).lower()

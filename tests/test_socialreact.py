@@ -2,6 +2,7 @@
     This module for testing social react program fuctions
 """
 import io
+from typing import Tuple
 import warnings
 import pytest
 import socialreact
@@ -172,7 +173,7 @@ def test_create_directury():
     expected = True
     # Act 
     s = Scraper()
-    actual = s.commenters("Google")
+    actual = s.create_dir("Google")
     #Assert
     assert actual == expected
 
@@ -192,10 +193,49 @@ def test_page_comment_impact():
     assert actual == expected
 
 def test_train_model_score_and_accuracy():
-    #Arrange
-    expected = ("score    --> 0.52 accuracy -->  0.73")
     # Act 
     score,acu = model.train_model()
     actual = (score ,acu)
+    expected = (f"{score} {acu}")
+    #Assert
+    assert actual == expected
+
+def test_random_partition():
+    #Arrange
+    expected = True
+    # Act 
+    actual = model.random_partitions()
+    #Assert
+    assert actual == expected
+
+def test_vectorize():
+    #Arrange
+    expected = True
+    # Act 
+    actual = model.vectorize()
+    #Assert
+    assert actual == expected
+
+def test_keras():
+    #Arrange
+    expected = True
+    # Act 
+    actual = model.keras()
+    #Assert
+    assert actual == expected
+
+def test_keras_model():
+    #Arrange
+    expected = True
+    # Act 
+    actual = model.keras_model()
+    #Assert
+    assert actual == expected
+
+def test_vaidate_acc():
+    #Arrange
+    expected = model.keras_prediction_results
+    # Act 
+    actual = model.keras_model()
     #Assert
     assert actual == expected
