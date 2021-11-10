@@ -35,7 +35,7 @@ def classify_comments(text_file, page_name):
         "",
     )
     df["comments"] = df["comments"].str.replace("https://", "")
-
+    df["comments"] = df["comments"].str.replace(r"\d+(\.\d+)?", "")
     sid = SentimentIntensityAnalyzer()
 
     new_words = {
@@ -80,7 +80,7 @@ def classify_comments(text_file, page_name):
 
     # Create new coloumn for the final labels
     df["labels"] = df.apply(lambda row: label_race(row), axis=1)
-
+    
     # Create new file containing two coloumns
     new_df = df[["comments", "labels"]]
     create_dir(page_name)
