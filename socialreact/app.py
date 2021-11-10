@@ -17,12 +17,12 @@ class App:
         print(
             colored(
                 (
-                    "Start page analysis (s) , Post impact prediction (i) , Help (h) , Quit(q) "
+                    "Start page analysis (s) , Post impact prediction (i) , Help (h) , Quit(q)"
                 ),
                 "white",
             )
         )
-        self.user_menu_choice()
+     
 
     def user_menu_choice(self):
         def quit():
@@ -33,9 +33,9 @@ class App:
                 )
             )
             exit()
-
-        self.choice = input(" > ").lower()
-
+        
+        self.choice = input(" > ")
+         
         if self.choice == "q":
             quit()
 
@@ -43,11 +43,12 @@ class App:
 
             def most_commenter():
                 """
-                sub method that get the most commenter user on a given page.
+                Sub method that get the most commenter user on a given page.
                 """
-                # TODO []: request posts and get comments .
-                # TODO []: return the top 3 most commenters
-                pass
+                # TODO [X]: request Top commenter on a given page post.
+                top = self.scraper.commenters(self.page_name)
+                print(colored((top),"cyan",))
+        
 
             def valid_page():
                 self.page_name = input("Enter FaceBook Page Name :  > ")
@@ -97,7 +98,7 @@ class App:
             if confirm_page():
                 # ! validate fetched posts length
                 length = self.scraper.fb_page_posts(self.page_name)
-
+                
                 if length < 200:
                     print("The page entered do not have enogh content")
                     print("Which will lead to inaccurate prediction results..")
@@ -113,40 +114,28 @@ class App:
                 if length > 200:
                     print("Starting comments classification ...")
                     comments = classify_comments(
-                        "./data/%s_comments.txt" % self.page_name.lower(),
+                        "./data/%s/comments.txt" % self.page_name.lower(),
                         self.page_name.lower(),
                     )
-                    print(comments.head(20))
+                    
+                    
                     # TODO []: send the DataFrame to processing .
                     # TODO []: finalize the comments analysis feature.
-
+        
         if self.choice == "i":
             pass
 
         if self.choice == "h":
             pass
-
+    
     def check_post_words(self, post):
         """
         This function is resposiable for checking the post given if its an english valid or invalid
-
+        
         Args:
             post_: String
-
+        
         Returns:
             Boolean,True if the page name is valid, False if the post is invalid
-        """
-        pass
-
-    def check_page_info(self):
-
-        """
-        This function uses a dictonary that detect if the page name has a valid english name or not
-
-        Args:
-            page_name: String
-
-        Returns:
-            Boolean
         """
         pass
