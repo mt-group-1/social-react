@@ -233,9 +233,15 @@ def test_vaidate_acc():
     #Assert
     assert actual == expected
 
+@pytest.mark.skip("")
 def test_load_data():
     expected = float
 
     actual = type(load_data("./data/google/classified_comments.txt"))
 
     assert actual == expected
+
+def test_save_model():
+    expected = model.save_the_model()
+    assert model.save_the_model() == expected
+    

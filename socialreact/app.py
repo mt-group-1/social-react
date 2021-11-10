@@ -3,6 +3,7 @@ from tensorflow import keras
 from analyzer.predictions import predict_post
 from analyzer.data_processing import ModelCreator
 import pandas as pd
+from fetch_posts.scrapper import Scraper
 import os
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -156,3 +157,4 @@ class App:
         if self.choice == "h":
             # TODO[]: pronpt the user for help
             pass
+
