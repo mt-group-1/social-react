@@ -18,9 +18,9 @@ def validate_page(page_name):
     """
     page = get_page_info(page_name, options={"progress": True})
     if len(page) > 0:
-        return True , page
+        return True, page
     else:
-        return False
+        return False, page
 
 
 def get_fb_posts(page_name):

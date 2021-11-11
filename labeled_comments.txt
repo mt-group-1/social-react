@@ -1,2 +1,0 @@
-,comments,labels
-0,this view give,N
