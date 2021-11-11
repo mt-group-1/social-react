@@ -2,23 +2,25 @@
     This module for testing social react program fuctions
 """
 import io
-from typing import Tuple
+import os
 import warnings
-import pytest
-import socialreact
+from io import StringIO
+from typing import Tuple
 from unittest import mock
 from unittest.mock import patch
+
+import fetch_posts.scrapper as scraper
+import pytest
+import socialreact
+from analyzer.analyzer import load_data
 from analyzer.com_classfiction import classify_comments
-from analyzer.predictions import predict_post
+from analyzer.data_processing import ModelCreator
 from fetch_posts.functions import get_fb_posts, validate_page
 from fetch_posts.scrapper import Scraper
 from socialreact import *
-from analyzer.analyzer import load_data
 from socialreact import __version__
-from io import StringIO
-from analyzer.data_processing import ModelCreator
-import fetch_posts.scrapper as scraper
 from socialreact.app import App
+
 warnings.filterwarnings("ignore")
 from main import welcome
 
@@ -90,10 +92,21 @@ def test_labeling_file_positive_case():
     actual = classify_comments("./data/test_/positive.txt", "test").values.tolist()[0][
         1
     ]
-
+    
     # Assert
     assert actual == expected
 
+def test_labeling_dir_creating():
+    # if dir exists will return false
+    from analyzer.com_classfiction import create_dir
+
+    # Arrange
+    expected = 0
+    # Act
+    actual = create_dir("pagename")
+    
+    # Assert
+    assert actual == expected
 def test_labeling_file_negative_case():
     # Arrange
     expected = 0
@@ -131,7 +144,7 @@ def test_welcome_msg(mock_stdout):
 @patch("sys.stdout", new_callable=io.StringIO)
 def test_start_msg(mock_stdout):
     # Arrange
-    expected = "\x1b[37mStart page analysis (s) , Post impact prediction (i) , Help (h) , Quit(q)\x1b[0m\n"
+    expected = "Start page analysis (s) , Options (o) , Help (h) , Quit(q)\n"
     # Act
     app_.start()
     actual = mock_stdout.getvalue().encode("utf8", "backslashreplace").decode("utf8")
@@ -148,7 +161,23 @@ def test_quit_msg(monkeypatch):
         assert app_.user_menu_choice() == expected
     except SystemExit:
         pass
+    
+def test_quit_():
+    # Arrange
+    with pytest.raises(SystemExit):
+        app_.quit_()
 
+def test_valid_page_returns_true(monkeypatch):
+    # Arrange
+    expected = True
+    mock_input = StringIO("google\n")
+    monkeypatch.setattr("sys.stdin", mock_input)
+    
+    assert app_.valid_page() == expected
+
+
+  
+    
 def test_most_common_commenter():
     #Arrange 
     expected = "Name: Nancy Henry - Comments: 14"
@@ -157,6 +186,16 @@ def test_most_common_commenter():
     actual = s.commenters("Google")
     #Assert
     assert actual == expected
+
+def test_most_common_commenter_NoData():
+    #Arrange 
+    expected = None
+    # Act 
+    s = Scraper()
+    actual = s.commenters("asddasd")
+    #Assert
+    assert actual == expected
+
 
 # @pytest.mark.skip()
 def test_create_directury():
@@ -168,12 +207,20 @@ def test_create_directury():
     #Assert
     assert actual == expected
 
+
+
 # @pytest.mark.skip("pending")
-def test_page_have_comment():
+def test_keras_extract_feature_true():
     model = ModelCreator("cnn")
     model.page_comments()
     assert model.keras() == True
-    
+
+def test_keras_extract_feature_false():
+    model = ModelCreator("asdasdasd")
+    model.page_comments()
+    assert model.keras() == None
+
+
 model = ModelCreator("cnn")
 # @pytest.mark.skip("pending")
 def test_page_comment_impact():
@@ -236,12 +283,11 @@ def test_vaidate_acc():
 @pytest.mark.skip("")
 def test_load_data():
     expected = float
-
+    
     actual = type(load_data("./data/google/classified_comments.txt"))
-
+    
     assert actual == expected
 
 def test_save_model():
     expected = model.save_the_model()
     assert model.save_the_model() == expected
-    
