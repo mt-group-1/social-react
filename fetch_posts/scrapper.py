@@ -147,6 +147,16 @@ class Scraper:
 
     
     def create_dir(self,page_name):
+        """
+        make a new directory for non-existing page data directory
+
+        Args:
+            page_name (str)
+
+        Returns:
+            [boolen]: return True if the directory not exist and make it 
+                    return False if the directory exist 
+        """
         import os
 
         dir_path = "./data/%s" % page_name.lower()
