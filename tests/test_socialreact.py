@@ -291,3 +291,4 @@ def test_load_data():
 def test_save_model():
     expected = model.save_the_model()
     assert model.save_the_model() == expected
+

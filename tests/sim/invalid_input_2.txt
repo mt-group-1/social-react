@@ -1,0 +1,18 @@
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > \n
+invalid input .. chose from the options below
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > t
+invalid input .. chose from the options below
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > n
+invalid input .. chose from the options below
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > m
+invalid input .. chose from the options below
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > p
+invalid input .. chose from the options below
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > q
+thank you for using our application... see you later
