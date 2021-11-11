@@ -20,6 +20,15 @@ def validate_page(page_name):
         return False, page
 
 def get_fb_posts(page_name):
+    """
+    getting facebook page posts
+
+    Args:
+        page_name (str)
+
+    Returns:
+        genarator : all given page name posts
+    """
     posts = get_posts(
         page_name,
         pages=2,

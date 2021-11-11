@@ -54,13 +54,6 @@ class Scraper:
     returns : comments : (list)
 
 
-    save_data:
-    --------
-
-    args : None
-
-    returns : boolean : indicating the success or failure of data save on desk
-
     """
     # endregion
     def __init__(self, info=validate_page, posts=get_fb_posts):
@@ -110,7 +103,14 @@ class Scraper:
             return get_length(file_path)
 
     def extract_comments(self):
-        """ """
+        """ 
+        extract_comments:
+        --------
+
+        args : posts : (obj)
+
+        returns comments : (list)
+        """
         try:
             comments = list()
             posts = list()
@@ -126,6 +126,13 @@ class Scraper:
             pass
     
     def save_posts(self, comments, posts):
+        """
+        saving page posts and comments on data directory
+
+        Args:
+            comments (list)
+            posts (list)
+        """
         import pandas as pd
 
         self.create_dir(self.page_name)
@@ -144,8 +151,7 @@ class Scraper:
             index=True,
             header=True,
         )
-
-    
+   
     def create_dir(self,page_name):
         """
         make a new directory for non-existing page data directory
@@ -166,8 +172,15 @@ class Scraper:
         else:
             return False
 
-  
     def commenters(self,page_name: str):
+        """
+        finding the most commenter in given page
+        Args:
+            page_name (str)
+
+        Returns:
+            str : most common commenter on given page
+        """
         try:
             df_comments = pd.read_csv("./data/%s/comments.csv" % page_name.lower())
             comments_desc = df_comments["commenter_name"].describe()
