@@ -18,28 +18,21 @@ from nltk.tokenize import word_tokenize
 from scipy import signal
 from scipy.io import wavfile
 from sklearn.preprocessing import LabelEncoder
-
 from sklearn.svm import SVC
 
-# nltk.download('punkt') 
-# nltk.download('stopwords')
 warnings.filterwarnings('ignore')
 
 def load_data(path):
+    
+    nltk.download('punkt') 
+    nltk.download('stopwords')
     """
     This function is called load_data which reads a file containing  comments and it has a label for each comment .
     then  Processing and organizing data through a set of operations, then  extract the features from the comments
-
-    This function is called load_data which reads a file containing  comments and it has a label for each comment .
-
-    then  Processing and organizing data through a set of operations, then  extract the features from the comments
-
-
     Then divide the data into training and test data, and then get accuracy using machine learning model.
         
         Args:
             load_data: file path
-
         Process Done Inside the load_data Function:
         1. read the txt file
         2. process data and clean it 
@@ -49,7 +42,6 @@ def load_data(path):
         
         Returns :   
         Accuracy of classification the commit
-
         """
 
     df = pd.read_csv(path)
@@ -62,19 +54,7 @@ def load_data(path):
 
     Y = encoder.fit_transform(classes)
 
-
-    print(Y[:10])
-   
-
-
     text_messages = df['comments']
-
-
-
-    text_messages = df['comments']
-
-
-    print(text_messages[:1])
 
     processed = text_messages.str.replace(r'^.+@[^\.].*\.[a-z]{2,}$', 'emailaddress')
     processed = processed.str.replace(r'\d+(\.\d+)?', 'numbr')
@@ -91,6 +71,10 @@ def load_data(path):
 
     processed = processed.apply(lambda x: ' '.join(
     ps.stem(term) for term in x.split()))
+
+
+     
+
 
     all_words = []
     
@@ -144,6 +128,6 @@ def load_data(path):
     
 
 # process = load_data('./data/google/classified_comments.txt')
+
 # df = pd.read_csv('../data/google/comments.txt')
 # df = df[df.labels != 'N']
-
