@@ -17,7 +17,7 @@ def classify_comments(text_file, page_name):
         DataFrames: contains classified data with positive | negative | nutral  labels for each comment
     """
 
-    # nltk.download("vader_lexicon")
+    nltk.download("vader_lexicon")
     
     df = pd.read_csv("%s" % text_file, names=["comments"], sep="\t")
     

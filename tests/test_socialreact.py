@@ -95,7 +95,8 @@ def test_labeling_file_positive_case():
     
     # Assert
     assert actual == expected
-
+    
+@pytest.mark.skip("FILEIO")
 def test_labeling_dir_creating():
     # if dir exists will return false
     from analyzer.com_classfiction import create_dir
