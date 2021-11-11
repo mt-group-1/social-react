@@ -1,132 +1,195 @@
-""""
-import library that will be used in the our code 
-"""
 import os
-import sys
 import warnings
 
-import nltk
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 import numpy as np
-import pandas
 import pandas as pd
-import sklearn
-from nltk.classify.scikitlearn import SklearnClassifier
-from nltk.corpus import stopwords
-from nltk.sentiment import SentimentAnalyzer
-from nltk.sentiment.util import *
-from nltk.tokenize import word_tokenize
-from scipy import signal
-from scipy.io import wavfile
-from sklearn.preprocessing import LabelEncoder
-from sklearn.svm import SVC
+from keras.layers import LSTM, Dense, Embedding, SpatialDropout1D
+from keras.models import Sequential
+from keras.preprocessing.sequence import pad_sequences
+from keras.preprocessing.text import Tokenizer
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
 
-# nltk.download('punkt') 
-# nltk.download('stopwords')
 warnings.filterwarnings('ignore')
+from analyzer.com_classfiction import classify_comments
 
-def load_data(path):
+
+class ModelCreator:
     """
-    This function is called load_data which reads a file containing  comments and it has a label for each comment .
-    then  Processing and organizing data through a set of operations, then  extract the features from the comments
-    Then divide the data into training and test data, and then get accuracy using machine learning model.
-        
-        Args:
-            load_data: file path
-        Process Done Inside the load_data Function:
-        1. read the txt file
-        2. process data and clean it 
-        3. extract feature in the data and save it
-        4. split the data in the train and test 
-        5. use a SCV model for tran data and get accurcy
-        
-        Returns :   
-        Accuracy of classification the commit
-        """
+    class that analyze classified data
+    """
 
-    df = pd.read_csv(path)
+    def __init__(self, page_name):
+        self.page_name = page_name
+        self.model = None
+        self.score = None
+        self.positive_ratio = None
+        self.negative_ratio = None
 
-    df = df[df.labels != 'N']
+    # Sklearn
+    def page_comments(self):
+        print("classifying page comments ...")
+        try:
+            df = classify_comments("./data/%s/comments.csv" % self.page_name, self.page_name)
+            self.df_comments_list = df[df.labels != 'N']
+            
+            self.comments = self.df_comments_list["comments"].values
+            
+            impact = self.df_comments_list["labels"].value_counts().index.tolist()[0]
 
-    classes = df['labels']
+            results = ''
+            
+            if not impact :
+                results = 'This page has NEGATIVE impact on its followers'
+            else:
+                results =  'This page has POSITIVE impact on its followers'
 
-    encoder = LabelEncoder()
+            return results
+            
+        except Exception:
+            pass
 
-    Y = encoder.fit_transform(classes)
+    def random_partitions(self):
+        try:
+            y = self.df_comments_list["labels"]
+            (
+                self.comments_train,
+                self.comments_test,
+                self.y_train,
+                self.y_test,
+            ) = train_test_split(self.comments, y, test_size=0.33, random_state=42)
 
-    text_messages = df['comments']
+            return True
+        except Exception:
+            pass
 
-    processed = text_messages.str.replace(r'^.+@[^\.].*\.[a-z]{2,}$', 'emailaddress')
-    processed = processed.str.replace(r'\d+(\.\d+)?', 'numbr')
-    processed = processed.str.replace(r'[^\w\d\s]', ' ')
-    processed = processed.str.replace(r'\s+', ' ')
-    processed = processed.str.replace(r'^\s+|\s+?$', '')
-    processed = processed.str.lower()
+    def vectorize(self):
+        try:
+            self.vectorizer = CountVectorizer()
+            self.vectorizer.fit(self.comments_train)
 
-    stop_words = set(stopwords.words('english'))
-    processed = processed.apply(lambda x: " ".join(x.lower() for x in str(x).split() \
-                                    if x not in stop_words))
-    ps = nltk.PorterStemmer()
-    
+            self.X_train = self.vectorizer.transform(self.comments_train)
+            self.X_test = self.vectorizer.transform(self.comments_test)
 
-    processed = processed.apply(lambda x: ' '.join(
-    ps.stem(term) for term in x.split()))
+            # score
+            classifier = LogisticRegression()
 
+            classifier.fit(self.X_train, self.y_train)
 
-     
+            self.vscore = classifier.score(self.X_test, self.y_test)
 
+            return True
+        except Exception:
+            pass
 
-    all_words = []
-    
-    for message in processed:
-        words = word_tokenize(message)
-        for w in words:
-            all_words.append(w)
-    all_words = nltk.FreqDist(all_words)
-    # print('Number of words: {}'.format(len(all_words)))
-    # print('Most common words: {}'.format(all_words.most_common(15)))
-    word_features = list(all_words.keys())[:1500]
-    
-    def find_features(message):
-        words = word_tokenize(message)
-        features = {}
-        for word in word_features:
-            features[word] = (word in words)
-        return features
- 
-    # features = find_features(processed[8])
-    
-    # for key, value in features.items():
+    # using keras
+    def keras(self):
+        try:
+            df_comments = self.df_comments_list
+            df_comments.columns = map(str.lower, df_comments.columns)
+            df_comments["comments"] = df_comments["comments"].apply(lambda x: x.lower())
+            
+            self.tokenizer = Tokenizer(num_words=500, split=" ")
+            self.tokenizer.fit_on_texts(df_comments["comments"].values)
+            X = self.tokenizer.texts_to_sequences(df_comments["comments"].values)
+            self.X = pad_sequences(X)
+            self.Y = pd.get_dummies(df_comments["labels"]).values
 
-    #     if value == True:
+            X_train, X_test, Y_train, Y_test = train_test_split(
+                self.X, self.Y, test_size=0.40, random_state=1000
+            )
 
-    #         print("The Key",key)
+            self.keras_rp = [X_train, X_test, Y_train, Y_test]
+         
+            
+            return True
+        except Exception as e:
+            print(str(e))
 
+    def keras_model(self):
+        try:
+            embed_dim = 200
+            lstm_out = 200
 
+            model = Sequential()
 
+            model.add(Embedding(500, embed_dim, input_length= self.X.shape[1]))
+            model.add(SpatialDropout1D(0.4))
+            model.add(LSTM(lstm_out, dropout=0.2, recurrent_dropout=0.2))
+            model.add(Dense(2, activation="softmax"))
+            model.compile(
+                loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"]
+            )
 
+            self.model = model
 
-    messages = list(zip(processed, Y))
-    seed = 1
-    np.random.seed = seed
-    np.random.shuffle(messages)
-    featuresets = [(find_features(text), label) for (text, label) in messages]
-    from sklearn import model_selection
-    training, testing = model_selection.train_test_split(featuresets, test_size = 0.25, random_state=seed)
-    # print("training len ",len(training))
-    # print("testing len ", len(testing))
-    
-    model = SklearnClassifier(SVC(kernel = 'linear'))
+            return True
+        except Exception:
+            pass
 
-   
-    model.train(training)
+    def train_model(self):
+        try:
 
-   
-    accuracy = nltk.classify.accuracy(model, testing)*100
-    # print("SVC Accuracy: {}".format(accuracy))
-    return accuracy
-    
+            X_train, X_test, Y_train, Y_test = self.keras_rp
 
-# process = load_data('./data/google/classified_comments.txt')
+            self.model.fit(X_train, Y_train, epochs=3, batch_size=15, verbose=2)
 
-# df = pd.read_csv('../data/google/comments.txt')
-# df = df[df.labels != 'N']
+            score, acc = self.model.evaluate(X_test, Y_test)
+            
+            model_score = "score    --> %.2f" % score
+            model_accuracy = "accuracy -->  %.2f" % acc
+            print(model_score, model_accuracy)
+
+            return model_score, model_accuracy
+
+        except Exception:
+            pass
+
+    def save_the_model(self):
+        try:
+            self.model.save("../data/%s/" % self.page_name)
+        except Exception:
+            pass
+
+    def validate_acc(self):
+        try:
+            X_train, X_test, Y_train, Y_test = self.keras_rp
+
+            validation_size = 500
+
+            X_validate = X_test[-validation_size:]
+            Y_validate = Y_test[-validation_size:]
+            x_test = X_test[:-validation_size]
+            y_test = Y_test[:-validation_size]
+
+            pos_cnt, neg_cnt, pos_correct, neg_correct = 0, 0, 0, 0
+            for x in range(len(X_validate)):
+                result = self.model.predict(
+                    X_validate[x].reshape(1, x_test.shape[1]), verbose=2
+                )[0]
+                
+                if np.argmax(result) == np.argmax(Y_validate[x]):
+
+                    if np.argmax(Y_validate[x]) == 0:
+                        neg_correct += 1
+                    else:
+                        pos_correct += 1
+
+                if np.argmax(Y_validate[x]) == 0:
+                    neg_cnt += 1
+                else:
+                    pos_cnt += 1
+
+            self.keras_prediction_results = {
+                "positive_acc ": str(pos_correct / pos_cnt * 100),
+                "negative_acc": str(neg_correct / neg_cnt * 100),
+            }
+
+            self.save_the_model()
+            return self.keras_prediction_results
+
+        except Exception:
+            pass
