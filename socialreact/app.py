@@ -14,28 +14,41 @@ from termcolor import colored
 
 class App:
     def __init__(self, scraper):
-        """
-        docs
-        """
+
         self.user_name = None
         self.user_input = None
         self.page_name = None
         self.scraper = scraper()
 
     def start(self):
+        """
+        view starting massage 
+        """
         print("Start page analysis (s) , Options (o) , Help (h) , Quit(q)")
 
     def quit_(self):
+        """
+        quiting the program 
+        """
         print("thank you for using our application... see you later")
         exit() 
     
     def valid_page(self):
+        """
+        validate the given page name 
+
+        Returns:
+            boolen: True if it exist ,False if not
+        """
         print('Enter FaceBook Page Name :  ')
         self.page_name = input(" > ")
         return self.scraper.page_info(self.page_name)        
     
  
     def user_menu_choice(self):
+        """
+        handling the application flow
+        """
         inpts = ['q','s','o','h']
         self.choice = input(" > ")
         if self.choice in inpts:
@@ -106,6 +119,7 @@ class App:
                         
 
                         def after_analysis():
+                            
                             print("(e)nter a post to predict impact , (m)ost commenter , (q)uit ")
 
                             user_input = input(" > ")
