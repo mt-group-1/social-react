@@ -1,5 +1,4 @@
 import os
-import pickle
 import warnings
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -30,7 +29,7 @@ class ModelCreator:
         self.positive_ratio = None
         self.negative_ratio = None
 
-    # Slearn
+    # Sklearn
     def page_comments(self):
         print("classifying page comments ...")
         try:
@@ -92,7 +91,7 @@ class ModelCreator:
             df_comments = self.df_comments_list
             df_comments.columns = map(str.lower, df_comments.columns)
             df_comments["comments"] = df_comments["comments"].apply(lambda x: x.lower())
-
+            
             self.tokenizer = Tokenizer(num_words=500, split=" ")
             self.tokenizer.fit_on_texts(df_comments["comments"].values)
             X = self.tokenizer.texts_to_sequences(df_comments["comments"].values)
@@ -102,17 +101,13 @@ class ModelCreator:
             X_train, X_test, Y_train, Y_test = train_test_split(
                 self.X, self.Y, test_size=0.40, random_state=1000
             )
-                        
-            # saving
+
             self.keras_rp = [X_train, X_test, Y_train, Y_test]
-
-            with open('../data/%s/tokenizer.pickle', 'wb') as handle:
-                pickle.dump(self.tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
+         
             
-
             return True
-        except Exception:
-            pass
+        except Exception as e:
+            print(str(e))
 
     def keras_model(self):
         try:
@@ -156,15 +151,6 @@ class ModelCreator:
     def save_the_model(self):
         try:
             self.model.save("../data/%s/" % self.page_name)
-            
-            
-
-            # saving
-            with open('../data/%s/tokenizer.pickle', 'wb') as handle:
-                pickle.dump(self.tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
-
-        
-        
         except Exception:
             pass
 
@@ -184,7 +170,7 @@ class ModelCreator:
                 result = self.model.predict(
                     X_validate[x].reshape(1, x_test.shape[1]), verbose=2
                 )[0]
-
+                
                 if np.argmax(result) == np.argmax(Y_validate[x]):
 
                     if np.argmax(Y_validate[x]) == 0:
@@ -207,10 +193,9 @@ class ModelCreator:
 
         except Exception:
             pass
+
     def predict_post(self,post,model):
         sequence = self.tokenizer.texts_to_sequences([post])
         sequence = pad_sequences(sequence, maxlen=len(post), value=0)
         sentiment = model.predict(sequence, batch_size=32, verbose=2)
         return sentiment
-
-

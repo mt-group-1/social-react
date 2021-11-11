@@ -18,9 +18,9 @@ def classify_comments(text_file, page_name):
     """
 
     # nltk.download("vader_lexicon")
-
+    
     df = pd.read_csv("%s" % text_file, names=["comments"], sep="\t")
-
+    
     # Cleaning data from emails,number and special characters to be more accurate
 
     df["comments"] = df["comments"].str.replace("^\d+\s|\s\d+\s|\s\d+$", " ")

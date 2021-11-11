@@ -102,7 +102,7 @@ class Scraper:
                 
                 return len(content)
 
-        if os.path.isfile("./data/%s/comments.txt" % page_name.lower()):
+        if os.path.isfile("./data/%s/comments.csv" % page_name.lower()):
             return get_length(file_path)
         else:
             self.page_posts = self.posts(page_name)
@@ -156,8 +156,8 @@ class Scraper:
         else:
             return False
 
-    @abstractmethod
-    def commenters(page_name: str):
+  
+    def commenters(self,page_name: str):
         df_comments = pd.read_csv("./data/%s/comments.csv" % page_name.lower())
         comments_desc = df_comments["commenter_name"].describe()
         top_commenter = "Name: {} - Comments: {}".format(
