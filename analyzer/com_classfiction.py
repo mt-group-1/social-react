@@ -6,7 +6,6 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 warnings.filterwarnings("ignore")
 
-
 def classify_comments(text_file, page_name):
     """
     Description:
@@ -17,7 +16,7 @@ def classify_comments(text_file, page_name):
         DataFrames: contains classified data with positive | negative | nutral  labels for each comment
     """
 
-    nltk.download("vader_lexicon")
+    # nltk.download("vader_lexicon")
     
     df = pd.read_csv("%s" % text_file, names=["comments"], sep="\t")
     
@@ -98,3 +97,4 @@ def create_dir(page_name):
         return True
     else:
         return False
+

@@ -1,0 +1,20 @@
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > s
+Enter FaceBook Page Name :  
+ > google
+Found this page google
+
+Press (Enter) to continue , (r)e-enter page name
+ > 
+
+ 1 (Fast)   2  (Slow)   
+-------------------------
+
+Select prediction accuracy mode (1) OR (2)
+ > 2
+classifying page comments ...
+
+This page has POSITIVE impact on its followers
+
+(e)nter a post to predict impact , (m)ost commenter , (q)uit 
+ > q
