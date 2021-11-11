@@ -1,0 +1,3 @@
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > q
+thank you for using our application... see you later

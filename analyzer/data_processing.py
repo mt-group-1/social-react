@@ -193,9 +193,3 @@ class ModelCreator:
 
         except Exception:
             pass
-
-    def predict_post(self,post,model):
-        sequence = self.tokenizer.texts_to_sequences([post])
-        sequence = pad_sequences(sequence, maxlen=len(post), value=0)
-        sentiment = model.predict(sequence, batch_size=32, verbose=2)
-        return sentiment
