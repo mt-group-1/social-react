@@ -1,12 +1,12 @@
+from termcolor import colored
+from tensorflow import keras
+from analyzer.predictions import predict_post
+from analyzer.data_processing import ModelCreator
+import pandas as pd
+from fetch_posts.scrapper import Scraper
 import os
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-import pandas as pd
-from analyzer.com_classfiction import classify_comments
-from analyzer.data_processing import ModelCreator
-from analyzer.predictions import predict_post
-from tensorflow import keras
-from termcolor import colored
 
 
 class App:
@@ -38,6 +38,7 @@ class App:
                 )
             )
             exit()
+
         def most_commenter():
             """
             Sub method that get the most commenter user on a given page.
@@ -49,28 +50,30 @@ class App:
                     "cyan",
                 )
             )
+
         def valid_page():
             self.page_name = input("Enter FaceBook Page Name :  > ")
             return self.scraper.page_info(self.page_name)
-        
+
         self.choice = input(" > ")
         if self.choice == "q":
             quit()
         if self.choice == "s":
             if valid_page():
-                print(colored(("Found this page  ✔️ "),"cyan", ),self.page_name,)
+                print(colored(("Found this page  ✔️ "), "cyan", ), self.page_name,)
                 print('')
                 page_info = ""
                 page = self.scraper.page_details
                 for key in page:
                     page_info += "{} : {} ".format(str(key), page[key])
                 print(page_info, "\n")
-                choice = input( "Press (Enter) to continue , (r)e-enter page name > " ).lower()
-                
+                choice = input(
+                    "Press (Enter) to continue , (r)e-enter page name > ").lower()
+
                 if choice == "r":
                     self.start()
                     self.user_menu_choice()
-                
+
                 # ! validate fetched posts length
                 length = self.scraper.fb_page_posts(self.page_name)
                 if length < 200:
@@ -78,51 +81,66 @@ class App:
                     print("Which will lead to inaccurate prediction results..")
                     print("-" * 80)
                     print("But we can show you the most common commenter")
-                    choice = input("to do that , press ( ENTER ) (q) to quit > ")
+                    choice = input(
+                        "to do that , press ( ENTER ) (q) to quit > ")
 
-                    
                     if choice == "q":
                         quit()
-                    
+
                     most_commenter()
                 else:
+                    model = ModelCreator(self.page_name)
+                    impact = model.page_comments()
+                    print(impact)
+                    model.keras()
+                    X_train, X_test, Y_train, Y_test = model.keras_rp
 
                     if os.path.isfile("./data/%s/saved_model.pb" % self.page_name):
-                            model = ModelCreator(self.page_name)
-                            impact = model.page_comments()
-                            print(impact)
-                            model = keras.models.load_model("./data/%s/" % self.page_name,compile=True)
-                            model_score, model_accuracy = model.evaluate('0.81', '0.71', verbose=2)
-                            print(model_score, model_accuracy)
-                            self.model = model
+                        model = keras.models.load_model(
+                            "./data/%s/" % self.page_name, compile=True)
+                        model_score, model_accuracy = model.evaluate(
+                            X_train, Y_train, verbose=2)
+                        print(model_score, model_accuracy)
+                        self.model = model
                     else:
-                        model = ModelCreator(self.page_name)
-                        impact = model.page_comments()
-                        print(impact)
-                        model.keras()
                         model.keras_model()
                         model_score, model_accuracy = model.train_model()
                         print(model_score, model_accuracy)
                         model.save_the_model()
                         self.model = model
-                    
-                    print("(e)nter a post to predict impact , (m)ost commenter , (q)uit ")
 
-                    user_input = input(" >")
-                    if user_input.lower() == "e":
-                        post_text = input(" : ")
+                    def after_analysis():
+                        print(
+                            "(e)nter a post to predict impact , (m)ost commenter , (q)uit ")
 
-                    # TODO[]: validate post_text data
-                    predict_post(post_text, self.page_name, self.model)
-                    
-                    if user_input.lower() == "m":
-                        most_commenter()
+                        user_input = input(" > ")
+                        if user_input.lower() == "e":
+                            post_text = input(" : ")
+                            # TODO[]: validate post_text data
+                            if len(post_text) > 10:
 
-                    if user_input.lower() == "q":
-                        quit()
+                                result = "".join(
+                                    [i for i in post_text if not i.isdigit()])
+                                prediction = predict_post(
+                                    result, self.page_name, self.model)
+                                print(prediction)
+                            else:
+                                after_analysis()
+
+                            after_analysis()
+
+                        if user_input.lower() == "m":
+                            most_commenter()
+                            after_analysis()
+
+                        if user_input.lower() == "q":
+                            quit()
+
+                    after_analysis()
             else:
-                print(colored(("invalid page name..  ❌ "),"cyan",),self.page_name,)
-                self.choice = input("Press (Enter) to continue , (q) to Quit  > " ).lower()
+                print(colored(("invalid page name..  ❌ "), "cyan",), self.page_name,)
+                self.choice = input(
+                    "Press (Enter) to continue , (q) to Quit  > ").lower()
 
                 if self.choice == "q":
                     quit()
@@ -134,8 +152,9 @@ class App:
             post_text = input(" : ")
             if self.exists:
                 model = self.this_model
-            
+
             predict_post(post_text, self.page_name, model)
         if self.choice == "h":
             # TODO[]: pronpt the user for help
             pass
+
