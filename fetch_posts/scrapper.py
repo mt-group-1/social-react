@@ -102,7 +102,7 @@ class Scraper:
                 
                 return len(content)
 
-        if os.path.isfile("./data/%s/comments.txt" % page_name.lower()):
+        if os.path.isfile("./data/%s/comments.csv" % page_name.lower()):
             return get_length(file_path)
         else:
             self.page_posts = self.posts(page_name)
@@ -146,7 +146,7 @@ class Scraper:
         )
 
     @abstractmethod
-    def create_dir(self,page_name):
+    def create_dir(page_name):
         import os
 
         dir_path = "./data/%s" % page_name.lower()
@@ -156,7 +156,7 @@ class Scraper:
         else:
             return False
 
-    @abstractmethod
+  
     def commenters(self,page_name: str):
         df_comments = pd.read_csv("./data/%s/comments.csv" % page_name.lower())
         comments_desc = df_comments["commenter_name"].describe()
@@ -164,7 +164,3 @@ class Scraper:
             comments_desc.top, comments_desc.freq
         )
         return top_commenter
-
-s = Scraper()
-print(s.commenters("Google"))
-print (s.create_dir("Google"))

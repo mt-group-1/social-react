@@ -21,10 +21,11 @@ from sklearn.preprocessing import LabelEncoder
 
 from sklearn.svm import SVC
 
+# nltk.download('punkt') 
+# nltk.download('stopwords')
 warnings.filterwarnings('ignore')
 
 def load_data(path):
-        
     """
     This function is called load_data which reads a file containing  comments and it has a label for each comment .
     then  Processing and organizing data through a set of operations, then  extract the features from the comments
@@ -50,31 +51,17 @@ def load_data(path):
         Accuracy of classification the commit
 
         """
-    
-
-
 
     df = pd.read_csv(path)
 
     df = df[df.labels != 'N']
 
-    print(df.head(10))
-   
-    print(df.info())
-
-    print(df.head())
-
-    print(df.tail())
-
-    print(df.columns)
-  
     classes = df['labels']
 
-    print(classes.value_counts())
-  
     encoder = LabelEncoder()
 
     Y = encoder.fit_transform(classes)
+
 
     print(Y[:10])
    
@@ -90,83 +77,41 @@ def load_data(path):
     print(text_messages[:1])
 
     processed = text_messages.str.replace(r'^.+@[^\.].*\.[a-z]{2,}$', 'emailaddress')
-
-            
-   
     processed = processed.str.replace(r'\d+(\.\d+)?', 'numbr')
-
-    print(df['comments'])
-
-  
     processed = processed.str.replace(r'[^\w\d\s]', ' ')
-
-  
     processed = processed.str.replace(r'\s+', ' ')
-
-  
     processed = processed.str.replace(r'^\s+|\s+?$', '')
-
     processed = processed.str.lower()
- 
-    nltk.download('stopwords')
-
-
-  
 
     stop_words = set(stopwords.words('english'))
-
     processed = processed.apply(lambda x: " ".join(x.lower() for x in str(x).split() \
                                     if x not in stop_words))
-       
     ps = nltk.PorterStemmer()
+    
 
     processed = processed.apply(lambda x: ' '.join(
-
     ps.stem(term) for term in x.split()))
 
-
-    nltk.download('punkt')  
-
-
     all_words = []
-
-    for message in processed:
-
-        words = word_tokenize(message)
-
-        for w in words:
-
-            all_words.append(w)
-            
-    all_words = nltk.FreqDist(all_words)
-
-
     
-    print('Number of words: {}'.format(len(all_words)))
-
-    print('Most common words: {}'.format(all_words.most_common(15)))
-
-
-
-    word_features = list(all_words.keys())[:1500]
-
-
-   
-    def find_features(message):
-
+    for message in processed:
         words = word_tokenize(message)
-
+        for w in words:
+            all_words.append(w)
+    all_words = nltk.FreqDist(all_words)
+    # print('Number of words: {}'.format(len(all_words)))
+    # print('Most common words: {}'.format(all_words.most_common(15)))
+    word_features = list(all_words.keys())[:1500]
+    
+    def find_features(message):
+        words = word_tokenize(message)
         features = {}
-
         for word in word_features:
-
             features[word] = (word in words)
-
         return features
-
  
     # features = find_features(processed[8])
-
+    
     # for key, value in features.items():
 
     #     if value == True:
@@ -178,27 +123,15 @@ def load_data(path):
 
 
     messages = list(zip(processed, Y))
-
- 
     seed = 1
     np.random.seed = seed
-
     np.random.shuffle(messages)
-
-
- 
-   
     featuresets = [(find_features(text), label) for (text, label) in messages]
-
-   
     from sklearn import model_selection
-
     training, testing = model_selection.train_test_split(featuresets, test_size = 0.25, random_state=seed)
+    # print("training len ",len(training))
+    # print("testing len ", len(testing))
     
-    print("training len ",len(training))
-
-    print("testing len ", len(testing))
-
     model = SklearnClassifier(SVC(kernel = 'linear'))
 
    
@@ -206,18 +139,11 @@ def load_data(path):
 
    
     accuracy = nltk.classify.accuracy(model, testing)*100
+    # print("SVC Accuracy: {}".format(accuracy))
+    return accuracy
+    
 
-    print("SVC Accuracy: {}".format(accuracy))
-
-
-
-
-process =load_data('data/comments_classified.txt')
-
-
-
-df = pd.read_csv('data/comments_classified.txt')
-
-
-df = df[df.labels != 'N']
+# process = load_data('./data/google/classified_comments.txt')
+# df = pd.read_csv('../data/google/comments.txt')
+# df = df[df.labels != 'N']
 

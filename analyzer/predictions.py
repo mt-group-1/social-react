@@ -1,10 +1,8 @@
-import re
-
 import enchant
 import numpy as np
 
 
-def predict_post(post, page_name, model=None):
+def predict_post_(post,predict,model=None):
     """
     This Function predict the given post if it recommended or not based on the training and testing of the previous posts
     Args:
@@ -12,26 +10,29 @@ def predict_post(post, page_name, model=None):
     Return:
         Recommended or Not recommended
     """
-
     english = enchant.Dict("en_US")
 
     clean_post = post
-    for word in post:
+    list_of_words = clean_post.split()
+    true_words = list()
 
-        list_of_words = clean_post.split()
-        true_words = list()
-        for word in list_of_words:
+    for word in list_of_words:
             if english.check(word):
                 true_words.append(word)
-            sentement = None
-            if len(true_words) == len(list_of_words):
-                try:
-                    sentement = model.predict("".join(true_words))
-                    if np.argmax(sentement):
-                        return "Positive"
-                    else:
-                        return "negative"
-                except:
-                    print(true_words, "\n", "Has non english words")
+    sentement = None
+    if len(true_words) == len(list_of_words):
+        true_words = " ".join(true_words)
+        
+        try:
+            sentement = predict(post,model)
+            print('try')
+            print(sentement)
+            if np.argmax(sentement):
+                return "Positive"
+            else:
+                return "negative"
+        except Exception as e :
+            print(str(e))
 
-predict_post("this is lovely day" , "Google")
+    else:
+        print(true_words, "\n", "prediction faild, not enogh data")

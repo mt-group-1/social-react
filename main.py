@@ -10,7 +10,6 @@ from socialreact.app import App
 
 
 def welcome():
-
     print("Welcome")
     print("Where you can analyize any facebook page posts")
     print("======================================================================")
