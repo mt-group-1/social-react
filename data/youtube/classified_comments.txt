@@ -1,0 +1,645 @@
+,comments,labels
+0,",comment_id,comment_url,commenter_id,commenter_url,commenter_name,commenter_meta,comment_text,comment_time,comment_image,comment_reactors,comment_reactions,comment_reaction_count,replies",N
+1,",,acebook.com/,,acebook.com/tsiegle?fref=nf&rc=p&refid=&__tn__=R,Terry Siegle,,Please quit putting commercials in the middle of a video. The video doesn’t stop. So missing - seconds is annoying. I pray another video company starts up. Commercials are really bad when your just trying to watch videos all day and get interrupted with a : break during one video and miss the end of video. And the beginning of the next. No I can’t be near the remote every second to push skip commercials. Please cut down on them.,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/CitrusandCapri?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Carolin Wollschlaeger', 'commenter_meta': None, 'comment_text': 'Terry Siegle Especially within music videos.', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/Nick.galea.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Nick Galea', 'commenter_meta': None, 'comment_text': 'Adblock Plus, no ads at all.', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",0
+2,",,acebook.com/,,acebook.com/CitrusandCapri?fref=nf&rc=p&__tn__=R,Carolin Wollschlaeger,,Terry Siegle Especially within music videos.,-- ::,,[],,,",N
+3,",,acebook.com/,,acebook.com/Nick.galea.?fref=nf&rc=p&__tn__=R,Nick Galea,,Adblock Plus, no ads at all.,-- ::,,[],,,",0
+4,",,acebook.com/,,acebook.com/jill.loggins?fref=nf&rc=p&refid=&__tn__=R,Jill Lappin Loggins,,Hey YouTube - just bought my st ever iTunes song that you removed the video….Let’s Go Brandon by Bryson Gray. You’re woke culture doesn’t work! 😡,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/ruslancrscmur?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Лада Яблочкова', 'commenter_meta': None, 'comment_text': 'Jill Lappin Loggins The truth about life and death in pages: Google Global Truth Project and read The Present.', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/oji.ma.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Oji Ma', 'commenter_meta': None, 'comment_text': 'Jill Lappin Loggins have you seek the assistance of Legitcoding on Instagram he helped me last week when I had same issues', 'comment_time': datetime.datetime(, , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",0
+5,",,acebook.com/,,acebook.com/ruslancrscmur?fref=nf&rc=p&__tn__=R,Лада Яблочкова,,Jill Lappin Loggins The truth about life and death in pages: Google Global Truth Project and read The Present.,-- ::,,[],,,",0
+6,",,acebook.com/,,acebook.com/oji.ma.?fref=nf&rc=p&__tn__=R,Oji Ma,,Jill Lappin Loggins have you seek the assistance of Legitcoding on Instagram he helped me last week when I had same issues,-- ::,,[],,,",N
+7,",,acebook.com/,,acebook.com/muheydinyassinadam.alkenan?fref=nf&rc=p&refid=&__tn__=R,Muheydin Yassin Adam Alkenan,,The climate change how many passengers. And way?,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'Vangjel Petushi', 'commenter_meta': None, 'comment_text': 'Muheydin Yassin Adam Alkenan', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'خالد خالد', 'commenter_meta': None, 'comment_text': 'Muheydin Yassin Adam Alkenan فرصه عمل عن طريق الانترنت من عمر - سنه. العمل عباره عن نشر اعلانات على شبكات التواصل الاجتماعي .بدون شهادات اوخبرات سابقه بلمجال. العمل ضمن فريق دولي حول العالم  ردا كنت مهتم اترك تفاصيلك بلخاص شكرا🙏 واتس اب +', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'ประดิษฐ์ ตาดเรือง', 'commenter_meta': None, 'comment_text': 'Muheydin Yassin Adam Alkenan', 'comment_time': datetime.datetime(, , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'ประดิษฐ์ ตาดเรือง', 'commenter_meta': None, 'comment_text': 'ประดิษฐ์ ตาดเรือง', 'comment_time': datetime.datetime(, , , , ), 'comment_image': 'content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeFNGradWHiBzJKxcBcYLSPhZvwFxgtI-Fm_VPek_dZsKSqjnufBm-AyHVSXPspxROtObyT&_nc_ohc=y_HQNPEAX-_tUzL&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=ecebbdbacfdbcf&oe=F', 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",N
+8,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Vangjel Petushi,,Muheydin Yassin Adam Alkenan,-- ::,,[],,,",N
+9,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,خالد خالد,,Muheydin Yassin Adam Alkenan فرصه عمل عن طريق الانترنت من عمر - سنه. العمل عباره عن نشر اعلانات على شبكات التواصل الاجتماعي .بدون شهادات اوخبرات سابقه بلمجال. العمل ضمن فريق دولي حول العالم  ردا كنت مهتم اترك تفاصيلك بلخاص شكرا🙏 واتس اب +,-- ::,,[],,,",N
+10,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,ประดิษฐ์ ตาดเรือง,,Muheydin Yassin Adam Alkenan,-- ::,,[],,,",N
+11,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,ประดิษฐ์ ตาดเรือง,,ประดิษฐ์ ตาดเรือง,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeFNGradWHiBzJKxcBcYLSPhZvwFxgtI-Fm_VPek_dZsKSqjnufBm-AyHVSXPspxROtObyT&_nc_ohc=y_HQNPEAX-_tUzL&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=ecebbdbacfdbcf&oe=F,[],,,",N
+12,",,acebook.com/,,acebook.com/cameron.cantrell.?fref=nf&rc=p&refid=&__tn__=R,Cameron Cantrell,,Anybody else having trouble with YouTube. It just keeps buffering.,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'Nicky Pre', 'commenter_meta': None, 'comment_text': Cameron Cantrell If you are having issues with your account, I'll advice you DM @rabo_unlock for help,he's tested and trusted 💯, 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/canna.jones?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Canna Jones', 'commenter_meta': None, 'comment_text': Cameron Cantrell youtube sucks anyway- can't watch an entire video without it asking if your're watching..., 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",0
+13,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Nicky Pre,,Cameron Cantrell If you are having issues with your account, I'll advice you DM @rabo_unlock for help,he's tested and trusted 💯,-- ::,,[],,,",1
+14,",,acebook.com/,,acebook.com/canna.jones?fref=nf&rc=p&__tn__=R,Canna Jones,,Cameron Cantrell youtube sucks anyway- can't watch an entire video without it asking if your're watching...,-- ::,,[],,,",0
+15,",,acebook.com/,,acebook.com/Mark.Simn?fref=nf&rc=p&refid=&__tn__=R,Mark Simon,,sets unobtainable expectations...",N
+16,"this week we'll be growing our own food... Do you have any idea how much work + money that requires?,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/ruslancrscmur?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Лада Яблочкова', 'commenter_meta': None, 'comment_text': 'Mark Simon The truth about life and death in pages: Google Global Truth Project and read The Present.', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+17,",,acebook.com/,,acebook.com/ruslancrscmur?fref=nf&rc=p&__tn__=R,Лада Яблочкова,,Mark Simon The truth about life and death in pages: Google Global Truth Project and read The Present.,-- ::,,[],,,",0
+18,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Ron Spina Content Creator,,Great hacks 👍🏼😉💙,-- ::,,[],,,[]",N
+19,",,acebook.com/,,acebook.com/vitoria.souzafarias?fref=nf&rc=p&refid=&__tn__=R,Vitoria Souzza,,",N
+20,youtu.be/,N
+21,"FURLePnmVs,-- ::,outu.be/FURLePnmVs?fbclid=IwARDNJTLFhZCwdPlohWrNxiVHyLXvShIPrMPkfIMcOUOabgcb_U,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/mohsinkayani.mohsinkayani.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Mohsin Kayani', 'commenter_meta': None, 'comment_text': 'Vitoria Souzza come inbox', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",N
+22,",,acebook.com/,,acebook.com/mohsinkayani.mohsinkayani.?fref=nf&rc=p&__tn__=R,Mohsin Kayani,,Vitoria Souzza come inbox,-- ::,,[],,,",N
+23,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,আহমদ আলী,,Great hacks🥰🥰🥰🥰😱😱,-- ::,,[],,,[]",N
+24,",,acebook.com/,,acebook.com/bhanu.tribedi?fref=nf&rc=p&refid=&__tn__=R,Bhanu Tribedi,,Bhanu Tribedi,-- ::,edia.tenor.co/images/dedaebfedcadb/tenor.gif?itemid=&fbclid=IwAREKajJ-rYnHLNHrcLYPdWQCJESgRzTPJmCPGURSgVhQ-uQj_rKE,[],,,[]",N
+25,",,acebook.com/,,acebook.com/RaDaniel?fref=nf&rc=p&refid=&__tn__=R,Daniel R RaDaniel,,Ok.,-- ::,,[],,,[]",N
+26,",,acebook.com/,,acebook.com/analuisa.olivasnoriega.?fref=nf&rc=p&refid=&__tn__=R,Anna Olivas,,",N
+27,youtu.be/,N
+28,"iHglWbbLcc,-- ::,outu.be/iHglWbbLcc?fbclid=IwARFtWLLpFPLgxNeELPYKQKiQPiHOWSQdpfYdeAHqPVTo,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/kevinho.maia.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Tista Lima', 'commenter_meta': 'Top Fan', 'comment_text': 'Anna Olivas nyoutu.be/\npDPKezR_wXE se inscreve no meu', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': 'outu.be/pDPKezR_wXE?fbclid=IwARevYRuDfc_tWeNWOvG_ApNpfEon__luwIOAlRjzVYJDkO_PC', 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/aliakshr.rain?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Ali Akshr Rain', 'commenter_meta': None, 'comment_text': 'nyoutube.com/\nchannel/\nUCLTHtqEtja-kb\nTRS-zXA', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': 'outube.com/channel/UCLTHtqEtja-kbTRS-zXA?fbclid=IwARicfsugKNfLjyfPvLJbs_FXplTlnnCISqtSti_ZY-njXuoScc', 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",0
+29,",,acebook.com/,,acebook.com/kevinho.maia.?fref=nf&rc=p&__tn__=R,Tista Lima,Top Fan,Anna Olivas ",N
+30,youtu.be/,N
+31,"pDPKezR_wXE se inscreve no meu,-- ::,outu.be/pDPKezR_wXE?fbclid=IwARevYRuDfc_tWeNWOvG_ApNpfEon__luwIOAlRjzVYJDkO_PC,[],,,",0
+32,",,acebook.com/,,acebook.com/aliakshr.rain?fref=nf&rc=p&__tn__=R,Ali Akshr Rain,,",N
+33,youtube.com/,N
+34,channel/,N
+35,UCLTHtqEtja-kb,N
+36,"TRS-zXA,-- ::,outube.com/channel/UCLTHtqEtja-kbTRS-zXA?fbclid=IwARicfsugKNfLjyfPvLJbs_FXplTlnnCISqtSti_ZY-njXuoScc,[],,,",N
+37,",,acebook.com/,,acebook.com/mujahid.full.?fref=nf&rc=p&refid=&__tn__=R,Shahnaya Mujahid Khan,,Good 👍 YouTube,-- ::,,[],,,[]",N
+38,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,남주찬,,🤗🎶🌈🌞🙏👫☕🍁❤🍂🤧😷🙆🏻‍♂️,-- ::,edia.giphy.com/media/PbEgpNwiIGo/giphy.gif?cid=afcgyjqoukkptgnqguhgtfiyjbskpwg&rid=giphy.gif&fbclid=IwARdCrJSGltdrV-FhhFgFroNtLaFHVWBPRuK-tZyTBOMAgA,[],,,[]",N
+39,",,acebook.com/,,acebook.com/tafsalmu.tafsalmu?fref=nf&rc=p&refid=&__tn__=R,Tafs Almu Tafs Almu,,Tafs on,-- ::,,[],,,[]",N
+40,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Татьяна Загорулько,,Татьяна Загорулько,-- ::,edia.tenor.co/images/bdbefaccbaf/tenor.gif?itemid=&fbclid=IwARGteyaroPeTkFGBtIxSZwJqIcSVVgELp_uJXDONQAtFxdEVPajlyDQQ,[],,,[]",N
+41,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Nawiya Serly,,yes,-- ::,,[],,,[]",N
+42,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Kao Saesong,,Kao Saesong,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeFqPdiIsUVhswkxBLgeWBjkJFboHfvuOQnYVuhf-dLS_qvvjJaI-dgMcJEUXA_BfZPpQYNNEovVuv&_nc_ohc=FLTLWmtohgAX_cXZ&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=daabdfaefcbad&oe=,[],,,[]",N
+43,",,acebook.com/,,acebook.com/mencari.cinta.?fref=nf&rc=p&refid=&__tn__=R,Ervan Repana,,👍,-- ::,,[],,,[]",N
+44,",,acebook.com/,,acebook.com/ridhi.bhattacharya?fref=nf&rc=p&refid=&__tn__=R,Riddhi Bhattacharya,,My account is still blocked due to no reason. Kindly fix this. Despite mailing several times and posting it here, you have not even replied once or attended to any of the requests.,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'Nicky Pre', 'commenter_meta': None, 'comment_text': Riddhi Bhattacharya If you are having issues with your account, I'll advice you DM @rabo_unlock for help,he's tested and trusted 💯, 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+45,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Nicky Pre,,Riddhi Bhattacharya If you are having issues with your account, I'll advice you DM @rabo_unlock for help,he's tested and trusted 💯,-- ::,,[],,,",1
+46,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Tmy Xi,,,-- ::,,[],,,[]",N
+47,",,acebook.com/,,acebook.com/jack.loughrey.?fref=nf&rc=p&refid=&__tn__=R,Jack Loughrey,,can someone pls help me when I want to watch YouTube on my Xbox like a fighting scene it says i have to verify my age but i dont know why its saying that because YouTube and Google has my date of birth,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/angela.osetade?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Angela Osetade', 'commenter_meta': None, 'comment_text': 'Jack Loughrey inbox me for help', 'comment_time': datetime.datetime(, , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+48,",,acebook.com/,,acebook.com/angela.osetade?fref=nf&rc=p&__tn__=R,Angela Osetade,,Jack Loughrey inbox me for help,-- ::,,[],,,",N
+49,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Montreal Davis,,Rocket ship Nicki Minaj true mall street track and field boxing,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'ประดิษฐ์ ตาดเรือง', 'commenter_meta': None, 'comment_text': 'Montreal Davis', 'comment_time': datetime.datetime(, , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+50,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,ประดิษฐ์ ตาดเรือง,,Montreal Davis,-- ::,,[],,,",N
+51,",,acebook.com/,,acebook.com/Prettybrownn.eyez?fref=nf&rc=p&refid=&__tn__=R,Dee Hughley,,Does anyone know if there's a way to get help from someone at YouTube, not just ask the community???,-- ::,,[],,,[]",1
+52,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Montreal Davis,,Rocket ship Nicki Minaj true barn softball,-- ::,,[],,,[]",1
+53,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,جمال الچنتل,,أهلا بكم اعرفكم بي نفسي انا اسمي جمال الچنتل",N
+54,"مغني راب وممثل مسرحي وموالف كلمات اغاني واسكتشات مسرح ومخرج اسكتشاتي ومحتاج دعم منكم لي قناتي الرجو الرد سريعاً,-- ::,,[],,,[]",N
+55,",,acebook.com/,,acebook.com/markfunnycomedies?fref=nf&rc=p&refid=&__tn__=R,Mark funny comedies,,If I can get k watch hour I will be happy,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'ประดิษฐ์ ตาดเรือง', 'commenter_meta': None, 'comment_text': 'Mark funny comedies', 'comment_time': datetime.datetime(, , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+56,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,ประดิษฐ์ ตาดเรือง,,Mark funny comedies,-- ::,,[],,,",1
+57,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Edward Gutknecht,,Do not push conservative media adds or content on me! If I block a channel just #%%# block it. Don't continue to cause me trauma by putting it on anyway.,-- ::,,[],,,[]",0
+58,",,acebook.com/,,acebook.com/william.dickerson.?fref=nf&rc=p&refid=&__tn__=R,William Dickerson,,They'll charge you and not let you watch scheduled programs in certain places.,-- ::,,[],,,[]",1
+59,",,acebook.com/,,acebook.com/luis.madrigal?fref=nf&rc=p&refid=&__tn__=R,Luis Madrigal,Top Fan,I love the experience at ,-- ::,,[],,,[]",1
+60,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Chahuna Rajpoot,,So very very nice really amazing",1
+61,"Thank you for sharing,-- ::,,[],,,[]",1
+62,",,acebook.com/,,acebook.com/daboy.dropp?fref=nf&rc=p&refid=&__tn__=R,Daboy Dropp,,",N
+63,youtu.be/,N
+64,"CCexRecGvnI,-- ::,outu.be/CCexRecGvnI?fbclid=IwARglPWCzwGWZRGDJmeAuUjgKFZqYwllgyBqAiO_efxX-p_pZMG,[],,,[]",N
+65,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,เสน แสวงผล,,เสน แสวงผล,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeFv-_WQYfMtsu-fSKaVZx_Tfe_QWPJNBY_onRNNoK_QglhiHyRHsGzHJVwTbXTgQit_prNoaEsb&_nc_ohc=vuVZDYpZwAX-UkqRC&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=eeecabccbccb&oe=BB,[],,,[]",N
+66,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Kare Emkk,Top Fan,aboriginal,-- ::,,[],,,[]",N
+67,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Zakariya Khan,,In my channel is not comed viewers without any copy right videos it is why,-- ::,,[],,,[]",N
+68,",,acebook.com/,,acebook.com/ravipatel/?rc=p&refid=&__tn__=%ER,Ravi patel,,😊😊,-- ::,,[],,,[]",N
+69,",,acebook.com/,,acebook.com/aleksandr.bible.?fref=nf&rc=p&refid=&__tn__=R,Aleksandr Bible,, love my imdb,-- ::,,[],,,[]",1
+70,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,রয়েল বেঙ্গল টাইগার,,👍👍👍,-- ::,,[],,,[]",N
+71,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,حبيب منصور,,🇩🇿🇩🇿🇩🇿🇩🇿🇩🇿🇩🇿🇩🇿,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'خالد خالد', 'commenter_meta': None, 'comment_text': 'حبيب منصور فرصه عمل عن طريق الانترنت من عمر - سنه. العمل عباره عن نشر اعلانات على شبكات التواصل الاجتماعي .بدون شهادات اوخبرات سابقه بلمجال. العمل ضمن فريق دولي حول العالم  ردا كنت مهتم اترك تفاصيلك بلخاص شكرا🙏 واتس اب +', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",N
+72,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,خالد خالد,,حبيب منصور فرصه عمل عن طريق الانترنت من عمر - سنه. العمل عباره عن نشر اعلانات على شبكات التواصل الاجتماعي .بدون شهادات اوخبرات سابقه بلمجال. العمل ضمن فريق دولي حول العالم  ردا كنت مهتم اترك تفاصيلك بلخاص شكرا🙏 واتس اب +,-- ::,,[],,,",N
+73,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Montreal Davis,,Rocket ship Nicki Minaj true fitness rooms base ball,-- ::,,[],,,[]",1
+74,",,acebook.com/,,acebook.com/lisgzlra.gzlra?fref=nf&rc=p&refid=&__tn__=R,Gomez De la Cruz,,Gomez De la Cruz,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeFoonfVAFWDVwsRUDwv_VPhpJPnjosJzkk_eOiwnPtrcIvpAR-RhZdTZDOWvJGfxnwhlxBucoPmqKCmZZ&_nc_ohc=aVV-wXIiMAXieQz&tn=upOySdBWPhwiye&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=feaabbcfceec&oe=DB,[],,,[]",N
+75,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Suhail Ansari,,vs,-- ::,,[],,,[]",N
+76,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Montreal Davis,,Rocket ship Nicki Minaj true streets gym boxing,-- ::,,[],,,[]",1
+77,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Montreal Davis,,Rocket ship Nicki Minaj true street gym boxing,-- ::,,[],,,[]",1
+78,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Montreal Davis,,Rocket ship Nicki Minaj true mall flag football,-- ::,,[],,,[]",1
+79,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Montreal Davis,,Rocket ship Nicki Minaj true fitness gym street ball,-- ::,,[],,,[]",1
+80,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Montreal Davis,,Rocket ship Nicki Minaj true street gym boxing,-- ::,,[],,,[]",1
+81,",,acebook.com/,,acebook.com/drew.trecartin?fref=nf&rc=p&refid=&__tn__=R,Andrew Trecartin,,This D is the stupidest thing I've ever seen,-- ::,,[],,,[]",0
+82,",,acebook.com/,,acebook.com/tj.thibeault?fref=nf&rc=p&refid=&__tn__=R,Tj Tebow,,Let's go Brandon!,-- ::,,[],,,[]",N
+83,",,acebook.com/,,acebook.com/ap.meena.?fref=nf&rc=p&refid=&__tn__=R,Pagal Lado,,",N
+84,youtu.be/,N
+85,"iZwyldXoII,-- ::,outu.be/iZwyldXoII?fbclid=IwARGqaI-lZkkrTfHrYxNkYp_MsoABUyncAnmSDnQFBRiFsddeSg,[],,,[]",N
+86,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Nawiya Serly,,Nawiya Serly,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeGsdylFwXCBsHsFRRTic_gHquruhOJz-AequHuTpUsdOSnIniiewAMScfTgAJWhHRgZvQAqxi&_nc_ohc=jrZT_oOAXaLKJ&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=dacdbaadeefd&oe=AFD,[],,,[]",N
+87,",,acebook.com/,,acebook.com/ap.meena.?fref=nf&rc=p&refid=&__tn__=R,Pagal Lado,,",N
+88,youtu.be/,N
+89,"iZwyldXoII,-- ::,outu.be/iZwyldXoII?fbclid=IwARZHCFechtUhTGfXpnvJiYwB-\-\THh-zLBqeokKXaiPaiNP-qNA,[],,,[]",N
+90,",,acebook.com/,,acebook.com/ap.meena.?fref=nf&rc=p&refid=&__tn__=R,Pagal Lado,,",N
+91,youtu.be/,N
+92,"iZwyldXoII,-- ::,outu.be/iZwyldXoII?fbclid=IwARDOjlfUrEjCFCDLWSXfvBsleyzMrHFDZahGShhscNNTzwo,[],,,[]",N
+93,",,acebook.com/,,acebook.com/raldzkie.ugsang.?fref=nf&rc=p&refid=&__tn__=R,Gerald Ugsang,,",N
+94,youtube.com/,N
+95,channel/,N
+96,UCBzSAoqLtmzuN,N
+97,"jEsYpFQ,-- ::,outube.com/channel/UCBzSAoqLtmzuNjEsYpFQ?fbclid=IwARlzU-gqwlmXikffG-rBDbbSqpXsYqbmuSuCcZiSHJprWIrIjDmk,[],,,[]",N
+98,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Yongki Alifa,,Yongki Alifa,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEkzrpcfKXGfTtxTETrW_fcfeeNYbxVjyubNWjcnmUPKWtyFdzpqyHrNEiTDhRlMtqsbJ&_nc_ohc=OGQmuOYIQREAXOx&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=cffdacbbeaecaa&oe=A,[],,,[]",N
+99,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Yongki Alifa,,yes,-- ::,,[],,,[]",N
+100,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Rudana Brenda,,Rudana Brenda,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEjmwooUMCCJYJnvekNOhXbOUjvPAFdsSOFZoQoylQg_zfcwIyNom-oOOOzdgH_rALAmDOM&_nc_ohc=PnjXRDBjAAX-HBGN&tn=upOySdBWPhwiye&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=fcfdbdbaffd&oe=BE,[],,,[]",N
+101,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Rudana Brenda,,yes,-- ::,,[],,,[]",N
+102,",,acebook.com/,,acebook.com/marinete.mcardoso.?fref=nf&rc=p&refid=&__tn__=R,Marinete Cardoso,,Marinete Cardoso,-- ::,edia.tenor.co/images/ffbbcbbffbe/tenor.gif?itemid=&fbclid=IwARN-ABttWrEkZtOgISVJykpuqEepIlZpobDKTLR_mRmcbwA-ZeKU,[],,,[]",N
+103,",,acebook.com/,,acebook.com/maepvn?fref=nf&rc=p&refid=&__tn__=R,Виктория Майер,,",N
+104,youtu.be/,N
+105,"erSWoxdWw,-- ::,outu.be/erSWoxdWw?fbclid=IwARdWpGoEvcrWxzLsL-fRBpNctCzcpBnPLWokpNdydMpMA,[],,,[]",N
+106,",,acebook.com/,,acebook.com/nicolas.vermeersch.?fref=nf&rc=p&refid=&__tn__=R,Nicolas Vermeersch,,THAT UGLY BLACK BAR NEEDS TO GO ! ( Bring back the translucent bacground we used to have ),-- ::,,[],,,[]",0
+107,",,acebook.com/,,acebook.com/andrew.msonkho.?fref=nf&rc=p&refid=&__tn__=R,Andrew Msonkho,,#+%,-- ::,,[],,,[]",N
+108,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Mohd Shadab Falak,,",N
+109,youtu.be/,N
+110,"ydg-Twro,-- ::,outu.be/ydg-Twro?fbclid=IwARkgVsxKusNw_kjVWikGeR-_Ac_wNuwQQCgtFefNlbizyFoLZh,[],,,[]",N
+111,",,acebook.com/,,acebook.com/Ba.Rad.?fref=nf&rc=p&refid=&__tn__=R,Ba Rad,,",N
+112,www.youtube.com/,N
+113,watch?v=LhlhNBS,N
+114,"NRE,-- ::,ww.youtube.com/watch?v=LhlhNBSNRE&fbclid=IwARkNyNKLHlODlHDkRfCxqXUlPWwEtNsUnaPBEbpHcchAaMtfuHVssko,[],,,[]",N
+115,",,acebook.com/,,acebook.com/aabhash?fref=nf&rc=p&refid=&__tn__=R,Aabhash Singh,,Dear YouTube Team, my YouTube channel (Twist Makeover) was terminated without any reason. I don't believe my videos/channel violated the community guidelines. Can you please check my channel again to see, if people have wrongly flagged my videos? My videos had NO Nudity or sexual content (sexual), that should not be out of the sexual content rules. NO Violent or graphic content there is no graphic content. NO Hateful content there is no political or any hateful speech at all. NO Threats.  I never and would never do this. No Spam/scam.  there is no spam/scam content. No misleading metadata I always follow the rules for tagging. And if it was my mistake to upload content overrules then sorry: I would like to recover my YouTube Channel. please youtube team recover my channel as soon as possible. I will not make any mistakes in video upload. Thank you. Khushi,-- ::,,[],,,[]",0
+116,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,MJ Mabea,,Hey, I'm trying to grow my channel. Kindly check out my latest video: [link]",1
+117,youtu.be/,N
+118,"EGfBCO_bE,-- ::,outu.be/EGfBCO_bE?fbclid=IwARATZiIRJyFhzJscE-ETIwCYfSRpLg_GXjqEfdmPiiUyOALo_i,[],,,[]",N
+119,",,acebook.com/,,acebook.com/igor.tanevski?fref=nf&rc=p&refid=&__tn__=R,Igor Tanevski,,",N
+120,www.youtube.com/,N
+121,watch?v=vGsqwzO,N
+122,"rU,-- ::,ww.youtube.com/watch?v=vGsqwzOrU&fbclid=IwAROkUe-DHfFVlEMGJkPitEpczldIwhanHvLxyEumzWv-FTw,[],,,[]",N
+123,",,acebook.com/,,acebook.com/gustavo.simoes.?fref=nf&rc=p&refid=&__tn__=R,Gustavo Simoes,,",N
+124,youtu.be/,N
+125,"WVxYsdw,-- ::,outu.be/WVxYsdw?fbclid=IwARjEyAZFgmxoRXQDMjGSLtXVTeeZXKtpbaOxlFhNJVJAEzYLo,[],,,[]",N
+126,",,acebook.com/,,acebook.com/vuyeed.eq?fref=nf&rc=p&refid=&__tn__=R,Eric Minton,,Updating your policy for censoring opposing worldviews? Why? We all know you target conservatives and anyone else who thinks outside the approved narrative already. You idiots call anyone who bucks that narrative spreaders of misinformation",1
+127," which translates This is what we want yo to think and if you don't we will shut you down until you bend the knee.,-- ::,,[],,,[]",0
+128,",,acebook.com/,,acebook.com/mithun.mili.?fref=nf&rc=p&refid=&__tn__=R,Mithun Mili,,Mithun Mili,-- ::,,[],,,[]",N
+129,",,acebook.com/,,acebook.com/jimmie.jimmie.crespo?fref=nf&rc=p&refid=&__tn__=R,Jimmie Arvores-Filho Crespo,,As people keep getting corona while vaccinated fully. YOUTUBE is now banning all content showing how ineffective the vaccines are,-- ::,,[],,,[]",0
+130,",,acebook.com/,,acebook.com/loha.singh.?fref=nf&rc=p&refid=&__tn__=R,Loha Singh,,",N
+131,youtu.be/,N
+132,"GlBVXplIg,-- ::,outu.be/GlBVXplIg?fbclid=IwARkQSsvnFwpXpDkkzSKEvVvXDjDRLGJuhxOunagx_xJ_S_nQ,[],,,[]",N
+133,",,acebook.com/,,acebook.com/MOHMED?fref=nf&rc=p&refid=&__tn__=R,محمد سمير,,",N
+134,youtube.com/,N
+135,watch?v=xtmWl_,N
+136,gFA&feature=sha,N
+137,"re,-- ::,outube.com/watch?v=xtmWl_gFA&feature=share&fbclid=IwARZGSSDGg-zgEnOCyrCPWcoFX_DIDBSQatSu-DilnakA-Tc,[],,,[]",N
+138,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Solyman Karoch,,Hey guys support me ",1
+139,youtube.com/,N
+140,channel/,N
+141,UCLVWVJNCrdiGwC,N
+142,"tQSJxJzg please,-- ::,outube.com/channel/UCLVWVJNCrdiGwCtQSJxJzg?fbclid=IwARGfRCVPsgKb_uJVGVMLlhlkhwDVQovgpqoSFY_oxAM,[],,,[]",N
+143,",,acebook.com/,,acebook.com/bonginkosi.yalezo?fref=nf&rc=p&refid=&__tn__=R,Bonginkosi Yalezo,,",N
+144,youtu.be/,N
+145,"jzmWJLFQ,-- ::,outu.be/jzmWJLFQ?fbclid=IwARWOnmFVSYQBhGYFzvKubHgMEACtr-nKNxbQepapZIYGrGVbKp_IM,[],,,[]",N
+146,",,acebook.com/,,acebook.com/edenngbandu.ngbandu?fref=nf&rc=p&refid=&__tn__=R,Jordan Ngbandu,,Subscriber my channel please 🙏🏼",1
+147,,N
+148,youtu.be/,N
+149,"WyQzms-FOA,-- ::,outu.be/WyQzms-FOA?fbclid=IwARzUSZpuZAmqGxkZceoCAmQHlevt-ribHehwfadn-v-e-ZdN_yYVE,[],,,[]",N
+150,",,acebook.com/,,acebook.com/baiju.bhai.?fref=nf&rc=p&refid=&__tn__=R,Baiju Bhai,,",N
+151,youtube.com/,N
+152,channel/,N
+153,UCwv-_IMheiVZuJ,N
+154,"oLAaPzyg,-- ::,outube.com/channel/UCwv-_IMheiVZuJoLAaPzyg?fbclid=IwARVGQUmiNfPBHWrOSrPo-VrzrvufUzvVeyNIQmiVzpSoSZk,[],,,[]",N
+155,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,YTprem Threemonths,,Hello, in this telegram channel you can buy accounts with a three-month subscription to YouTube Premium for only $ ! Hurry up, the offer is valid only until //😇",N
+156,t.me/,N
+157,ytpremium_month,N
+158,"s,-- ::,.me/ytpremium_months?fbclid=IwARS_QKVxBAAswSjW-tYcBRKmEFaRbURDJvlxieGwgWmdKwrMx_xRY,[],,,[]",N
+159,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Pàthàñ Áñås,,",N
+160,youtube.com/,N
+161,channel/,N
+162,UCmKkqUPpCiym,N
+163,"bihePIpg,-- ::,outube.com/channel/UCmKkqUPpCiymbihePIpg?fbclid=IwARwwPrTZsoCIOKMQvR_nAveVeeUrGuPvZEAmvpL_GsXVsYfI,[],,,[]",N
+164,",,acebook.com/,,acebook.com/abu.ridha.?fref=nf&rc=p&refid=&__tn__=R,Abu Ridha,,",N
+165,youtu.be/,N
+166,"tIYFDEQ,-- ::,outu.be/tIYFDEQ?fbclid=IwARrco-VxfhrbYAPWcPSEIoVtnHvaCuYqgcryOzEQTBdUqTcRSO,[],,,[]",N
+167,",,acebook.com/,,acebook.com/abu.ridha.?fref=nf&rc=p&refid=&__tn__=R,Abu Ridha,,",N
+168,youtu.be/,N
+169,"tIYFDEQ,-- ::,outu.be/tIYFDEQ?fbclid=IwARwxNPyeVsGidckKoVoszKgKPmfCJusFkCWhFvhqhd-YXQM,[],,,[]",N
+170,",,acebook.com/,,acebook.com/joaovitor.deassis.?fref=nf&rc=p&refid=&__tn__=R,João Vitor De Assis,,",N
+171,youtu.be/,N
+172,"JAbTxBmHpMw,-- ::,outu.be/JAbTxBmHpMw?fbclid=IwARKonmYBqmdjyQWnkHlDlzFzNPWdqbqtsyMLoEbb-IHoCjrjovvdYmOaw,[],,,[]",N
+173,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Malik Irfan,,",N
+174,youtube.com/,N
+175,channel/,N
+176,UCFtyCdhbDIhYQEb,N
+177,"PhjQNNCg,-- ::,outube.com/channel/UCFtyCdhbDIhYQEbPhjQNNCg?fbclid=IwAR-HHykwvAfEPpREjDzuFzlJgIRVKBRDhoyTgvlkyWW_,[],,,[]",N
+178,",,acebook.com/,,acebook.com/martammendoza?fref=nf&rc=p&refid=&__tn__=R,Marta Anaya,,",N
+179,youtu.be/,N
+180,"hSbKVcO-,-- ::,outu.be/hSbKVcO-?fbclid=IwARxQKCcRGbyBedZSkpJNy_g_nMPvZQKtAdqoKNbQKbHkYSICAgxE,[],,,[]",N
+181,",,acebook.com/,,acebook.com/matteo.cambia?fref=nf&rc=p&refid=&__tn__=R,Matteo Cambia,,",N
+182,youtu.be/,N
+183,"NPTqnmctHA,-- ::,outu.be/NPTqnmctHA?fbclid=IwARHHoxpJKbBj-zbUktVWKktacOZWfeYtvtsVsiiqpitMSk,[],,,[]",N
+184,",,acebook.com/,,acebook.com/lara.summers.?fref=nf&rc=p&refid=&__tn__=R,Tabitha Kent,,",N
+185,www.youtube.com/,N
+186,watch?v=kvwasQDD,N
+187,"QiA&t=s,-- ::,ww.youtube.com/watch?v=kvwasQDDQiA&t=s&fbclid=IwARPshJJAmrWqnAVRZbAggfsbqAKsICwJVuhxrzEEaIhuToE,[],,,[]",N
+188,",,acebook.com/,,acebook.com/rajshe.ray.?fref=nf&rc=p&refid=&__tn__=R,Rajshe Ray,,Robin Roy,-- ::,,[],,,[]",N
+189,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Satish Kumar,,Dghdetyryryy yy the way I was just wondering if",N
+190,My,N
+191,"Mdmkd,-- ::,,[],,,[]",N
+192,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Satish Kumar,,Sdgfeerdddssrt",N
+193,"uii,-- ::,,[],,,[]",N
+194,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Satish Kumar,,Skkfx,-- ::,,[],,,[]",N
+195,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Satish Kumar,,Fguteeer,-- ::,,[],,,[]",N
+196,",,acebook.com/,,acebook.com/parii.parii.?fref=nf&rc=p&refid=&__tn__=R,Heena Mansuri,,",N
+197,youtu.be/,N
+198,"XJMIHtrpE,-- ::,outu.be/XJMIHtrpE?fbclid=IwARaACBYwmpJzFOxByeAHN-VFoDSagNoXMWczlLnqOuNsEotonTWXAzM,[],,,[]",N
+199,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Surya Singh,,",N
+200,youtu.be/,N
+201,"CXBatGJM,-- ::,outu.be/CXBatGJM?fbclid=IwARjKdYJZPSnTdrUMTgQsc-KQMmllJhsQDAujuWGIjlFNShrxaXOK,[],,,[]",N
+202,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Aryan Yadav,,",N
+203,youtube.com/,N
+204,shorts/,N
+205,dnqIFReXkDY?feat,N
+206,"ure=share,-- ::,outube.com/shorts/dnqIFReXkDY?feature=share&fbclid=IwARLkwnTqeQrAnGSrvBkigOGcYWqeKDYMXsWKKbjYSRdLjeLRYk,[],,,[]",N
+207,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Abhishek Einstein,,",N
+208,youtube.com/,N
+209,shorts/,N
+210,DKyjYEHM?feat,N
+211,"ure=share,-- ::,outube.com/shorts/DKyjYEHM?feature=share&fbclid=IwARNBSsvJYNUmxuwgyXhoHCmRBHexUeAMphZmKXwjBlzDFTYbI,[],,,[]",N
+212,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Abhishek Einstein,,",N
+213,youtube.com/,N
+214,shorts/,N
+215,DKyjYEHM?feat,N
+216,"ure=share,-- ::,outube.com/shorts/DKyjYEHM?feature=share&fbclid=IwARAwmapYSEHfSxViNFTdhHhSkKpPpy_jwODIzjmicZewkNZO_rto,[],,,[]",N
+217,",,acebook.com/,,acebook.com/mahesh.dhawale.?fref=nf&rc=p&refid=&__tn__=R,Mahesh Dhawale,,",N
+218,youtu.be/,N
+219,"JYedKQrI,-- ::,outu.be/JYedKQrI?fbclid=IwARySeBVYcXarXoxDlirwnzhzdjFpTBownhqxDNMngtNMHCSecxudY,[],,,[]",N
+220,",,acebook.com/,,acebook.com/edy.dany.lemnaru.?fref=nf&rc=p&refid=&__tn__=R,Eduard Daniel,,",N
+221,youtube.com/,N
+222,channel/,N
+223,UCNVlCCcrpDbeGn,N
+224,"TqGdFUw,-- ::,outube.com/channel/UCNVlCCcrpDbeGnTqGdFUw?fbclid=IwAREQAJJGtiVRBFYQzuOpCm-pbwQDVCmqkATZ_GrsddnfuuY,[],,,[]",N
+225,",,acebook.com/,,acebook.com/Mouangelheart?fref=nf&rc=p&refid=&__tn__=R,Mou Mita Adhikary,,",N
+226,youtube.com/,N
+227,channel/,N
+228,UCZoWtIGOySxmrvH,N
+229,"_swhg,-- ::,outube.com/channel/UCZoWtIGOySxmrvH_swhg?fbclid=IwARgkjelwDYbcRFMRthQ-\-\BuXBBiqKZod-WSEgzsbpBYaOPUpc,[],,,[]",N
+230,",,acebook.com/,,acebook.com/dev.jadoun.?fref=nf&rc=p&refid=&__tn__=R,Dev Jadoun,,",N
+231,youtube.com/,N
+232,channel/,N
+233,UCXQOAFJqxErpEk,N
+234,"aBgVCAUw,-- ::,outube.com/channel/UCXQOAFJqxErpEkaBgVCAUw?fbclid=IwARarNexbqGmkWhoraPXMexFzkafo-uXgqLBeIsHQCOYeTCX,[],,,[]",N
+235,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Montreal Davis,,Rocket ship Nicki Minaj true story street gym street ball,-- ::,,[],,,[]",1
+236,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Jessie De Torres,,Very nice,-- ::,,[],,,[]",N
+237,",,acebook.com/,,acebook.com/fred.spencer.?fref=nf&rc=p&refid=&__tn__=R,Fred Spencer,,Am a digital marketer with vast years of experience",N
+238,"I will promote your YouTube link to huge audience,get huge views,comment,s",1
+239,ubscribers and many more,N
+240,"Kindly contact me and let us discuss,-- ::,,[],,,[]",1
+241,",,acebook.com/,,acebook.com/belane.zoller?fref=nf&rc=p&refid=&__tn__=R,Béláné Zoller,,Béláné Zoller,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeHxLuZgh-jGwHBsQtcwZLsAKf_mDUuwAp_j-bcNeRGBYSzZuBzsPGiWhrBrgymrRfuJYocRXWjp&_nc_ohc=Kgh_qPeEOIAX-unpdv&tn=upOySdBWPhwiye&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=eaeccffd&oe=FF,[],,,[]",N
+242,",,acebook.com/,,acebook.com/billy.spuehler?fref=nf&rc=p&refid=&__tn__=R,Ferris Bueler,,Hitler didn't like freedom of speech either! Let's go Brandon!,-- ::,,[],,,[]",0
+243,",,acebook.com/,,acebook.com/Nick.galea.?fref=nf&rc=p&refid=&__tn__=R,Nick Galea,,Nick Galea,-- ::,edia.tenor.co/images/cadbaeea/tenor.gif?itemid=&fbclid=IwARIndBnhEiJQLLAwRiDpWoWvEnrdjbELQeQQtmLKqggtgUWS,[],,,[]",N
+244,",,acebook.com/,,acebook.com/mario.trenta.?fref=nf&rc=p&refid=&__tn__=R,Mario Trenta,,⚰️⚰️🥂,-- ::,,[],,,[]",N
+245,",,acebook.com/,,acebook.com/abhishek.sojitra.?fref=nf&rc=p&refid=&__tn__=R,Abhishek Sojitra,,",N
+246,youtu.be/,N
+247,"CZIwIiiAw,-- ::,outu.be/CZIwIiiAw?fbclid=IwARtGtLyjaYHDVZAYlRNiItuvyi-rFwYHKwIuzcFRezRJNaUeKDFQ,[],,,[]",N
+248,",,acebook.com/,,acebook.com/dave.maybrick?fref=nf&rc=p&refid=&__tn__=R,Dave Maybrick,,WTF is going on? Where's Novara Media?,-- ::,,[],,,[]",N
+249,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Anurag Prajapati,,Hey vf if go cgj,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'Sonya Soza Roa', 'commenter_meta': None, 'comment_text': 'Anurag Prajapati Gracias.Amen.', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",N
+250,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Sonya Soza Roa,,Anurag Prajapati Gracias.Amen.,-- ::,,[],,,",N
+251,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Bogusława Krecińska,,Bogusława Krecińska,-- ::,edia.tenor.co/images/bfacbcbcaaebefe/tenor.gif?itemid=&fbclid=IwAR-YhMQfgkoGhxMTq__dudTUrXdYWOqpj_LPTeCKPxhYinAM,[],,,[]",N
+252,",,acebook.com/,,acebook.com/sak.ask.?fref=nf&rc=p&refid=&__tn__=R,Sak Ask,,😡,-- ::,,[],,,[]",N
+253,",,acebook.com/,,acebook.com/mike.weeks?fref=nf&rc=p&refid=&__tn__=R,Mike Weeks,,Hey YouTube. Shouldn't you shut your whole company down since you spread misinformation all the time.,-- ::,,[],,,[]",0
+254,",,acebook.com/,,acebook.com/provat.bhattacharjee.?fref=nf&rc=p&refid=&__tn__=R,Bìķï Ďâş,,",N
+255,youtu.be/,N
+256,"FkYAYK_Cw,-- ::,outu.be/FkYAYK_Cw?fbclid=IwARORvzQaUpCcXklsSSkwP_SiwEGjv-OetDv-YDUknoUEcl,[],,,[]",N
+257,",,acebook.com/,,acebook.com/suvera.happyl?fref=nf&rc=p&refid=&__tn__=R,Suvera PriNce,,",N
+258,youtube.com/,N
+259,channel/,N
+260,UCYZgbKeGCsXOf,N
+261,"qhbHqrA,-- ::,outube.com/channel/UCYZgbKeGCsXOfqhbHqrA?fbclid=IwARnBec_mhDmrWLkNJWwXHKVEXSwYPOKVEOahksaCmuWYWD-ozY,[],,,[]",N
+262,",,acebook.com/,,acebook.com/may.cardoso.?fref=nf&rc=p&refid=&__tn__=R,May Cardoso,,",N
+263,youtu.be/,N
+264,"JgCDBZvqA,-- ::,outu.be/JgCDBZvqA?fbclid=IwARFyJurnmbCqzIdE-BhDXuSVmwMVFl-ujoUZbCwJBMgsbLI,[],,,[]",N
+265,",,acebook.com/,,acebook.com/rashmi.mohapatra.?fref=nf&rc=p&refid=&__tn__=R,Rashmi Mohapatra,,",N
+266,youtube.com/,N
+267,channel/,N
+268,UChd_pxN_oj-dv,N
+269,"uDJPkMg,-- ::,outube.com/channel/UChd_pxN_oj-dvuDJPkMg?fbclid=IwARKCTiJybaAmHYZAteEZDSvmjuxZBgzAWsrunQRN-QFwUvWGE,[],,,[]",N
+270,",,acebook.com/,,acebook.com/michael.dabouncer?fref=nf&rc=p&refid=&__tn__=R,Michael Hammond,,🖕🖕🖕🖕🖕,-- ::,,[],,,[]",N
+271,",,acebook.com/,,acebook.com/kevinho.maia.?fref=nf&rc=p&refid=&__tn__=R,Tista Lima,Top Fan,",1
+272,youtu.be/,N
+273,"pDPKezR_wXE,-- ::,outu.be/pDPKezR_wXE?fbclid=IwARhZGdsKOxTaAISuUdGxfWwFQZhVzhqprth_XdfmbjLPYylhqk,[],,,[]",N
+274,",,acebook.com/,,acebook.com/kevinho.maia.?fref=nf&rc=p&refid=&__tn__=R,Tista Lima,Top Fan,",1
+275,youtu.be/,N
+276,"pDPKezR_wXE,-- ::,outu.be/pDPKezR_wXE?fbclid=IwARDWwck_lOzayUMTJUbJrgWGxuvbrUKLpFQdRx_ioQknQcyk,[],,,[]",N
+277,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,ນ່າ ແສງສຸດາຄົມ,,,-- ::,,[],,,[]",N
+278,",,acebook.com/,,acebook.com/fatkell.savage?fref=nf&rc=p&refid=&__tn__=R,Fatkell Brooks,,",N
+279,youtu.be/,N
+280,"zvmSVWIsRas,-- ::,outu.be/zvmSVWIsRas?fbclid=IwARrpPEpjrESDOjcFj_VUiOdJl-DqhKIEGHjTkWHouyMnmsdBhYGm,[],,,[]",N
+281,",,acebook.com/,,acebook.com/robert.johnson.?fref=nf&rc=p&refid=&__tn__=R,Robert Johnson,Top Fan,help a small channel that catches online predators of children reach just k subs !! please ... ",1
+282,www.youtube.com/,N
+283,watch?v=SmSbZeu,N
+284,bBc&list=PLzyPO,N
+285,KUraqeyjtuhMAI,N
+286,"aBIsjklhJrC,-- ::,ww.youtube.com/watch?v=SmSbZeubBc&list=PLzyPOKUraqeyjtuhMAIaBIsjklhJrC&fbclid=IwARHZFyt-GoYbSdLzhahqzoRZyIvIxqhoBJYVhWPMotCYlA,[],,,[]",N
+287,",,acebook.com/,,acebook.com/pool.corroalva?fref=nf&rc=p&refid=&__tn__=R,Feo Mati Burguer,,",N
+288,youtu.be/,N
+289,"SLSDIWtQ,-- ::,outu.be/SLSDIWtQ?fbclid=IwARugfapvMMgsSEUQSUjJaHVDDGCZksGqjQvEnzHznxpBmgZApDc,[],,,[]",N
+290,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Gianni Trend,,",N
+291,youtu.be/,N
+292,"Rg-qeHhlkk,-- ::,outu.be/Rg-qeHhlkk?fbclid=IwARgpIq-dfDRqVcuvzeGeMLpgktb-\-\zXgvsehFiVTewEDKp-PiJdxv,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/kevinho.maia.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Tista Lima', 'commenter_meta': 'Top Fan', 'comment_text': 'Gianni Trend nyoutu.be/\npDPKezR_wXE se inscreve no meu canal', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': 'outu.be/pDPKezR_wXE?fbclid=IwARGRuPS-lMPnPhqdEqZYRVfEWYFEicuUSSJhlxbdKbq-lblAkRw', 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",0
+293,",,acebook.com/,,acebook.com/kevinho.maia.?fref=nf&rc=p&__tn__=R,Tista Lima,Top Fan,Gianni Trend ",N
+294,youtu.be/,N
+295,"pDPKezR_wXE se inscreve no meu canal,-- ::,outu.be/pDPKezR_wXE?fbclid=IwARGRuPS-lMPnPhqdEqZYRVfEWYFEicuUSSJhlxbdKbq-lblAkRw,[],,,",0
+296,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&refid=&__tn__=R,Vladimir Vershinin,,Hey YouTube! Why are you such nazi jerks? Why do you compartmentaliz",0
+297,"e people into digital ghettoes? Why don’t you give them a real choice of a country that actually works? Why don’t you give them a real choice of the language of the ads you show them? Why don’t you provide an ad preferences feature which actually works? What’s the point of shoving the same disgusting advertisements into your viewers brains which cause only disgust, when you could implement a system showing them ads of the products and services they actually chose and interested in, thus creating more sales for your advertisers.,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'Vladimir Vershinin', 'commenter_meta': None, 'comment_text': 'Bijoy Anannya , they’ve one hell of a disgusting corporate monster. Google turned into something utterly disgusting.', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",0
+298,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Vladimir Vershinin,,Bijoy Anannya , they’ve one hell of a disgusting corporate monster. Google turned into something utterly disgusting.,-- ::,,[],,,",0
+299,",,acebook.com/,,acebook.com/antonio.albir?fref=nf&rc=p&refid=&__tn__=R,Antonio Albir Escobar,, 🤙,-- ::,,[],,,[]",N
+300,",,acebook.com/,,acebook.com/antonio.albir?fref=nf&rc=p&refid=&__tn__=R,Antonio Albir Escobar,,People Hate Quetzeagle JST: 👍🙏🔥,-- ::,,[],,,[]",0
+301,",,acebook.com/,,acebook.com/rose.hamilton.?fref=nf&rc=p&refid=&__tn__=R,Rose Hamilton,,',-- ::,,[],,,[]",N
+302,",,acebook.com/,,acebook.com/rose.hamilton.?fref=nf&rc=p&refid=&__tn__=R,Rose Hamilton,,WHAT HAS HAPPEN TO ALL THE FRANKIE VALLI THAT USE TO BE ON FACEBOOK. HAS IT BEEN REMOVED IF YES WHY. I ENJOYED IT ALOT BRING IT BACK.,-- ::,,[],,,[]",1
+303,",,acebook.com/,,acebook.com/parkashjitsingh?fref=nf&rc=p&__tn__=R,Parkashjit Singh,,📛,-- ::,,[],,,[]",N
+304,",,acebook.com/,,acebook.com/thefounderofsealpopart?fref=nf&rc=p&__tn__=R,Sealpop Osix,,YouTube I like the cover photo,-- ::,,[],,,[]",1
+305,",,acebook.com/,,acebook.com/donnie.jackson.?fref=nf&rc=p&__tn__=R,Duane Jackson Sr.,,Thanks ❤ #ImCopyrightowne",N
+306,"r of #YouTube Donnie Duane Jackson Sr Greece 👑🏛🏝🙏🏽💙🌙✨🇬🇷,-- ::,,[],,,[]",N
+307,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Angad Nishad,,Very nice bro,-- ::,,[],,,[]",1
+308,",,acebook.com/,,acebook.com/binbir.ugur.?fref=nf&rc=p&__tn__=R,Binbir Uğur,,Binbir Uğur,-- ::,edia.tenor.co/images/bfacbcbcaaebefe/tenor.gif?itemid=&fbclid=IwARsdlytrSCoXVgcZohMvnDcVKDmNhYvHEmuPaKmqRWLOFU,[],,,[]",N
+309,",,acebook.com/,,acebook.com/lena.doveamenou?fref=nf&rc=p&__tn__=R,Lena Doveamenou,,👏👏👏👏,-- ::,,[],,,[]",N
+310,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Om Farouk,,شكراً,-- ::,,[],,,[]",N
+311,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,لحظات السعادة,,مساءالخير يوتيوب,-- ::,,[],,,[]",N
+312,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Sławomir Wujków,,👍👍👍,-- ::,,[],,,[]",N
+313,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Fakry Abahre,,LOVE THE YouTUBE🍁,-- ::,,[],,,[]",N
+314,",,acebook.com/,,acebook.com/kevin.chalecen?fref=nf&rc=p&__tn__=R,Kevin Chalé Cen,,😍😣😡👺👹,-- ::,,[],,,[]",N
+315,",,acebook.com/,,acebook.com/sara.wright.?fref=nf&rc=p&__tn__=R,Sara Wright,,oooo,-- ::,,[],,,[]",N
+316,",,acebook.com/,,acebook.com/shah.noor.?fref=nf&rc=p&__tn__=R,Shah Noor,,💔💔💔💔💔,-- ::,,[],,,[]",N
+317,",,acebook.com/,,acebook.com/amir.gamal.?fref=nf&rc=p&__tn__=R,زهرة الحياة,,زهرة الحياة,-- ::,edia.tenor.co/images/bfacbcbcaaebefe/tenor.gif?itemid=&fbclid=IwARvNGdKCZuSzDj_RuVajpHlETdBJpzQezs_FDpqQOgZqMchtY,[],,,[]",N
+318,",,acebook.com/,,acebook.com/jacive.aguilar?fref=nf&rc=p&__tn__=R,Jacive Aguilar,,Jacive Aguilar,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEDZeEhpJzCJRgRFjhDaREDDaNymxIQPQPloKbEqykSrf-vSwNJgz_kcwBdrHRajlcJjBCFFLFIB_&_nc_ohc=woNYQiIiDsAXXCGe&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=dfdfffeacbbd&oe=FAFF,[],,,[]",N
+319,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Fatiha El,,Mgg",N
+320,"ẞgs w.,-- ::,,[],,,[]",N
+321,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Fatiha El,,h dfbhmbmm",N
+322,"C mgdm hQsmwm mgmg f Mxd Q,dmzshFhd dmw g bw,-- ::,,[],,,[]",N
+323,",,acebook.com/,,acebook.com/valerie.pisani.?fref=nf&rc=p&__tn__=R,Valerie Pisani,,Will there be a award show for different themes like some ward shows for actors and music artists,-- ::,,[],,,[]",1
+324,",,acebook.com/,,acebook.com/bani.bhai.?fref=nf&rc=p&__tn__=R,Bani Bhai,,Good,-- ::,,[],,,[]",N
+325,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Ram Pal Bhagat,,Ram Pal Bhagat,-- ::,edia.tenor.co/images/ccdbbaacbdbd/tenor.gif?itemid=&fbclid=IwARDplBSQiBcnjYHsLryAfhkodEBhhcfUIMsaldLnzTGbLJoqlmEQ,[],,,[]",N
+326,",,acebook.com/,,acebook.com/noti.danavideos?fref=nf&rc=p&__tn__=R,Noti Dana Videos,,❤️❤️❤️,-- ::,,[],,,[]",N
+327,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Dipika Devi Kalita,,Dipika Devi Kalita,-- ::,edia.tenor.co/images/cafedcbaafbbac/tenor.gif?itemid=&fbclid=IwARtJIIjjiZObXqeOaUewPWMmfAwxLftXytpMi-ecuMIBIDqP-U,[],,,[]",N
+328,",,acebook.com/,,acebook.com/shova.sopna?fref=nf&rc=p&__tn__=R,Shova Sopna,,nice,-- ::,,[],,,[]",N
+329,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,신경희,,신경희,-- ::,edia.tenor.co/images/ebdccedeefcddbabe/tenor.gif?itemid=&fbclid=IwARqRPTbEqzzBtAUwwrMnvKjUgMsObcNpTvLdifkDazmbKYurwwuQ,[],,,[]",N
+330,",,acebook.com/,,acebook.com/raksha.devi.?fref=nf&rc=p&__tn__=R,Raksha Devi,,Raksha Devi,-- ::,edia.tenor.co/images/cafedcbaafbbac/tenor.gif?itemid=&fbclid=IwARoKccwCvWQAYETxwQemJSnvqxBFoZjvvk-BhalySJwQHEYSHfU,[],,,[]",N
+331,",,acebook.com/,,acebook.com/ally.kitoko.?fref=nf&rc=p&__tn__=R,Ally Kitoko,,Ally Kitoko,-- ::,edia.tenor.co/images/efcbaceaeab/tenor.gif?itemid=&fbclid=IwARFYPfjQovoflpcDPIKZsDzXnVaDcKiYrd-DSHcrSRekDQTIMjFQ,[],,,[]",N
+332,",,acebook.com/,,acebook.com/khfire?fref=nf&rc=p&__tn__=R,Khaled Hamed,,Khaled Hamed,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEnSWpGoQAKkJacPRTnSYSJYUEvLxhLQlhQS_kvGWdKbdxJVkxMlLZfOiyyKdHdRGYGxMvFoxGQ&_nc_ohc=LxNXBSQUBsAXdEaR&tn=upOySdBWPhwiye&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=ababbfbedabaecfcd&oe=BE,[],,,[]",N
+333,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,شمشادعلی خاصخیلی,,",N
+334,youtube.com/,N
+335,channel/,N
+336,UCIFGMtJPfTey,N
+337,"GWhwYXg,-- ::,outube.com/channel/UCIFGMtJPfTeyGWhwYXg?fbclid=IwARXUKACvIALscO_KSnCyUgeo_n_KXsSYnJTrNFiK-txfLsRfU,[],,,[]",N
+338,",,acebook.com/,,acebook.com/mannugurjar.sunari?fref=nf&rc=p&__tn__=R,Mannu Gurjar Sunari,,",N
+339,youtu.be/,N
+340,"RAUHiUi_YR,-- ::,outu.be/RAUHiUi_YR?fbclid=IwARwsuSZnaPGYRjkxiJWHhRDaG-ejLKcqoXVpMPHhvRUrGxLtUg,[],,,[]",N
+341,",,acebook.com/,,acebook.com/maepvn?fref=nf&rc=p&__tn__=R,Виктория Майер,,",N
+342,youtu.be/,N
+343,"erSWoxdWw,-- ::,outu.be/erSWoxdWw?fbclid=IwARlSVuGzhDLJGMpTx_WvPrNNtYifyLBGaYfZAw_XgUDwzUVTQ,[],,,[]",N
+344,",,acebook.com/,,acebook.com/valerie.pisani.?fref=nf&rc=p&__tn__=R,Valerie Pisani,,There should be kits to buy for different themed YouTube even Subscriptions for weekly themed kits for vloggers to foods to actions just a suggestion,-- ::,,[],,,[]",N
+345,",,acebook.com/,,acebook.com/fadilh.awoli?fref=nf&rc=p&__tn__=R,Fadilh Awoli,,",N
+346,youtu.be/,N
+347,"ukljoDpTH,-- ::,outu.be/ukljoDpTH?fbclid=IwARj_ZpdPpQA-HgPPzJIXDLeFdTKKgkTBlDasUebNKaCQZaVA,[],,,[]",N
+348,",,acebook.com/,,acebook.com/Mouangelheart?fref=nf&rc=p&__tn__=R,Mou Mita Adhikary,,",N
+349,youtube.com/,N
+350,channel/,N
+351,UCZoWtIGOySxmrvH,N
+352,"_swhg,-- ::,outube.com/channel/UCZoWtIGOySxmrvH_swhg?fbclid=IwARbgmHzZrHSACyLgVyncZrzQjsUkvTxVMuW_RyQquhrTmjw,[],,,[]",N
+353,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Abdul Majeed,,",N
+354,youtu.be/,N
+355,"vJtILwf,-- ::,outu.be/vJtILwf?fbclid=IwARdlOrLermRee_XPmCOsJseWJwqrJOiRwVcbMWYKL_NrnytHc,[],,,[]",N
+356,",,acebook.com/,,acebook.com/aabhash?fref=nf&rc=p&__tn__=R,Aabhash Singh,,Dear YouTube Team, my YouTube channel (Twist Makeover) was terminated without any reason. I don't believe my videos/channel violated the community guidelines. Can you please check my channel again to see, if people have wrongly flagged my videos? My videos had NO Nudity or sexual content (sexual), that should not be out of the sexual content rules. NO Violent or graphic content there is no graphic content. NO Hateful content there is no political or any hateful speech at all. NO Threats.  I never and would never do this. No Spam/scam.  there is no spam/scam content. No misleading metadata I always follow the rules for tagging. And if it was my mistake to upload content overrules then sorry: I would like to recover my YouTube Channel. please youtube team recover my channel as soon as possible. I will not make any mistakes in video upload. Thank you. Khushi Singh,-- ::,,[],,,[]",0
+357,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Lò Thị Phương,,Lò Thị Phương,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEoNGEmsRQXlgUuDKpVJrKialUnvkqJrTTzNCrTXMWBGAZeILneeBNiIHpMthf_UFOUKLzIXX&_nc_ohc=FUTcgQAYAXXcjup&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=dadfaaca&oe=DA,[],,,[]",N
+358,",,acebook.com/,,acebook.com/daboy.dropp?fref=nf&rc=p&__tn__=R,Daboy Dropp,,",N
+359,youtu.be/,N
+360,"CCexRecGvnI,-- ::,outu.be/CCexRecGvnI?fbclid=IwARnnWjOlgNtrmwKFjDYPEECJtwnbJgduaLjwdPRBxUQGtKU,[],,,[]",N
+361,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Abdul Majeed,,",N
+362,youtu.be/,N
+363,"vJtILwf,-- ::,outu.be/vJtILwf?fbclid=IwARwwDYwdfZUgmFtjKTWKyxFFitKPPFEHCsrFWXMlUdCPvQjo,[],,,[]",N
+364,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Shyam Das,,Love it's,-- ::,,[],,,[]",N
+365,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Edward Gutknecht,,DO NOT PUSH CONSERVATIVE MEDIA ADDS OR CONTENT ON ME!,-- ::,,[],,,[]",N
+366,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Abdullah Sk,,Nice,-- ::,,[],,,[]",N
+367,",,acebook.com/,,acebook.com/igor.tanevski?fref=nf&rc=p&__tn__=R,Igor Tanevski,,",N
+368,www.youtube.com/,N
+369,watch?v=-WQVpqR,N
+370,"Mx,-- ::,ww.youtube.com/watch?v=-WQVpqRMx&fbclid=IwARxQkpbfAjhZaotAKeiuxicgtTSpjYEWvHmJoMLVNLMyOhhLGo,[],,,[]",N
+371,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Pauline Daniel Mkenya,,I like it Becouse acting,-- ::,,[],,,[]",1
+372,",,acebook.com/,,acebook.com/martammendoza?fref=nf&rc=p&__tn__=R,Marta Anaya,,",N
+373,youtu.be/,N
+374,"hSbKVcO-,-- ::,outu.be/hSbKVcO-?fbclid=IwARK_swDpdvRYdWldKpLZhzSaQEF-pAIWgYmoGQM_wSJNODgw,[],,,[]",N
+375,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Abdur Rakib,,Abdur Rakib,-- ::,edia.tenor.co/images/fadffaaecbcabcbf/tenor.gif?itemid=&fbclid=IwARbmueNSfUYcfpstHk-AsjYhUImRqVVskvDT_UeHCRHVmhic,[],,,[]",N
+376,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Šàhkir Khän Khån,,Jvzx,-- ::,,[],,,[]",N
+377,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Micaele Silva,,Micaele Silva,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeFqGmqMQkvQcZImTNLHSEzgaAOlpQdITOBoAWlKRg_ITRCwIgaKjcKbsCXJZqhmU-rOVVMsP&_nc_ohc=CGQKAGIxeoAXJyyrt&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=ffdafffbdbecfbbd&oe=BF,[],,,[]",N
+378,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Shafi Khan,,[][],-- ::,,[],,,[]",N
+379,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Ngan Nguyen,,,-- ::,,[],,,[]",N
+380,",,acebook.com/,,acebook.com/LalitMaheshwaree?fref=nf&rc=p&__tn__=R,ललित माहेश्वरी,,Uuii,-- ::,,[],,,[]",N
+381,",,acebook.com/,,acebook.com/iulica.vladu.?fref=nf&rc=p&__tn__=R,Iulica Vladu,,Iulica Vladu,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeHqAXWQGPiZAcEWTnEQwswQeDaN-DCzBBNozPsQEOWbiLLTmiKAWhfES_YQHCgbiPfKwz&_nc_ohc=QpONt_ISIAX_HQRe&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=cafeaabacac&oe=FA,[],,,[]",N
+382,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Bobby Williams,,P.O.S. ads not going to convince me to pay for subscription,-- ::,,[],,,[]",0
+383,",,acebook.com/,,acebook.com/madhumita.dasgupta.?fref=nf&rc=p&__tn__=R,Madhumita Dasgupta,,Totally Awesome 👌,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/madhumita.dasgupta.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Madhumita Dasgupta', 'commenter_meta': None, 'comment_text': 'Thanks 👍', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+384,",,acebook.com/,,acebook.com/madhumita.dasgupta.?fref=nf&rc=p&__tn__=R,Madhumita Dasgupta,,Thanks 👍,-- ::,,[],,,",N
+385,",,acebook.com/,,acebook.com/isaacuzemefatah.oferehmugbeh?fref=nf&rc=p&__tn__=R,Isaac Uzemefetah Ofereh-Mugbeh,,STARIsaac Uzemefetah;-Hi,-- ::,,[],,,[]",N
+386,",,acebook.com/,,acebook.com/yuleimi.salgado.?fref=nf&rc=p&__tn__=R,Yuleimi Salgado,,Yuleimi Salgado,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeFgvU-uRNMaOLLOZPmnRTUMQdjpWrRFNQxBOlamdNlKNYttoIoOIsGUhsHnKRYhkWTSfn-GWm-&_nc_ohc=oGcADaWIOsAXjgzL&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=ecefafebafcb&oe=EAF,[],,,[]",N
+387,",,acebook.com/,,acebook.com/abdulmateen.saifi.?fref=nf&rc=p&__tn__=R,Mohammad Mateen Naqshbandi,,",N
+388,youtu.be/,N
+389,"F-NEgGMjhwM,-- ::,outu.be/F-NEgGMjhwM?fbclid=IwARxjuqujr-jHJjgYVhlIPaGcYIqv_qUMAIgBDFVRrAbn_RxwpFk,[],,,[]",N
+390,",,acebook.com/,,acebook.com/mela.blake?fref=nf&rc=p&__tn__=R,Mela Blake,,I’m sorry 😔,-- ::,,[],,,[]",0
+391,",,acebook.com/,,acebook.com/daniela.hellmig.?fref=nf&rc=p&__tn__=R,Daniela Hellmig,,Daniela Hellmig,-- ::,edia.tenor.co/images/bfacbcbcaaebefe/tenor.gif?itemid=&fbclid=IwARGQv_yroxplbrlWfdBOUbftIQycLo-HajfiJXdNqyBmHBmtg,[],,,[]",N
+392,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,ETo ETo,,😍😍😍😍,-- ::,,[],,,[]",N
+393,",,acebook.com/,,acebook.com/mithu.mitra.?fref=nf&rc=p&__tn__=R,Mithu Mitra,,Mithu Mitra,-- ::,edia.tenor.co/images/cafedcbaafbbac/tenor.gif?itemid=&fbclid=IwARRynPTPmBNyveMfOwZmqZinoPZEEWjljBpqmzjwFWCu_E,[],,,[]",N
+394,",,acebook.com/,,acebook.com/roselyn.magolego?fref=nf&rc=p&__tn__=R,Roselyn Magolego,,ZzIWOEEO,-- ::,,[],,,[]",N
+395,",,acebook.com/,,acebook.com/kevily.rodriguesdasilva.?fref=nf&rc=p&__tn__=R,Kevily Rodrigues da Silva,,Kevily Rodrigues da Silva,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEmDpDn-pbwyebCbWYONCrFuuUulgKsWSa-dgOjAVXHMZ-wQiIRCZqKHfmupmDkWzYOvaGoP&_nc_ohc=xhdP-DhukYAX-e_WL&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=dbaeccfeeb&oe=F,[],,,[]",N
+396,",,acebook.com/,,acebook.com/janine.papiliren?fref=nf&rc=p&__tn__=R,Janine Papiliren,,wow,-- ::,,[],,,[]",N
+397,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,เปาธิดา เปาธิดา,,เปาธิดา เปาธิดา,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEJtZHxKGuNGGIbNkAmu-btLjff_GLvWuN_YlJC_wGwdDSdAWsaExxJuSwdZrcaErTidDN&_nc_ohc=jhksJotzVAXBJs&tn=upOySdBWPhwiye&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=bdabebbdacab&oe=FAF,[],,,[]",N
+398,",,acebook.com/,,acebook.com/tan.jithiow?fref=nf&rc=p&__tn__=R,Tan Jit Hiow,,Tan Jit Hiow,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEPJLONZHclYVJThQqxZLVrAovbWrFktWsCitSnnTzXjUVEMDQBgIrNeG_CNsHyOLkcnBoBuejE&_nc_ohc=gefpvUWDusAX-IbJJt&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=cdcfbcfdeecde&oe=D,[],,,[]",N
+399,",,acebook.com/,,acebook.com/bijendar.lahari?fref=nf&rc=p&__tn__=R,Bijendar Lahari,,Bijendar Lahari,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeGrtmFpQjPbmrbmRRstIzCqtUxrMjMKqZTbGsbsKiEcQOOiJUaDkIIKZVbZGOw_pLXudcA&_nc_ohc=UFZBEsJYrAXSn-fT&_nc_oc=AQnZsyGwmmTgPrtd-dY_dBnk-Vy_nAZLPuGO-ZXnpaLdZC-_EVhYnNTIo&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=febbcaccacadba&oe=,[],,,[]",N
+400,",,acebook.com/,,acebook.com/shawn.bortree?fref=nf&rc=p&__tn__=R,Shawn Bortree,,Hmm, let’s see what thingies are hiding... basketball, football, soccerball, cute cactus, and a mushroom.,-- ::,,[],,,[]",1
+401,",,acebook.com/,,acebook.com/neusa.bernardo.?fref=nf&rc=p&__tn__=R,Neusa Bernardo,,Neusa Bernardo,-- ::,edia.tenor.co/images/bdbefaccbaf/tenor.gif?itemid=&fbclid=IwARQK_NYLVQvQSKaqOjnWdqJFndscmpMt_nAnU_GpolvAOXzrjKWOo,[],,,[]",N
+402,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Anshuman Yadav,,Nice,-- ::,,[],,,[]",N
+403,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Anshuman Yadav,,Awesome,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/adit.sa.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Adit Kunz', 'commenter_meta': None, 'comment_text': 'Anshuman Yadav hhhh hhhh v:vvf,😇😇 f💕💕💕❤💘💕', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/adit.sa.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Adit Kunz', 'commenter_meta': None, 'comment_text': 'Buku u:vs🆚 uuuu:vs:::g,', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",N
+404,",,acebook.com/,,acebook.com/adit.sa.?fref=nf&rc=p&__tn__=R,Adit Kunz,,Anshuman Yadav hhhh hhhh v:vvf,😇😇 f💕💕💕❤💘💕,-- ::,,[],,,",N
+405,",,acebook.com/,,acebook.com/adit.sa.?fref=nf&rc=p&__tn__=R,Adit Kunz,,Buku u:vs🆚 uuuu:vs:::g,,-- ::,,[],,,",N
+406,",,acebook.com/,,acebook.com/donnie.jackson.?fref=nf&rc=p&__tn__=R,Duane Jackson Sr.,,Thanks for reaching out to me regarding this situation I'm #Copyright ©️ Owner of YouTube,-- ::,,[],,,[]",1
+407,",,acebook.com/,,acebook.com/kurt.anderson.?fref=nf&rc=p&__tn__=R,Kurt Anderson,,Let's go Brandon.,-- ::,,[],,,[]",N
+408,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Taniya Sarkar,,.,-- ::,,[],,,[]",N
+409,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Chahuna Rajpoot,,So very very nice really amazing",1
+410,"Thank you for sharing,-- ::,,[],,,[]",1
+411,",,acebook.com/,,acebook.com/nirmalkaf?fref=nf&rc=p&__tn__=R,Nirmal Rathore,,",N
+412,youtube.com/c/,N
+413,"TECHNICALKB,-- ::,outube.com/c/TECHNICALKB?fbclid=IwARPQYwfyjmRffBx_bAaOoql-dHPTtknfTAfDIXTqeSqy,[],,,[]",N
+414,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Saurabh Roy,,",N
+415,youtu.be/,N
+416,"drmbkhaEsU,-- ::,outu.be/drmbkhaEsU?fbclid=IwARmzVfuCCDBhQHwZSMbySbGuXOLWPiuTylDpVPqKMDXexV,[],,,[]",N
+417,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Saurabh Roy,,",N
+418,youtu.be/,N
+419,"drmbkhaEsU,-- ::,outu.be/drmbkhaEsU?fbclid=IwAR_IMw-lIEHILemaMfHAcIKDYSfen_CKglCLDKODMnIgWQ,[],,,[]",N
+420,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Saurabh Roy,,",N
+421,youtu.be/,N
+422,"drmbkhaEsU,-- ::,outu.be/drmbkhaEsU?fbclid=IwARYPVODPWtNSWbefkOruRYqTirYCeYardUEIoWctiCwThUpAblXM,[],,,[]",N
+423,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Saurabh Roy,,",N
+424,youtu.be/,N
+425,"drmbkhaEsU,-- ::,outu.be/drmbkhaEsU?fbclid=IwARFcPAXZNrlgEPnLd_XDVTJxadLLbZ_Ygjafntanw-vPvlLHMwM,[],,,[]",N
+426,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,जगबीर सिंह,,जगबीर सिंह,-- ::,edia.tenor.co/images/bcfaceaabccd/tenor.gif?itemid=&fbclid=IwARuygBqiYV_fNLleDVKaVHERT_oqAocNHCiDiyDyYWAyM,[],,,[]",N
+427,",,acebook.com/,,acebook.com/shielamae.galeno?fref=nf&rc=p&__tn__=R,Aleish Guiao-Galeno Duhayi,,For DVD,-- ::,,[],,,[]",N
+428,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,عبد الإله بعاطي,,wnin,-- ::,,[],,,[]",N
+429,",,acebook.com/,,acebook.com/somporn.gnaophan?fref=nf&rc=p&__tn__=R,Somporn Gnaophan,,Somporn Gnaophan,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeHJZKWlRdbj_xsBTptaCdFmCiDIJWbYLuLUMsdjxmLhvntWNOdtmAKKgvjCGKykMVLlGcaTaQ&_nc_ohc=WpcVXLVUREAX_wo_e&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=adbedefaebbecfa&oe=FF,[],,,[]",N
+430,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,ᏫᏁᏞᎽ ᎶᏫᎠᏚ ᏫᏉᎬᎡ ᏢᏫᏔᎬᎡ,,Plz who can help me to begin on youtube from phone 😢,-- ::,,[],,,[]",1
+431,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,عماد حماه,,VT,-- ::,,[],,,[]",N
+432,",,acebook.com/,,acebook.com/christopher.t.canoy?fref=nf&rc=p&__tn__=R,Christopher T Canoy,,Let's Go Brandon",N
+433,#letsgobrandon,N
+434,"#FJoeBiden,-- ::,,[],,,[]",N
+435,",,acebook.com/,,acebook.com/saada.irdaye?fref=nf&rc=p&__tn__=R,Saada Irdaye,,Saada Irdaye,-- ::,edia.tenor.co/images/ddeeffcacccbc/tenor.gif?itemid=&fbclid=IwARYagOBmixaCrDZSxWwfmdAdPWfpJtnCAGCiJmbmVhhKoQ,[],,,[]",N
+436,",,acebook.com/,,acebook.com/saada.irdaye?fref=nf&rc=p&__tn__=R,Saada Irdaye,,Saada Irdaye,-- ::,edia.tenor.co/images/dddddcfee/tenor.gif?itemid=&fbclid=IwARcyciO_bg-mqylXzGDjdsjyqFnB_n-vzKym_OwtmOjE_FnGs,[],,,[]",N
+437,",,acebook.com/,,acebook.com/saada.irdaye?fref=nf&rc=p&__tn__=R,Saada Irdaye,,Saada Irdaye,-- ::,edia.tenor.co/images/aedefcfacabbfcaaf/tenor.gif?itemid=&fbclid=IwARJngUxbbPEefhMg-tzamoUYkLhHFFToTrJaVyVzJubdQzuJE,[],,,[]",N
+438,",,acebook.com/,,acebook.com/amri.putra.?fref=nf&rc=p&__tn__=R,Amri Putra,,Amri Putra,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeFHppfe_-kJFpKPdmWJRfq-FBVSkTXnUFVLaTL-ASPWr_dKb_RQYuChSQJYpuqcGxaPmuyCzs&_nc_ohc=qeS-I-lglQcAX-NE&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=faabeacaa&oe=BC,[],,,[]",N
+439,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Imo Pichez Og,,Imo Pichez Og,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeFHppfe_-kJFpKPdmWJRfq-FBVSkTXnUFVLaTL-ASPWr_dKb_RQYuChSQJYpuqcGxaPmuyCzs&_nc_ohc=qeS-I-lglQcAX-NE&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=faabeacaa&oe=BC,[],,,[]",N
+440,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Imo Pichez Og,,Imo Pichez Og,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeGvMREZyiYpXWyeshdGQulKNqqqouvSUoqruqiZq_EIbCLdOWQYqfXmynR-laGHMzTvrhFhoHyNd&_nc_ohc=bIndMwju-AX-CaTw&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=bbafdecbfacdbfbce&oe=BB,[],,,[]",N
+441,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Imo Pichez Og,,Imo Pichez Og,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeExyqOgoXRchCeVRTcufHLds_QMaNOtz_AxoaptPjwo-dzIaCVVPSwPKwVBcTeMdXQedHdjKrBp&_nc_ohc=kRBTFWkacAXSDBtt&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=caeacaedddfed&oe=B,[],,,[]",N
+442,",,acebook.com/,,acebook.com/mahesh.kanojia.?fref=nf&rc=p&__tn__=R,Mahesh Kanojia,,Mahesh Kanojia,-- ::,edia.giphy.com/media/dSetRSJcRPGqkvjRg/giphy.gif?cid=cldcfyvwyxockjikonsuwieqdoiiuf&rid=giphy.gif&fbclid=IwARoSeUspFuUpZjwL_UfunZlJZAmZSxAnwKHf_YdSKVwWgiMn,[],,,[]",N
+443,",,acebook.com/,,acebook.com/nashaad.kayse.?fref=nf&rc=p&__tn__=R,Ishwaaq Bintu Kayse,,Ishwaaq Bintu Kayse,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEJtZHxKGuNGGIbNkAmu-btLjff_GLvWuN_YlJC_wGwdDSdAWsaExxJuSwdZrcaErTidDN&_nc_ohc=jhksJotzVAXBJs&tn=upOySdBWPhwiye&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=bdabebbdacab&oe=FAF,[],,,[]",N
+444,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Masum Ali,,🥰🥰🥰,-- ::,,[],,,[]",N
+445,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,রো্ঁমা্ঁন্টি্ঁক্ঁ পো্ঁলা্ঁ,,Subscribe Now My YouTube channel 👍👍",N
+446,,N
+447,youtube.com/,N
+448,channel/,N
+449,UCn_iFKiyxp,N
+450,"aTBiyZQ,-- ::,outube.com/channel/UCn_iFKiyxpaTBiyZQ?fbclid=IwARUWXszbsBbAGYDYriCbE_LrZwHDxRsREfLRRpOJGnRHElXek,[],,,[]",N
+451,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,রো্ঁমা্ঁন্টি্ঁক্ঁ পো্ঁলা্ঁ,,Subscribe Now My YouTube channel 👍👍",N
+452,,N
+453,youtube.com/,N
+454,channel/,N
+455,UCn_iFKiyxp,N
+456,"aTBiyZQ,-- ::,outube.com/channel/UCn_iFKiyxpaTBiyZQ?fbclid=IwARJICVR-JAGARKjkFJcMHJSfJqXNphUJcEFpZdNMzcklEfkIM,[],,,[]",N
+457,",,acebook.com/,,acebook.com/aditya.prabowo.?fref=nf&rc=p&__tn__=R,Aditya Prabowo,,Aditya Prabowo,-- ::,edia.tenor.co/images/bfacbcbcaaebefe/tenor.gif?itemid=&fbclid=IwAR_LqMaZZCbBuRtWBvXnSvQoxrxMrszdfLairxnAVOHkxFsSHxQ,[],,,[]",N
+458,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Osama Jutt,,",N
+459,youtube.com/,N
+460,shorts/,N
+461,oqvlwBKZxfw?feat,N
+462,"ure=share,-- ::,outube.com/shorts/oqvlwBKZxfw?feature=share&fbclid=IwARFMsHi-efMimUQHqoczFHBtfjbOrzGOxvuzWELyEFdADBTVB,[],,,[]",N
+463,",,acebook.com/,,acebook.com/mike.cummings.?fref=nf&rc=p&__tn__=R,Mike Cummings,,Let's go Brandon,-- ::,,[],,,[]",N
+464,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Shipra Das,,Shipra Das,-- ::,edia.tenor.co/images/bdaeaedbfecd/tenor.gif?itemid=&fbclid=IwARwqwnLwjxLBclRFhKJWapnoiOkxE-ohMowONHot_THbsPHnyXPBw,[],,,[]",N
+465,",,acebook.com/,,acebook.com/babadriss.bolahrir?fref=nf&rc=p&__tn__=R,Babadriss Bolahrir,,,-- ::,,[],,,[]",N
+466,",,acebook.com/,,acebook.com/elnur.mirzeyev.?fref=nf&rc=p&__tn__=R,Elnur Mirzeyev,,my YouTube channel name mixed soung channel please subscribe :",1
+467,youtube.com/,N
+468,channel/,N
+469,UCCvgAnZgogTLhX,N
+470,"DvSCucQ,-- ::,outube.com/channel/UCCvgAnZgogTLhXDvSCucQ?fbclid=IwARkNEqLK-nwgIKGkHhIubzPOUhjRhzvqXltOPkScErUEJRuIBDBis,[],,,[]",N
+471,",,acebook.com/,,acebook.com/lovepreet.khara.?fref=nf&rc=p&__tn__=R,Lovepreet Khara,,",N
+472,www.youtube.com/,N
+473,channel/,N
+474,UCWfkMySLL-LN,N
+475,"Ux-CVRw,-- ::,ww.youtube.com/channel/UCWfkMySLL-LNUx-CVRw?fbclid=IwARjnoRY-rllYCpblkJaAXjcvcwCH-e-bUKryXTir-FOQXAxsnM,[],,,[]",N
+476,",,acebook.com/,,acebook.com/pasaron.flora?fref=nf&rc=p&__tn__=R,Pasaron Flora,,",N
+477,youtube.com/,N
+478,channel/,N
+479,UCFFHmIEANNfo,N
+480,"kbPnPg,-- ::,outube.com/channel/UCFFHmIEANNfokbPnPg?fbclid=IwARUJitwXwKXAzpLuwNJeCpRGgvLjvylUPYGmp-k-LagbLc,[],,,[]",N
+481,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Walangjo Bells,,Love it 📌🎧🔊😍,-- ::,,[],,,[]",N
+482,",,acebook.com/,,acebook.com/tanpm?fref=nf&rc=p&__tn__=R,Phạm Mạnh Tân,,🤠,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEpAEQBtaqlbrVuRHgD-yDhKbGSrvsOHzspsZKuEPhSMWYMgifyRLqQepvTHudkTMpUNfGI&_nc_ohc=ZiwFOgvwAXCpR&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=addbbccebedceaed&oe=FAD,[],,,[]",N
+483,",,acebook.com/,,acebook.com/balmelyn.dumanig?fref=nf&rc=p&__tn__=R,Jefferlyn Madani Dumanig,,",N
+484,youtu.be/,N
+485,"lhghfxlwTc,-- ::,outu.be/lhghfxlwTc?fbclid=IwARTMJkpKMYto-pfUbCFsgaysUQysrXERdDjOHmAfkzgTYy,[],,,[]",N
+486,",,acebook.com/,,acebook.com/kanna.das.?fref=nf&rc=p&__tn__=R,Kanna Das,,Kanna Das,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeGCxfVIPkcgdqRFawOwvTyvKgdEVJPnbKqBRUnXGgmCaeJCCnNJHlHCwCIQEWEeb&_nc_ohc=AYZVoyHYIAXzfCE&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=caeffeaabefeda&oe=EFED,[],,,[]",N
+487,",,acebook.com/,,acebook.com/kanna.das.?fref=nf&rc=p&__tn__=R,Kanna Das,,Kanna Das,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeGCxfVIPkcgdqRFawOwvTyvKgdEVJPnbKqBRUnXGgmCaeJCCnNJHlHCwCIQEWEeb&_nc_ohc=AYZVoyHYIAXzfCE&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=caeffeaabefeda&oe=EFED,[],,,[]",N
+488,",,acebook.com/,,acebook.com/luul.mohamuud.?fref=nf&rc=p&__tn__=R,Luul Mohamuud,,susiwo,-- ::,,[],,,[]",N
+489,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Comptecinc,,Art 🖼,-- ::,,[],,,[]",N
+490,",,acebook.com/,,acebook.com/desertstormdock?fref=nf&rc=p&__tn__=R,Abdallah Muhammad,,💓💓💕💞💖💗.. YouTube forever... maybe in the future we can reconcile our differences...m",N
+491,y one and only true ally in this fight..I just didn't know you was showing me things... because you wanted to do it for the u.s....which is just not practical...but,1
+492,"my sincere gratitude tho..and it's not that I wasn't seeing..the question was why me?? I'm just a kid from Africa..then eventually you learn why you..then you rewind to since the day u can remember..then it's like woooooow..lol still love tho .,-- ::,,[],,,[]",1
+493,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Hoàng Nam,,🇻🇳,-- ::,,[],,,[]",N
+494,",,acebook.com/,,acebook.com/nortenita.amors?fref=nf&rc=p&__tn__=R,Norteñita Amors,,Norteñita Amors,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEHyEWBda_-GycgIlGmNuyliwMk_WcqKXLAyTZyohRsBjfBcIyRU-zLJdWKoTvBwdZKsIBbmOxrBt&_nc_ohc=GdyWceMvqMAX-rVLO&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=aadeddacfab&oe=E,[],,,[]",N
+495,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Devin Smith,,Why does You Tube protect pedophiles, whill shooting down the channels that bring it up. Why does You Tube protect trans rapists, yet shut up the channels that bring it up. Because you tube is more then likely ran by pedos and the SJW nazis. You tube be fair or your platform will die,-- ::,,[],,,[]",1
+496,",,acebook.com/,,acebook.com/aiaooiaei?fref=nf&rc=p&__tn__=R,David Wolf,,#unfkit YouTube has removed my best performing video, again. The video is me acting in Japanese Television. There are hundreds of videos on YouTube of the same show. Those aren't removed. My video was a popular episode on a Japanese Television show called The World's Astonishing News. The video had over a , views. YouTube is blocking my dispute and won't let me respond or see the official takedown request. I feel targeted and abused by YouTube. I'm not even making any money off the video.,-- ::,,[],,,[]",0
+497,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Iz Em,,K,-- ::,,[],,,[]",N
+498,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Asma Boukhris EP Baghdadi,,Asma Boukhris EP Baghdadi,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEXDXZJmTHjeouEvjmEhjxemPZCQiGPHtYkJCKhWWOHlGuqehkAAgSwFrrasRHkmqnWGlRuNM&_nc_ohc=XGrgoKkAXljy-&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=bdeffbbbaefcc&oe=FEEE,[],,,[]",N
+499,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Asma Boukhris EP Baghdadi,,Asma Boukhris EP Baghdadi,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeGizVmNDJanwymIWwqKvZXTjRq_dnhdPmNHyOeJGIsheWTni_pePJqpBpcaKnruOBjQZC-ul&_nc_ohc=zfxdyAVusAX_TqKrq&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=cceaeeeadebaaedc&oe=B,[],,,[]",N
+500,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,فہآرسہ حہمہيہد آل فہآرسہ,,❤,-- ::,,[],,,[]",N
+501,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,عبدالله صالح,,نتانللنياصلا,-- ::,,[],,,[]",N
+502,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,عبدالله صالح,,وىيززىسظوىوبوةز",N
+503,"ىىرو,-- ::,,[],,,[]",N
+504,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Irwan,,help sports subscribe like and share with other friends 🙏🙏🙏,-- ::,,[],,,[]",1
+505,",,acebook.com/,,acebook.com/manicsundar.manicsundar.?fref=nf&rc=p&__tn__=R,Manicsundar,,",N
+506,youtube.com/,N
+507,shorts/,N
+508,JhCEfYddkk?feat,N
+509,"ure=share,-- ::,outube.com/shorts/JhCEfYddkk?feature=share&fbclid=IwARUORHpDHftUKjtjCNSiz-XqbUJGyfSzoK_CXy_pJpHFLpieDxmI,[],,,[]",N
+510,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Jéssica Rodrigues,,",N
+511,youtube.com/,N
+512,channel/,N
+513,UCuHAXrwYewCEQ,N
+514,"EixhyREA,-- ::,outube.com/channel/UCuHAXrwYewCEQEixhyREA?fbclid=IwARffKQfIa_MHAbJzcLlILbnNXVkOydXhlUzpKexvwQYgFWoECGU,[],,,[]",N
+515,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Ali Munir,,Ali Munir,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeGH_uncYQfXNzjTbmCuptRMhOuaUQVnEyEpRBWfnxXSmbcbcCKhFsuHFdYyExzmWWgjjvyG_ojFx&_nc_ohc=rPlGhuQoAXVg&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=fdbfefbffdbdfccfd&oe=DC,[],,,[]",N
+516,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,A̴͙̻̟͋͘̕n̵̝͌̔̾͜͜g̵̼̪̐̕͜e̸̫̙̘͛̚͝l̵̪̠͇̔̈́ F̸͖͙͉́̓͘e̸̦͓̻͆́̒r̵͕͕̻̓̓̕n̴̢̟̙̈́͘͝ä̴͙̻͍́̀̚n̵̻͕̈́͋̚͜d̵͙̦̞͌̓̀ë̸͎͎̘́̕̕ź̸̡͚͎͛͌,,Best wishes youtube App ... ❤👏,-- ::,,[],,,[]",1
+517,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Ahmed Ali,,",N
+518,youtu.be/,N
+519,"ZKMcPOVQ,-- ::,outu.be/ZKMcPOVQ?fbclid=IwARsYBvOLnkPiMROJBNIh-S-VXlyXq_mgBv_PuTxmpLzoUiE,[],,,[]",N
+520,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,ณัฐพล อุ่นเมืองแก้ว,,ณัฐพล อุ่นเมืองแก้ว,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeHYHPqHlSVt_EIFneKfjTsVjwxqTpvxWPXDGpOm_VGWEzxRDKXQAObJkEMWaHJQPIYUtaXEwp&_nc_ohc=nKaLxpQQvIAX-NJgmd&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=ceaeadeead&oe=,[],,,[]",N
+521,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,ณัฐพล อุ่นเมืองแก้ว,,ณัฐพล อุ่นเมืองแก้ว,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeGw_TmrkgxY_TDmllntO_JKccGr-aoPkpxwavqgwzgoN-BrNhTTvsZlnhOXYopMvaZpcFHTctRLm&_nc_ohc=WcyzGwhh_MAX-B_DMC&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=aafddbfbdca&oe=A,[],,,[]",N
+522,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,ณัฐพล อุ่นเมืองแก้ว,,ณัฐพล อุ่นเมืองแก้ว,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeGNRIDWefhJTauJqUvvQWVi_sapqEqqpWL-xqmoSqqjS_ITGpPpf-RCfLiCJYBrLufDKdZQpa&_nc_ohc=OVVGvBMMqYAXEEDK&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=abacfcffbaba&oe=FA,[],,,[]",N
+523,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Jonathan Sánchez,,Jonathan Sánchez,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeGxmLlKeDgxXPOMdPyIZRRErOyZ-VMZESvUJnUxrVOHJOXbGoLlNoAXNujNHOaHwbLhrxukyjuBU&_nc_ohc=ZJcblVMTBmUAX_cMgj&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=afcbeeedb&oe=DA,[],,,[]",N
+524,",,acebook.com/,,acebook.com/mid.dee.?fref=nf&rc=p&__tn__=R,Dee,,i 🄹🅄🅂🅃 🅄🄿🄻🄾🄰🄳🄴🄳 🄰 🄲🄾🄾🄻 🅅🄸🄳🄴🄾....",N
+525,🄴🄽🄹🄾🅈,N
+526,link opens in YT app 🤘🏻🍹😁✌🏿,N
+527,●●●●●●●●●●●●●●●,N
+528,●,N
+529,appopener.com/,N
+530,"yt/euda,-- ::,ppopener.com/yt/euda?fbclid=IwARnLKqC-JhqdrPHyHfLjrQaLSMy-WWJMKTSOjQCOTXvQLzxOkA,[],,,[]",N
+531,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Balu,,Balu,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeFWhYecacwPBDZKDoC-KCXUqCtJMBuJdSoKkwGYueChsXfatxKzWZNaDKVMjXDUCVGrYWQ_OQJ&_nc_ohc=_wANoxwMAX_qMx&_nc_oc=AQmqfTFuLHlAYWPWZhlSopET_haQMtMUbyZrvfGRxXbnrFwiaKyTGUFFcWvVkA&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=efcbedab&oe=FAF,[],,,[]",N
+532,",,acebook.com/,,acebook.com/adigunawannss?fref=nf&rc=p&__tn__=R,Adigunawanns,,OK YouTube I COME (☺) GOGOGO Monetization (😅) - 🙏🏻,-- ::,,[],,,[]",N
+533,",,acebook.com/,,acebook.com/chillerschills?fref=nf&rc=p&__tn__=R,Drey Scorchin,,Nice 🐐,-- ::,,[],,,[]",N
+534,",,acebook.com/,,acebook.com/md.muktadirhosain.?fref=nf&rc=p&__tn__=R,Md Muktadir Hosain Tuhin,,I am small youtuber 💕💕",N
+535,"Channel name : MHT HERO YT,-- ::,,[],,,[]",1
+536,",,acebook.com/,,acebook.com/ali.aayan.?fref=nf&rc=p&__tn__=R,Ali Aayan,,Nice,-- ::,,[],,,[]",N
+537,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Rafil Rafil,,🇮🇩🇮🇩 Yt Ranzsyah,-- ::,,[],,,[]",N
+538,",,acebook.com/,,acebook.com/queen.hadassah.?fref=nf&rc=p&__tn__=R,Queen Hadassah,,Yjh,-- ::,,[],,,[]",N
+539,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Sawan Soni,,Sawan Soni,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEhj-GaaAelvLRispBwpVMNLAbcuToswsDltyOisIYIBtzVPmXEQXvkppAvvCeiFHJxhL_mFq&_nc_ohc=pFJYnSIrKEAX-fvr&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=afdaaddeae&oe=FAA,[],,,[]",N
+540,",,acebook.com/,,acebook.com/brpremlatakumari?fref=nf&rc=p&__tn__=R,Premlata Kumari,,Congratulations",N
+541,"❤️...was waiting from yesterday for this video... finally both are safe...so happy to see u guys with ur new family member...god bless ❤️,-- ::,,[],,,[]",1
+542,",,acebook.com/,,acebook.com/talat.talat.?fref=nf&rc=p&__tn__=R,Talat Talat,,Talat Talat,-- ::,edia.tenor.co/images/bfcdcff/tenor.gif?itemid=&fbclid=IwARKZBoJMEjgLdYjj_Yu-oLHCXKFYHHmLfKRqyDCM-nUg,[],,,[]",N
+543,",,acebook.com/,,acebook.com/wito.bombel?fref=nf&rc=p&__tn__=R,Wito Bombel,,Yes,-- ::,,[],,,[]",N
+544,",,acebook.com/,,acebook.com/mahamoudou.nouboure?fref=nf&rc=p&__tn__=R,Mahamoudou Nouboure,,nice picture,-- ::,,[],,,[]",N
+545,",,acebook.com/,,acebook.com/davidshillong?fref=nf&rc=p&__tn__=R,Dave Katz,,🇧🇷🤙,-- ::,,[],,,[]",N
+546,",,acebook.com/,,acebook.com/davidshillong?fref=nf&rc=p&__tn__=R,Dave Katz,,a🥰,-- ::,,[],,,[]",N
+547,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,ريحانة الزهراء,,كل مادام ربك الطبيب والاوجاع ستطيب,-- ::,,[],,,[]",N
+548,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Jitendra Singh Singh,, Rs only🇮🇳combo pack ❤️",N
+549,.k Subscribe,N
+550,.k watch time,N
+551,.k views,N
+552,"Monotzation 💯.in-box me,-- ::,,[],,,[]",N
+553,",,acebook.com/,,acebook.com/mas.inah.?fref=nf&rc=p&__tn__=R,Mas Inah,,Mas Inah,-- ::,edia.tenor.co/images/ebdccedeefcddbabe/tenor.gif?itemid=&fbclid=IwARchOnMRaGFRaCxwTdE-YyHAekwHX_qWmHBqtoFHrMuHSRoSA,[],,,[]",N
+554,",,acebook.com/,,acebook.com/Jmbigpapa?fref=nf&rc=p&__tn__=R,Joseph Monroe,,(CrazyUncleJoJo",N
+555,) on YouTube.com/,N
+556,"CrazyUncleJoJo Come Subscribe to the channel,-- ::,ouTube.com/CrazyUncleJoJo?fbclid=IwAREqwHuTa-lbcllPvbydolkYprsCitAjCKZUlQrABfgKGhx,[],,,[]",N
+557,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Maria Mari,,Thank you!,-- ::,,[],,,[]",N
+558,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Adi Tehnik,,wow cool, beautiful view... don't forget to LIKE SUBSCRIBE and share,-- ::,,[],,,[]",1
+559,",,acebook.com/,,acebook.com/ummeaadil.husain?fref=nf&rc=p&__tn__=R,Umm'e Aadil Husain,,Love it,-- ::,,[],,,[]",N
+560,",,acebook.com/,,acebook.com/le.gend.?fref=nf&rc=p&__tn__=R,Lê Đức Công Thành,,Stop rob the money from the creator, thanks,-- ::,,[],,,[]",0
+561,",,acebook.com/,,acebook.com/marcsynth?fref=nf&rc=p&__tn__=R,Marc Barniol,,😯,-- ::,,[],,,[]",N
+562,",,acebook.com/,,acebook.com/pitamberdutt.sharma.?fref=nf&rc=p&__tn__=R,Pitamber Dutt Sharma,,Pitamber Dutt Sharma,-- ::,edia.tenor.co/images/ebdccedeefcddbabe/tenor.gif?itemid=&fbclid=IwARfWxKCSMfsNRHNgsexVbVbCMRSeGXGuLVrGc_gDCpnlcUS-U,[],,,[]",N
+563,",,acebook.com/,,acebook.com/kaphing?fref=nf&rc=p&__tn__=R,Joe Kaphing,,You forgot the hammer and sickle 🇷🇺,-- ::,,[],,,[]",N
+564,",,acebook.com/,,acebook.com/rebekah.phillips.?fref=nf&rc=p&__tn__=R,Rebekah Phillips,,My Father could NOT stand this Channel ,,-- ::,,[],,,[]",N
+565,",,acebook.com/,,acebook.com/neusa.bernardo.?fref=nf&rc=p&__tn__=R,Neusa Bernardo,,Neusa Bernardo,-- ::,edia.tenor.co/images/bfacbcbcaaebefe/tenor.gif?itemid=&fbclid=IwARzsTUEamieiYS-vUmogQSgogDvidwZNziLWqEfSOZVccQCAouvqU,[],,,[]",N
+566,",,acebook.com/,,acebook.com/neusa.bernardo.?fref=nf&rc=p&__tn__=R,Neusa Bernardo,,Neusa Bernardo,-- ::,edia.tenor.co/images/bfcdcff/tenor.gif?itemid=&fbclid=IwARsqeXnOpXmFMDEwQuITDtQseBTlyCLFFK_bNkfgPPPRNHoalq-s,[],,,[]",N
+567,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,John McLeod,,Nifty.,-- ::,,[],,,[]",N
+568,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Cantora Andreia Mattos,,🥰🙌🦅,-- ::,,[],,,[]",N
+569,",,acebook.com/,,acebook.com/mencari.cinta.?fref=nf&rc=p&__tn__=R,Ervan Repana,,👍,-- ::,,[],,,[]",N
+570,",,acebook.com/,,acebook.com/yoamosermusico?fref=nf&rc=p&__tn__=R,Yo Amo Ser Musico,,very nice picture,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/vohoangtanh.tanhvohoang?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Vohoangtanh Tanh Vo Hoang', 'commenter_meta': None, 'comment_text': 'Yo Amo Ser Musico', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+571,",,acebook.com/,,acebook.com/vohoangtanh.tanhvohoang?fref=nf&rc=p&__tn__=R,Vohoangtanh Tanh Vo Hoang,,Yo Amo Ser Musico,-- ::,,[],,,",N
+572,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,မေမေချစ်တဲ့ သား,,မေမေချစ်တဲ့ သား,-- ::,edia.tenor.co/images/ffeffcdaff/tenor.gif?itemid=&fbclid=IwARzRVTIFUiTh-rZNDwTktTfomnUA-kmGsQzuGl-TkDSOAGZYmw,[],,,[]",N
+573,",,acebook.com/,,acebook.com/sainstroh?fref=nf&rc=p&__tn__=R,Saints Roh,,It will and must favor me one day,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/ruslancrscmur?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Лада Яблочкова', 'commenter_meta': None, 'comment_text': 'Saints Roh The truth about life and death in pages: Google Global Truth Project and read The Present.', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/sainstroh?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Saints Roh', 'commenter_meta': None, 'comment_text': 'Лада Яблочкова what you mean?', 'comment_time': datetime.datetime(, , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+574,",,acebook.com/,,acebook.com/ruslancrscmur?fref=nf&rc=p&__tn__=R,Лада Яблочкова,,Saints Roh The truth about life and death in pages: Google Global Truth Project and read The Present.,-- ::,,[],,,",0
+575,",,acebook.com/,,acebook.com/sainstroh?fref=nf&rc=p&__tn__=R,Saints Roh,,Лада Яблочкова what you mean?,-- ::,,[],,,",N
+576,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,ابو خالد بيدس,,So beautiful,-- ::,,[],,,[]",N
+577,",,acebook.com/,,acebook.com/pabloviniciusbr?fref=nf&rc=p&__tn__=R,Pablo Vinicius,,🇧🇷👍,-- ::,,[],,,[]",N
+578,",,acebook.com/,,acebook.com/Junaid.C.Ahmed?fref=nf&rc=p&__tn__=R,Junaid,,Ah YouTube. The place for good ol’ censorship.,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/ruslancrscmur?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Лада Яблочкова', 'commenter_meta': None, 'comment_text': 'Junaid Ahmed Mir The truth about life and death in pages: Google Global Truth Project and read The Present.', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+579,",,acebook.com/,,acebook.com/ruslancrscmur?fref=nf&rc=p&__tn__=R,Лада Яблочкова,,Junaid Ahmed Mir The truth about life and death in pages: Google Global Truth Project and read The Present.,-- ::,,[],,,",0
+580,",,acebook.com/,,acebook.com/sandra.camposdevasquez?fref=nf&rc=p&__tn__=R,Sandra Campos,,Sandra Campos,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeFHSGmopaAR-RMbmeDREwG-aYLkfAbpjguTrhwTJTEKhTnSrESHVNyUbiaQaMvWYJVdthkjG&_nc_ohc=yS-ZjFRIAX-PSTH&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=fffdfedb&oe=FEAC,[],,,[]",N
+581,",,acebook.com/,,acebook.com/humble.micky.?fref=nf&rc=p&__tn__=R,Heismiracle Heisherticle,,Why did you turn off my Comment Box,-- ::,,[],,,[]",N
+582,",,acebook.com/,,acebook.com/somporn.gnaophan?fref=nf&rc=p&__tn__=R,Somporn Gnaophan,,Somporn Gnaophan,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeGHhZ_RLcJahvaLGCYLWBHORbWLF_kcFtbvoX-TiqYWH_yhPdpUGlERh-TAQWhiguHMEzhRkDdr&_nc_ohc=KThJyBP-SAX-kkLy&tn=upOySdBWPhwiye&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=bedfcabbcedeebaeabce&oe=AF,[],,,[]",N
+583,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Montreal Davis,,Rocket ship Nicki Minaj true street gym boxing,-- ::,,[],,,[]",1
+584,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Ron Spina Content Creator,,Lovely 💙💚❤️💗,-- ::,,[],,,[]",N
+585,",,acebook.com/,,acebook.com/Moose?fref=nf&rc=p&__tn__=R,Steeven Crross,,Even in the past month the length and qty of adverts has increased again. It's pretty much the same length as the video you are watching. And couldn't make it up, an advert appears on the video I'm watching on my tablet whilst I type this 😂,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/ruslancrscmur?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Лада Яблочкова', 'commenter_meta': None, 'comment_text': 'Steeven Crross The truth about life and death in pages: Google Global Truth Project and read The Present.', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+586,",,acebook.com/,,acebook.com/ruslancrscmur?fref=nf&rc=p&__tn__=R,Лада Яблочкова,,Steeven Crross The truth about life and death in pages: Google Global Truth Project and read The Present.,-- ::,,[],,,",0
+587,",,acebook.com/,,acebook.com/lida.mandy?fref=nf&rc=p&__tn__=R,Lida Mandy,,YouTube is a wonderful facility. I can’t imagine my life with out YouTube,,-- ::,,[],,,[]",1
+588,",,acebook.com/,,acebook.com/Strevor?fref=nf&rc=p&__tn__=R,Tre Vor,,preparing for rewind ????,-- ::,,[],,,[]",N
+589,",,acebook.com/,,acebook.com/heather.carpentermackie?fref=nf&rc=p&__tn__=R,Heather Lynn Mackie,,Hi! I have a question. I’ve been trying to catch up on my notifications and most of the time it will take me to the beginning then I have to scroll down to find out where I was at. Is there anything I can do to remedy this? Thanks!!,-- ::,,[],,,[]",0
+590,",,acebook.com/,,acebook.com/raiyan.hk.?fref=nf&rc=p&__tn__=R,Raiyan H K,, m,-- ::,,[],,,[]",N
+591,",,acebook.com/,,acebook.com/mas.savic.?fref=nf&rc=p&__tn__=R,Steven Savic Indigo,,👌,-- ::,,[],,,[]",N
+592,",,acebook.com/,,acebook.com/mas.savic.?fref=nf&rc=p&__tn__=R,Steven Savic Indigo,,👌👍,-- ::,,[],,,[]",N
+593,",,acebook.com/,,acebook.com/roussi.zeouali?fref=nf&rc=p&__tn__=R,Roussi Zeouali,,Roussi Zeouali,-- ::,edia.tenor.co/images/ffcfdbaafbea/tenor.gif?itemid=&fbclid=IwAReXcnbdLOSi_aqXCcHCjRxtzdNk-kllPJFniBqIgPuOyrs,[],,,[]",N
+594,",,acebook.com/,,acebook.com/fitz.charles.?fref=nf&rc=p&__tn__=R,Fitz Charles,,⭐🏀💎🏡💙 🇺🇸❤✈,-- ::,,[],,,[]",N
+595,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Fares,,Best Wishes YouTube App ... ❤️👏,-- ::,,[],,,[]",1
+596,",,acebook.com/,,acebook.com/ujvari.maria.?fref=nf&rc=p&__tn__=R,Újvari Mária,,Thank for you ! Congratulations",1
+597,"🥳🥳 ! We'ri nice !!,-- ::,edia.tenor.co/images/cafedcbaafbbac/tenor.gif?itemid=&fbclid=IwARUHXdhMYITtGTauuHIVEjMmzBWVvpqAlzpTsIhbctElMiBjM,[],,,[]",1
+598,",,acebook.com/,,acebook.com/advfouzia.fouzia.?fref=nf&rc=p&__tn__=R,Adv Fouzia Fouzia,,Adv Fouzia Fouzia,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeGCtsswAxMGnLyVPSWBiojCnGKiPTULvfyHVzfbNsOKmyKcerwuimyVzDvVKLwRVRCJXh&_nc_ohc=nTkXANAX_Otd-&_nc_oc=AQkJOCCFDPxfDoPZHbcgRnAgRJOUtrQQ_LyrulpB_Tr-AZsYPeQSYTGSWk&tn=upOySdBWPhwiye&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=fafceaacf&oe=F,[],,,[]",N
+599,",,acebook.com/,,acebook.com/sawillia?fref=nf&rc=p&__tn__=R,SaeHee Palanski,,I understand having ads, but can you at least place them in reasonable breaking points? It’s so annoying to watch educational videos with my kids and every seconds in the middle of a scene/word, it breaks into an ill placed ad.,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'Leonardo Rimas Beltran', 'commenter_meta': None, 'comment_text': 'SaeHee Palanski ž', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'Leonardo Rimas Beltran', 'commenter_meta': None, 'comment_text': '²⅖Qq', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/tapasi.chowdhury.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Tapasi Chowdhury', 'commenter_meta': None, 'comment_text': 'SaeHee Palanski', 'comment_time': datetime.datetime(, , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",0
+600,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Leonardo Rimas Beltran,,SaeHee Palanski ž,-- ::,,[],,,",N
+601,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Leonardo Rimas Beltran,,²⅖Qq,-- ::,,[],,,",N
+602,",,acebook.com/,,acebook.com/tapasi.chowdhury.?fref=nf&rc=p&__tn__=R,Tapasi Chowdhury,,SaeHee Palanski,-- ::,,[],,,",N
+603,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Mohamed Emad,,ع,-- ::,,[],,,[]",N
+604,",,acebook.com/,,acebook.com/sophea.senna?fref=nf&rc=p&__tn__=R,Sophea Chhim,,Sophea Chhim,-- ::,edia.giphy.com/media/fDbzXbCvL/giphy.gif?cid=cgpnyevfdyzkqclrmjkmbrjxxkzpmjzws&rid=giphy.gif&fbclid=IwARztFMgTKfdpmKi-CRGUoaNJicHzGirHBouFoJKQqAgBYuyaVSUYQ,[],,,[]",N
+605,",,acebook.com/,,acebook.com/a.srisonug?fref=nf&rc=p&__tn__=R,A.š Rïsøñ,,As an artist I appreciate,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'Matt Smith', 'commenter_meta': None, 'comment_text': 'A.š Rïsøñ........here too?', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/diya.maity.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Diya Maity', 'commenter_meta': None, 'comment_text': 'A.š Rïsøñ here super here not', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+606,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Matt Smith,,A.š Rïsøñ........here too?,-- ::,,[],,,",N
+607,",,acebook.com/,,acebook.com/diya.maity.?fref=nf&rc=p&__tn__=R,Diya Maity,,A.š Rïsøñ here super here not,-- ::,,[],,,",1
+608,",,acebook.com/,,acebook.com/ridzwan.ngataman?fref=nf&rc=p&__tn__=R,Ridzwan Ngataman,,Bruuh u gud?,-- ::,,[],,,[]",N
+609,",,acebook.com/,,acebook.com/karlaandreina.angelferrer?fref=nf&rc=p&__tn__=R,Karla Andreina Angel Ferrer,,❤️,-- ::,,[],,,[]",N
+610,",,acebook.com/,,acebook.com/Cutieplieredits?fref=nf&rc=p&__tn__=R,Cutieplier,,Ok,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/jason.morrisdfx?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Jason Morris Dfx', 'commenter_meta': None, 'comment_text': 'Cutieplier cactus ', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",N
+611,",,acebook.com/,,acebook.com/jason.morrisdfx?fref=nf&rc=p&__tn__=R,Jason Morris Dfx,,Cutieplier cactus ,-- ::,,[],,,",N
+612,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,GR Pig,,Hello YouTube CEO, I am from Cambodia, I would like to request that YouTube open to make money in Cambodia like any other country.(🙏🙏🙏🇰🇭🇰🇭🇰🇭),-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R', 'commenter_name': 'Hudson Parsley', 'commenter_meta': None, 'comment_text': GR Pig contact with Allan on WhatsApp +()-\nhe's an expert which I can't just forget his great work because he helped me fixed back my account when I had issue with the help of activation code only... A trial will convinced you % assurance, 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+613,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Hudson Parsley,,GR Pig contact with Allan on WhatsApp +()-",N
+614,"he's an expert which I can't just forget his great work because he helped me fixed back my account when I had issue with the help of activation code only... A trial will convinced you % assurance,-- ::,,[],,,",1
+615,",,acebook.com/,,acebook.com/gary.lehman?fref=nf&rc=p&__tn__=R,Gary Lehman,,Thank goodness for #rumble when YouTube silences voices.,-- ::,,[],,,[]",1
+616,",,acebook.com/,,acebook.com/Ungsovanpheakkhdey?fref=nf&rc=p&__tn__=R,Pheakdey HT,,Congratulations",N
+617,"👏🎉🎉🎉,-- ::,,[],,,[]",N
+618,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Hossam Antar,,Innovation that’s what it is very good,-- ::,,[],,,[]",N
+619,",,acebook.com/,,acebook.com/matilda.craciun.?fref=nf&rc=p&__tn__=R,Matilda Craciun,,Matilda Craciun,-- ::,edia.tenor.co/images/eefacc/tenor.gif?itemid=&fbclid=IwARyYAh_OpQltOyxPuoKVJrUwLNwNBcsPpYTbUBOuDb-nl,[],,,[]",N
+620,",,acebook.com/,,acebook.com/matilda.craciun.?fref=nf&rc=p&__tn__=R,Matilda Craciun,,Matilda Craciun,-- ::,edia.tenor.co/images/bfcdcff/tenor.gif?itemid=&fbclid=IwARpFOJoWqXhqOzsLeHWlZatigvuBAABzvdbYByjMbQPGQYTFoawI,[],,,[]",N
+621,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,اشرف الرهيبى,,Type in a YouTube search ashraf abo rehab and choose the first thing that shows you useful information. This is my channel. Click subscribe.,-- ::,,[],,,[]",1
+622,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,اشرف الرهيبى,,اكتب بالبحث باليوتيوب اشرف ابورحاب واختارو اول شىء يظهرلكم معلومات مفيده هذه هى قناتى اضغط اشتراك,-- ::,,[],,,[]",N
+623,",,acebook.com/,,acebook.com/ognis.cruz?fref=nf&rc=p&__tn__=R,Ognis Cruz,,Ognis Cruz,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeFKcjNbdBRCMzViuzsdO_ruNCRxMTn-uJHExKKzPHpSUosjfhLCDkMTUTeLiLAQXFAjWNv&_nc_ohc=xswmVcAX-NgqEI&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=bbcbdfdfab&oe=CA,[],,,[]",N
+624,",,acebook.com/,,acebook.com/travis.davis.?fref=nf&rc=p&__tn__=R,Travis Davis,,Hay youtube how about you stop shoving ads in our faces everytime we want to watch a video from the very start of a video. I have to close the video - times and reopen it just to get past them. 😡,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/steve.desmond.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Des Mond', 'commenter_meta': None, 'comment_text': Travis Davis bro that's where YouTube pays YouTubers, 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/michael.mccallum.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Michael McCallum', 'commenter_meta': None, 'comment_text': 'Travis Davis yeah, you don\'t want to be ruining your skip ads button, do you?🤔', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/travis.davis.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Travis Davis', 'commenter_meta': None, 'comment_text': 'Michael McCallum here the thing, the ones i get are non-skippable', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/kaegan.mcdonald.?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Kaegan McDonald', 'commenter_meta': None, 'comment_text': Travis Davis My favorite is how I pay for premium, yet they still try to show me ads when I'm watching videos in the feed.\nI should % be able to watch videos through the feed without ads, I'm sorry but there's just straight up no excuse for that., 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",1
+625,",,acebook.com/,,acebook.com/steve.desmond.?fref=nf&rc=p&__tn__=R,Des Mond,,Travis Davis bro that's where YouTube pays YouTubers,-- ::,,[],,,",N
+626,",,acebook.com/,,acebook.com/michael.mccallum.?fref=nf&rc=p&__tn__=R,Michael McCallum,,Travis Davis yeah, you don't want to be ruining your skip ads button, do you?🤔,-- ::,,[],,,",0
+627,",,acebook.com/,,acebook.com/travis.davis.?fref=nf&rc=p&__tn__=R,Travis Davis,,Michael McCallum here the thing, the ones i get are non-skippable,-- ::,,[],,,",N
+628,",,acebook.com/,,acebook.com/kaegan.mcdonald.?fref=nf&rc=p&__tn__=R,Kaegan McDonald,,Travis Davis My favorite is how I pay for premium, yet they still try to show me ads when I'm watching videos in the feed.",1
+629,"I should % be able to watch videos through the feed without ads, I'm sorry but there's just straight up no excuse for that.,-- ::,,[],,,",1
+630,",,acebook.com/,,acebook.com/sanjiaalam?fref=nf&rc=p&__tn__=R,Sanjia Alam,,All in one pictures 📷 😍,-- ::,,[],,,[]",N
+631,",,acebook.com/,,acebook.com/mirzaman.lal?fref=nf&rc=p&__tn__=R,Mir Zaman Lal,,Ma hate pin 📌 codeO anzaou Shaw Sa Ban Dom Ava🎯,-- ::,,[],,,[]",0
+632,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,Rìdèr Fakrul,,Rìdèr Fakrul,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeEJtZHxKGuNGGIbNkAmu-btLjff_GLvWuN_YlJC_wGwdDSdAWsaExxJuSwdZrcaErTidDN&_nc_ohc=jhksJotzVAXBJs&tn=upOySdBWPhwiye&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=bdabebbdacab&oe=FAF,[],,,[]",N
+633,",,acebook.com/,,acebook.com/profile.php?id=&fref=nf&rc=p&__tn__=R,صفاء حمودي,,صفاء حمودي,-- ::,edia.tenor.co/images/cafedcbaafbbac/tenor.gif?itemid=&fbclid=IwAREofHnQEglUfCdCbZZyRNy_vSq_JpMgyOYxvjItrtdKNBEHtub,[],,,[]",N
+634,",,acebook.com/,,acebook.com/binbir.ugur.?fref=nf&rc=p&__tn__=R,Binbir Uğur,,Binbir Uğur,-- ::,edia.giphy.com/media/MmJvfWfdmbUuULX/giphy.gif?cid=chebgktevhdlpfyhzdzvbtkkwbpuqf&rid=giphy.gif&fbclid=IwARuCEMShaDhqjZQybQGtvtnzTpAsvhUgYtSCYdAEAfFCytXLr_iEk,[],,,[]",N
+635,",,acebook.com/,,acebook.com/binbir.ugur.?fref=nf&rc=p&__tn__=R,Binbir Uğur,,Binbir Uğur,-- ::,edia.tenor.co/images/dcbfaebaecaaeda/tenor.gif?itemid=&fbclid=IwARuKPPIrNZowMNynRKlsE-rtL_QBBb-GxIrGJGvSdtdU,[],,,[]",N
+636,",,acebook.com/,,acebook.com/ritu.panna.?fref=nf&rc=p&__tn__=R,ঋতু পান্না,,Again it seems to me just a Ladies Cosmetic Shop. 🙂,-- ::,,[],,,[]",N
+637,",,acebook.com/,,acebook.com/michael.mccallum.?fref=nf&rc=p&__tn__=R,Michael McCallum,,Well that explains a lot. 🤔,-- ::,,[],,,[]",N
+638,",,acebook.com/,,acebook.com/sheepofthesubconsciousrainforest?fref=nf&rc=p&__tn__=R,Adam Learmonth,,Teenage bedroom wall energy,-- ::,,[],,,[{'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/gunnarhenrik?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Gunnar Larsen', 'commenter_meta': None, 'comment_text': 'Fantastic Lady Fantastic Songs this one goes to Kathy', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}, {'comment_id': '', 'comment_url': 'acebook.com/', 'commenter_id': '', 'commenter_url': 'acebook.com/gunnarhenrik?fref=nf&rc=p&__tn__=R', 'commenter_name': 'Gunnar Larsen', 'commenter_meta': None, 'comment_text': 'Remembering Last night Halloween Your Birthday...Hard\nnot to get in touch without you wen i wanted to..Thats All the time...', 'comment_time': datetime.datetime(, , , , , ), 'comment_image': None, 'comment_reactors': [], 'comment_reactions': None, 'comment_reaction_count': None}]",0
+639,",,acebook.com/,,acebook.com/gunnarhenrik?fref=nf&rc=p&__tn__=R,Gunnar Larsen,,Fantastic Lady Fantastic Songs this one goes to Kathy,-- ::,,[],,,",1
+640,",,acebook.com/,,acebook.com/gunnarhenrik?fref=nf&rc=p&__tn__=R,Gunnar Larsen,,Remembering Last night Halloween Your Birthday...Hard",N
+641,"not to get in touch without you wen i wanted to..Thats All the time...,-- ::,,[],,,",N
+642,",,acebook.com/,,acebook.com/mdmokarim.hira?fref=nf&rc=p&__tn__=R,MD Rawhide Mokarim,,MD Rawhide Mokarim,-- ::,content.famm-.fna.fbcdn.net/v/t-/px/___n.png?_nc_cat=&ccb=-&_nc_sid=ac&efg=eyJpIjoidCJ&_nc_eui=AeErVFfaHwoQY_qY_XqjuWxWtQJ-VeibFaAnVDOPSfE_BbJPxDYHsogijqoLgJWhOHWvDX&_nc_ohc=dbyAgstbgAXXUJ&tn=upOySdBWPhwiye&_nc_zt=&_nc_ht=scontent.famm-.fna&oh=ebabbacbdfbcf&oe=,[],,,[]",N
+643,",,acebook.com/,,acebook.com/feroz.khanbhayo.?fref=nf&rc=p&__tn__=R,Ayesha Pari,,Luny tune show 🤧🤧,-- ::,,[],,,[]",N

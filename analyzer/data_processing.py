@@ -1,19 +1,18 @@
 import os
-import re
 import warnings
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 import numpy as np
 import pandas as pd
 from keras.layers import LSTM, Dense, Embedding, SpatialDropout1D
 from keras.models import Sequential
 from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing.text import Tokenizer
-from nltk import tree
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-from termcolor import colored
+
 warnings.filterwarnings('ignore')
 from analyzer.com_classfiction import classify_comments
 
@@ -30,7 +29,7 @@ class ModelCreator:
         self.positive_ratio = None
         self.negative_ratio = None
 
-    # Slearn
+    # Sklearn
     def page_comments(self):
         print("classifying page comments ...")
         try:
@@ -44,14 +43,14 @@ class ModelCreator:
             results = ''
             
             if not impact :
-                results = colored(("This page has NEGATIVE impact on its followers"),"red")
+                results = 'This page has NEGATIVE impact on its followers'
             else:
-                results =  colored(("This page has POSITIVE impact on its followers"),"green")
+                results =  'This page has POSITIVE impact on its followers'
 
             return results
             
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
 
     def random_partitions(self):
         try:
@@ -64,8 +63,8 @@ class ModelCreator:
             ) = train_test_split(self.comments, y, test_size=0.33, random_state=42)
 
             return True
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
 
     def vectorize(self):
         try:
@@ -83,8 +82,8 @@ class ModelCreator:
             self.vscore = classifier.score(self.X_test, self.y_test)
 
             return True
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
 
     # using keras
     def keras(self):
@@ -92,7 +91,7 @@ class ModelCreator:
             df_comments = self.df_comments_list
             df_comments.columns = map(str.lower, df_comments.columns)
             df_comments["comments"] = df_comments["comments"].apply(lambda x: x.lower())
-
+            
             self.tokenizer = Tokenizer(num_words=500, split=" ")
             self.tokenizer.fit_on_texts(df_comments["comments"].values)
             X = self.tokenizer.texts_to_sequences(df_comments["comments"].values)
@@ -102,12 +101,13 @@ class ModelCreator:
             X_train, X_test, Y_train, Y_test = train_test_split(
                 self.X, self.Y, test_size=0.40, random_state=1000
             )
-            
-            self.keras_rp = [X_train, X_test, Y_train, Y_test]
 
+            self.keras_rp = [X_train, X_test, Y_train, Y_test]
+         
+            
             return True
         except Exception as e:
-            raise Exception(str(e))
+            print(str(e))
 
     def keras_model(self):
         try:
@@ -120,13 +120,15 @@ class ModelCreator:
             model.add(SpatialDropout1D(0.4))
             model.add(LSTM(lstm_out, dropout=0.2, recurrent_dropout=0.2))
             model.add(Dense(2, activation="softmax"))
-            model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
-                
+            model.compile(
+                loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"]
+            )
+
             self.model = model
 
             return True
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
 
     def train_model(self):
         try:
@@ -143,16 +145,14 @@ class ModelCreator:
 
             return model_score, model_accuracy
 
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
 
     def save_the_model(self):
         try:
             self.model.save("../data/%s/" % self.page_name)
-            return True
-        
-        except Exception as e:
-            raise Exception(str(e))
+        except Exception:
+            pass
 
     def validate_acc(self):
         try:
@@ -170,7 +170,7 @@ class ModelCreator:
                 result = self.model.predict(
                     X_validate[x].reshape(1, x_test.shape[1]), verbose=2
                 )[0]
-
+                
                 if np.argmax(result) == np.argmax(Y_validate[x]):
 
                     if np.argmax(Y_validate[x]) == 0:
@@ -191,17 +191,5 @@ class ModelCreator:
             self.save_the_model()
             return self.keras_prediction_results
 
-        except Exception as e:
-            raise Exception(str(e))
-    def predict_post(self,post,model):
-        sequence = self.tokenizer.texts_to_sequences([post])
-        sequence = pad_sequences(sequence, maxlen=len(post), value=0)
-        sentiment = model.predict(sequence, batch_size=32, verbose=2)
-        return sentiment
-
-# model = ModelCreator("cnn")
-# model.page_comments()
-# model.keras()
-# model.keras_model()
-# model.train_model()
-# model.save_the_model()
+        except Exception:
+            pass
