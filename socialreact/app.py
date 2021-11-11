@@ -194,7 +194,7 @@ class App:
             self.page_name = input('Enter FB page name > ').lower()
 
             classify_comments("./data/%s/comments.csv" % self.page_name, self.page_name)
-
+            
             after_analysis()
         
         if self.choice == "h":
