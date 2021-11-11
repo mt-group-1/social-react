@@ -1,6 +1,5 @@
 import warnings
 
-import nltk
 import pandas as pd
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
@@ -89,6 +88,16 @@ def classify_comments(text_file, page_name):
 
 
 def create_dir(page_name):
+    """
+    make a new directory for non-existing page data directory
+
+    Args:
+        page_name (str)
+
+    Returns:
+        [boolen]: return True if the directory not exist and make it 
+                  return False if the directory exist 
+    """
     import os
 
     dir_path = "./data/%s" % page_name.lower()

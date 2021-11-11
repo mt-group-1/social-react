@@ -9,8 +9,6 @@ from keras.layers import LSTM, Dense, Embedding, SpatialDropout1D
 from keras.models import Sequential
 from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing.text import Tokenizer
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
 warnings.filterwarnings('ignore')
@@ -31,6 +29,13 @@ class ModelCreator:
 
     # Sklearn
     def page_comments(self):
+        """
+        classifying page comments if it positive or negative 
+
+        Returns:
+            str : if the impact negative : 'This page has NEGATIVE impact on its followers' 
+                  if the impact Positive : 'This page has POSITIVE impact on its followers' 
+        """
         print("classifying page comments ...")
         try:
             df = classify_comments("./data/%s/comments.csv" % self.page_name, self.page_name)
