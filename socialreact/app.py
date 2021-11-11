@@ -13,6 +13,9 @@ from termcolor import colored
 
 
 class App:
+    """
+    handling start,quit and validate page 
+    """
     def __init__(self, scraper):
 
         self.user_name = None
@@ -44,7 +47,6 @@ class App:
         self.page_name = input(" > ")
         return self.scraper.page_info(self.page_name)        
     
- 
     def user_menu_choice(self):
         """
         handling the application flow
