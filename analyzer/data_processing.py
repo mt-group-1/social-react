@@ -52,39 +52,6 @@ class ModelCreator:
         except Exception:
             pass
 
-    def random_partitions(self):
-        try:
-            y = self.df_comments_list["labels"]
-            (
-                self.comments_train,
-                self.comments_test,
-                self.y_train,
-                self.y_test,
-            ) = train_test_split(self.comments, y, test_size=0.33, random_state=42)
-
-            return True
-        except Exception:
-            pass
-
-    def vectorize(self):
-        try:
-            self.vectorizer = CountVectorizer()
-            self.vectorizer.fit(self.comments_train)
-
-            self.X_train = self.vectorizer.transform(self.comments_train)
-            self.X_test = self.vectorizer.transform(self.comments_test)
-
-            # score
-            classifier = LogisticRegression()
-
-            classifier.fit(self.X_train, self.y_train)
-
-            self.vscore = classifier.score(self.X_test, self.y_test)
-
-            return True
-        except Exception:
-            pass
-
     # using keras
     def keras(self):
         try:

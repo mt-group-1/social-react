@@ -10,8 +10,6 @@ def diff(app_, path="", sample=""):
 
     responses = _extract_responses(expected_lines)
 
-    rolls = _extract_asci(expected_lines)
-
     # inner function to mock print functionality
     def mock_print(*args):
 
@@ -33,13 +31,6 @@ def diff(app_, path="", sample=""):
 
         return response
     
-    # inner function to mock rolling of dice
-    def mock_roller(num):
-        if not rolls:
-            sys.exit(1)
-
-        return rolls.pop(0)
-
     # store the "real" print & input so we can restore them later
     real_print = builtins.print
     real_input = builtins.input
@@ -85,22 +76,6 @@ def _extract_responses(lines):
 
     return responses
 
-
-def _extract_asci(lines):
-    rolls = []
-    for line in lines:
-        # WARNING: dice rolls MUST start with expected characters
-        if line.startswith("*** "):
-            roll = [int(char) for char in line if char.encoding('')]
-            rolls.append(roll)
-
-    return rolls
-
-
 def _find_differences(text, expected_lines):
-
-    actual_lines = text.splitlines()
-
-    diffed = difflib.unified_diff(actual_lines, expected_lines, lineterm="")
-
+    diffed = difflib.unified_diff(text.splitlines(), expected_lines, lineterm="")
     return "\n".join(diffed)

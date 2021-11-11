@@ -1,0 +1,17 @@
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > s
+Enter FaceBook Page Name :  
+ > natgeo
+Found this page natgeo
+
+Press (Enter) to continue , (r)e-enter page name
+ > 
+The page entered do not have enogh content
+Which will lead to inaccurate prediction results..
+--------------------------------------------------------------------------------
+But we can show you the most common commenter
+to do that , press ( ENTER ) (q) to quit
+ > 
+Name: Малин Пешин - Comments: 2
+ > q
+thank you for using our application... see you later

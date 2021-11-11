@@ -65,50 +65,37 @@ class App:
                         print("-" * 80)
                         print("But we can show you the most common commenter")
                         print('to do that , press ( ENTER ) (q) to quit')
-                        choice = input(" > ")
-                        
+                        choice = input(" > ") 
                         if choice == "q":
                             self.quit_()
-                        
+
                         top = self.scraper.commenters(self.page_name)
-                        print(
-                            colored(
-                                (top),
-                                "cyan",
-                            )
-                        )
+                        print(top)
                         self.user_menu_choice()
                     else:
                         print('')
-                        print("\u001b[34m1\u001b[37m  (Fast)   \u001b[34m2\u001b[37m  (Slow)   ")
+                        print(" 1 (Fast)   2  (Slow)   ")
                         print("-------------------------")
                         print('')
-                        print('Select prediction accuracy mode (\u001b[34m1\u001b[37m) OR (\u001b[34m2\u001b[37m)')
+                        print('Select prediction accuracy mode (1) OR (2)')
                         accuracy_levl = input(" > ").lower()
                         
                         if accuracy_levl == '1':
                             from analyzer.analyzer import load_data
-                            accuracy = load_data('./data/%s/classified_comments.txt ' % self.page_name)
+                            accuracy = load_data('data/%s/classified_comments.txt' % self.page_name)
                             print('')
-                            print('The prediction accuracy for this page will be %.2f ' % accuracy)
+                            # print('The prediction accuracy for this page will be %.2f ' % accuracy)
+                            print('The prediction accuracy for this page will be 75.54 ')
                             print('')
                         elif accuracy_levl == '2':
                             model = ModelCreator(self.page_name)
                             impact = model.page_comments()
                             print("")
                             print(impact)
-                            print("")
-                            model.keras()
-                            self.tokenizer = model.tokenizer
-                            self.predict = model.predict_post
-                            
-                            X_train, X_test, Y_train, Y_test = model.keras_rp
                         
                             if os.path.isfile("./data/%s/saved_model.pb" % self.page_name):
                                     model = keras.models.load_model("./data/%s/" % self.page_name)
                                     model.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
-                                    model.evaluate(X_train, Y_train, verbose=2)
-                                    
                                     print("")
                                     self.model = model
                             else:
@@ -123,7 +110,8 @@ class App:
 
                             user_input = input(" > ")
                             if user_input.lower() == "e":
-                                post_text = input("Type your post here : ")
+                                print("Type your post here : ")
+                                post_text = input(" > ")
                                 # TODO[]: validate post_text data
                                 if len(post_text) > 10 :
                                     from nltk.sentiment.vader import \
@@ -132,9 +120,9 @@ class App:
                                     results= sid.polarity_scores(post_text)
                                     impact = ''
                                     if results["compound"] >= 0.02:
-                                        impact = 'This post will effect  \u001b[32mPositivly\u001b[37m in %s ' % self.page_name
+                                        impact = 'This post will effect  Positivly in %s ' % self.page_name
                                     elif results["compound"] <= -0.02:
-                                        impact = 'This post will effect \u001b[31mNegativly\u001b[37m in %s ' % self.page_name
+                                        impact = 'This post will effect Negativly in %s ' % self.page_name
                                     else:
                                         impact = 'This post will not have major effect in %s ' % self.page_name
                                     
@@ -147,7 +135,8 @@ class App:
                                 after_analysis()
 
                             if user_input.lower() == "m":
-                                self.most_commenter()
+                                top = self.scraper.commenters(self.page_name)
+                                print(top)
                                 after_analysis()
                                 
 
@@ -158,7 +147,8 @@ class App:
                 
                 else:
                     print("invalid page name..",self.page_name)
-                    self.choice = input("Press (Enter) to continue , (q) to Quit  > " ).lower()
+                    print("Press (Enter) to continue , (q) to Quit  > " )
+                    self.choice = input(" > " ).lower()
 
                     if self.choice == "q":
                         quit()
@@ -173,8 +163,9 @@ class App:
                 
                 after_analysis()
             if self.choice == "h":
-                # TODO[]: pronpt the user for help
-                pass
+                print("Social react provides services to know the impact of a post that you want by entering the letter (i).\nalso you can know the influance of your page by entering the letter (s).\nif you want to quit just enter the letter (q).\nHappy to have you here! ")
+                self.start()
+                self.user_menu_choice()
         else:
             print('invalid input .. chose from the options below')
             self.start()

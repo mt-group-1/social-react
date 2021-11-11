@@ -1,0 +1,9 @@
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > h
+Social react provides services to know the impact of a post that you want by entering the letter (i).
+also you can know the influance of your page by entering the letter (s).
+if you want to quit just enter the letter (q).
+Happy to have you here! 
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > q
+thank you for using our application... see you later

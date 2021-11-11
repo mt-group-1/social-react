@@ -1,0 +1,11 @@
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > s
+Enter FaceBook Page Name :  
+ > google
+Found this page google
+
+Press (Enter) to continue , (r)e-enter page name
+ > r
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > q
+thank you for using our application... see you later

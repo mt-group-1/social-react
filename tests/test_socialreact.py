@@ -24,7 +24,6 @@ from socialreact.app import App
 warnings.filterwarnings("ignore")
 from main import welcome
 
-
 def test_version():
     assert __version__ == "0.1.0"
 
@@ -43,18 +42,8 @@ def test_fb_page_name_not_exist():
     # Arrange
     expected = False
     # Act
-    exists, _ = validate_page("Odeh")
+    exists, _ = validate_page("hjkk")
     actual = exists
-    # Assert
-    assert actual == expected
-
-@pytest.mark.skip("pending")
-def test_positive_prediction():
-    # Arrange
-    expected = True
-    post = "This text for testing"
-    # Act
-    actual = predict_post(post,"google")
     # Assert
     assert actual == expected
 
@@ -95,20 +84,19 @@ def test_labeling_file_positive_case():
     
     # Assert
     assert actual == expected
-    
-@pytest.mark.skip("FILEIO")
+@pytest.mark.skip("FILEIO")    
 def test_labeling_dir_creating():
     # if dir exists will return false
     from analyzer.com_classfiction import create_dir
-
     # Arrange
     expected = 0
     # Act
     actual = create_dir("pagename")
-    
     # Assert
     assert actual == expected
+
 def test_labeling_file_negative_case():
+
     # Arrange
     expected = 0
     # Act
@@ -126,8 +114,6 @@ def test_labeling_file_nutral_case():
     # Assert
     assert actual == expected
 
-app_ = App(Scraper)
-
 @patch("sys.stdout", fake_out=io.StringIO())
 def test_welcome_msg(mock_stdout):
     file = open("./test_stdout/test_welcome_message.txt", "r")
@@ -144,6 +130,7 @@ def test_welcome_msg(mock_stdout):
 
 @patch("sys.stdout", new_callable=io.StringIO)
 def test_start_msg(mock_stdout):
+    app_ = App(Scraper)
     # Arrange
     expected = "Start page analysis (s) , Options (o) , Help (h) , Quit(q)\n"
     # Act
@@ -154,6 +141,7 @@ def test_start_msg(mock_stdout):
     assert actual == expected
 
 def test_quit_msg(monkeypatch):
+    app_ = App(Scraper)
     # Arrange
     expected = "thank you for using our application... see you later 👋"
     mock_input = StringIO("q\n")
@@ -164,11 +152,13 @@ def test_quit_msg(monkeypatch):
         pass
     
 def test_quit_():
+    app_ = App(Scraper)
     # Arrange
     with pytest.raises(SystemExit):
         app_.quit_()
 
 def test_valid_page_returns_true(monkeypatch):
+    app_ = App(Scraper)
     # Arrange
     expected = True
     mock_input = StringIO("google\n")
@@ -176,9 +166,15 @@ def test_valid_page_returns_true(monkeypatch):
     
     assert app_.valid_page() == expected
 
-
-  
+def test_valid_page_returns_false(monkeypatch):
+    app_ = App(Scraper)
+    # Arrange
+    expected = False
+    mock_input = StringIO("asddsaasd\n")
+    monkeypatch.setattr("sys.stdin", mock_input)
     
+    assert app_.valid_page() == expected
+
 def test_most_common_commenter():
     #Arrange 
     expected = "Name: Nancy Henry - Comments: 14"
@@ -197,7 +193,6 @@ def test_most_common_commenter_NoData():
     #Assert
     assert actual == expected
 
-
 # @pytest.mark.skip()
 def test_create_directury():
     #Arrange 
@@ -207,8 +202,6 @@ def test_create_directury():
     actual = s.create_dir("Google")
     #Assert
     assert actual == expected
-
-
 
 # @pytest.mark.skip("pending")
 def test_keras_extract_feature_true():
@@ -220,7 +213,6 @@ def test_keras_extract_feature_false():
     model = ModelCreator("asdasdasd")
     model.page_comments()
     assert model.keras() == None
-
 
 model = ModelCreator("cnn")
 # @pytest.mark.skip("pending")
@@ -234,34 +226,16 @@ def test_page_comment_impact():
     #Assert
     assert actual == expected
 
-# @pytest.mark.skip("training time resone")
+## @pytest.mark.skip("training time resone")
 def test_train_model_score_and_accuracy():
     # Act 
     actual = model.train_model()
     #Assert
     assert actual == model.train_model()
 
-@pytest.mark.skip("training time resone")
-def test_random_partition():
-    #Arrange
-    expected = True
-    # Act 
-    actual = model.random_partitions()
-    #Assert
-    assert actual == expected
-
-@pytest.mark.skip("training time resone")
-def test_vectorize():
-    #Arrange
-    expected = True
-    # Act 
-    actual = model.vectorize()
-    #Assert
-    assert actual == expected
-
 def test_keras():
     #Arrange
-    expected = model.keras()
+    expected = None
     # Act 
     actual = model.keras()
     #Assert
@@ -271,7 +245,7 @@ def test_keras_model():
     # Act 
     actual = model.keras_model()
     #Assert
-    assert actual == model.keras_model()
+    assert actual == None
 
 def test_vaidate_acc():
     #Arrange
@@ -281,12 +255,10 @@ def test_vaidate_acc():
     #Assert
     assert actual == expected
 
-@pytest.mark.skip("")
+# @pytest.mark.skip("")
 def test_load_data():
-    expected = float
-    
-    actual = type(load_data("./data/google/classified_comments.txt"))
-    
+    expected = "<class 'numpy.float64'>" 
+    actual = str(type(load_data("./data/google/classified_comments.txt")) )
     assert actual == expected
 
 def test_save_model():

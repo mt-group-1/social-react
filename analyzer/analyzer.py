@@ -24,8 +24,8 @@ warnings.filterwarnings('ignore')
 
 def load_data(path):
     
-    nltk.download('punkt') 
-    nltk.download('stopwords')
+    # nltk.download('punkt') 
+    # nltk.download('stopwords')
     """
     This function is called load_data which reads a file containing  comments and it has a label for each comment .
     then  Processing and organizing data through a set of operations, then  extract the features from the comments
@@ -71,10 +71,6 @@ def load_data(path):
 
     processed = processed.apply(lambda x: ' '.join(
     ps.stem(term) for term in x.split()))
-
-
-     
-
 
     all_words = []
     
@@ -130,4 +126,5 @@ def load_data(path):
 # process = load_data('./data/google/classified_comments.txt')
 
 # df = pd.read_csv('../data/google/comments.txt')
-# df = df[df.labels != 'N']
+# df = df[df.labels != '
+# load_data("./data/google/classified_comments.txt")

@@ -1,0 +1,43 @@
+Start page analysis (s) , Options (o) , Help (h) , Quit(q)
+ > s
+Enter FaceBook Page Name :  
+ > google
+Found this page google
+
+Press (Enter) to continue , (r)e-enter page name
+ > 
+
+ 1 (Fast)   2  (Slow)   
+-------------------------
+
+Select prediction accuracy mode (1) OR (2)
+ > 1
+
+The prediction accuracy for this page will be 75.54 
+
+(e)nter a post to predict impact , (m)ost commenter , (q)uit 
+ > e
+Type your post here : 
+ > this is going to be happy day
+This post will effect  Positivly in google 
+(e)nter a post to predict impact , (m)ost commenter , (q)uit 
+ > e
+Type your post here : 
+ > this is a bad day
+This post will effect Negativly in google 
+(e)nter a post to predict impact , (m)ost commenter , (q)uit 
+ > e
+Type your post here : 
+ > hi this is me
+This post will not have major effect in google 
+(e)nter a post to predict impact , (m)ost commenter , (q)uit 
+ > e
+Type your post here : 
+ > hi
+
+Please retype a post with more meaning full sentences .
+(e)nter a post to predict impact , (m)ost commenter , (q)uit 
+ > m
+Name: Nancy Henry - Comments: 14
+(e)nter a post to predict impact , (m)ost commenter , (q)uit 
+ > q
